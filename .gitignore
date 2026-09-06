@@ -24,9 +24,10 @@ Source/backups/
 Source/libs/*.jar.bak*
 Source/libs/*.patched-*.jar
 
-# --- Working dirs de agentes / temporales ---
-Source/.codex_tmp_*/
-Source/.codex_build_*/
+# --- Working dirs / archivos de agentes / temporales ---
+Source/.codex_tmp_*
+Source/.codex_build_*
+Source/.codex-*
 Source/.agents/
 
 # --- Bundles generados ---
