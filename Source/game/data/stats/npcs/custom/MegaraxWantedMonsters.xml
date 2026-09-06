@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<npc id="9952" displayId="22215" level="84" type="Monster" name="Bloodfang Tyrant" title="WANTED ELITE" usingServerSideName="true" usingServerSideTitle="true">
+		<race>BEAST</race><sex>MALE</sex><acquire exp="0" sp="0" />
+		<stats str="60" int="45" dex="45" wit="40" con="60" men="45"><vitals hp="120000" hpRegen="120" mp="5000" mpRegen="20" /><attack physical="1800" magical="900" random="20" critical="8" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" /><defence physical="900" magical="650" /><speed><walk ground="45" /><run ground="180" /></speed><hitTime>500</hitTime></stats>
+		<status undying="false" noSleepMode="true" /><skillList><skill id="7067" level="1" /></skillList><corpseTime>5</corpseTime><ai type="BALANCED" aggroRange="700" clanHelpRange="0" isAggressive="true" /><collision><radius normal="42" /><height normal="50" /></collision>
+	</npc>
+	<npc id="9953" displayId="22210" level="85" type="Monster" name="Ancient Scalecrusher" title="WANTED COMMANDER" usingServerSideName="true" usingServerSideTitle="true">
+		<race>BEAST</race><sex>MALE</sex><acquire exp="0" sp="0" />
+		<stats str="60" int="50" dex="45" wit="45" con="65" men="55"><vitals hp="220000" hpRegen="160" mp="8000" mpRegen="30" /><attack physical="2300" magical="1200" random="20" critical="8" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" /><defence physical="1200" magical="850" /><speed><walk ground="42" /><run ground="175" /></speed><hitTime>520</hitTime></stats>
+		<status undying="false" noSleepMode="true" /><skillList><skill id="7068" level="1" /></skillList><corpseTime>5</corpseTime><ai type="BALANCED" aggroRange="900" clanHelpRange="0" isAggressive="true" /><collision><radius normal="25" /><height normal="38" /></collision>
+	</npc>
+	<npc id="9954" displayId="21340" level="82" type="Monster" name="Ketra Executioner" title="WANTED ELITE" usingServerSideName="true" usingServerSideTitle="true">
+		<race>HUMANOID</race><sex>MALE</sex><acquire exp="0" sp="0" />
+		<stats str="58" int="40" dex="45" wit="40" con="60" men="45"><vitals hp="115000" hpRegen="110" mp="5000" mpRegen="20" /><attack physical="1900" magical="850" random="20" critical="8" attackSpeed="270" type="SWORD" range="40" distance="80" width="120" /><defence physical="950" magical="620" /><speed><walk ground="48" /><run ground="185" /></speed><hitTime>500</hitTime></stats>
+		<status undying="false" noSleepMode="true" /><skillList><skill id="7069" level="1" /></skillList><corpseTime>5</corpseTime><ai type="BALANCED" aggroRange="700" clanHelpRange="0" isAggressive="true" /><collision><radius normal="14" /><height normal="28" /></collision>
+	</npc>
+	<npc id="9955" displayId="21345" level="84" type="Monster" name="Flame Shaman" title="WANTED COMMANDER" usingServerSideName="true" usingServerSideTitle="true">
+		<race>HUMANOID</race><sex>MALE</sex><acquire exp="0" sp="0" />
+		<stats str="50" int="65" dex="42" wit="60" con="58" men="65"><vitals hp="210000" hpRegen="150" mp="12000" mpRegen="40" /><attack physical="1500" magical="2100" random="20" critical="6" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" /><defence physical="1100" magical="980" /><speed><walk ground="45" /><run ground="180" /></speed><hitTime>550</hitTime></stats>
+		<status undying="false" noSleepMode="true" /><skillList><skill id="7070" level="1" /></skillList><corpseTime>5</corpseTime><ai type="MAGE" aggroRange="900" clanHelpRange="0" isAggressive="true" /><collision><radius normal="14" /><height normal="28" /></collision>
+	</npc>
+	<npc id="9956" displayId="21368" level="82" type="Monster" name="Varka Bloodcaller" title="WANTED ELITE" usingServerSideName="true" usingServerSideTitle="true">
+		<race>HUMANOID</race><sex>MALE</sex><acquire exp="0" sp="0" />
+		<stats str="52" int="58" dex="44" wit="55" con="58" men="60"><vitals hp="118000" hpRegen="115" mp="9000" mpRegen="35" /><attack physical="1550" magical="1800" random="20" critical="6" attackSpeed="260" type="BLUNT" range="40" distance="80" width="120" /><defence physical="920" magical="760" /><speed><walk ground="48" /><run ground="185" /></speed><hitTime>520</hitTime></stats>
+		<status undying="false" noSleepMode="true" /><skillList><skill id="7071" level="1" /></skillList><corpseTime>5</corpseTime><ai type="MAGE" aggroRange="700" clanHelpRange="0" isAggressive="true" /><collision><radius normal="14" /><height normal="28" /></collision>
+	</npc>
+	<npc id="9957" displayId="21369" level="84" type="Monster" name="Silverhorn Commander" title="WANTED COMMANDER" usingServerSideName="true" usingServerSideTitle="true">
+		<race>HUMANOID</race><sex>MALE</sex><acquire exp="0" sp="0" />
+		<stats str="62" int="48" dex="48" wit="45" con="66" men="55"><vitals hp="230000" hpRegen="165" mp="8000" mpRegen="30" /><attack physical="2400" magical="1250" random="20" critical="8" attackSpeed="270" type="SWORD" range="40" distance="80" width="120" /><defence physical="1250" magical="900" /><speed><walk ground="48" /><run ground="190" /></speed><hitTime>500</hitTime></stats>
+		<status undying="false" noSleepMode="true" /><skillList><skill id="7072" level="1" /></skillList><corpseTime>5</corpseTime><ai type="BALANCED" aggroRange="900" clanHelpRange="0" isAggressive="true" /><collision><radius normal="16" /><height normal="30" /></collision>
+	</npc>
+</list>

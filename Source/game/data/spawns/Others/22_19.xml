@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="22_19">
+		<npc id="30750" x="71569" y="44058" z="-1436" heading="0" respawnDelay="60" /> <!-- Kalibran -->
+		<npc id="9901" x="82988" y="53174" z="-1522" heading="28346" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9900" x="82840" y="53087" z="-1522" heading="14053" respawnDelay="60" /> <!-- GMSHOP - MEGARAX -->
+		<npc id="9903" x="82907" y="53088" z="-1522" heading="16383" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+	</spawn>
+</list>

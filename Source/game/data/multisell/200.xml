@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+<npcs>
+		<npc>9900</npc> 
+	</npcs>
+  <!-- Brigandine Heavy Armor -->
+  <item id="1">
+<ingredient id="57" count="30000"/>
+<production id="352" count="1"/>
+<!--  Brigandine Helmet  -->
+<production id="2411" count="1"/>
+<!--  Brigandine Tunic  -->
+<production id="2378" count="1"/>
+<!--  Brigandine Gaiters  -->
+<production id="2449" count="1"/>
+<!--  Brigandine Gauntlets  -->
+<production id="2425" count="1"/>
+<!--  Brigandine Boots  -->
+</item>
+<item id="2">
+<ingredient id="57" count="30000"/>
+<production id="58" count="1"/>
+<!--  Helmet  -->
+<production id="47" count="1"/>
+<!--  Mithril Breastplate  -->
+<production id="59" count="1"/>
+<!--  Mithril Gaiters  -->
+</item>
+<!--  D Grade Light Armor  -->
+<item id="3">
+<ingredient id="57" count="30000"/>
+<production id="394" count="1"/>
+<!--  Reinforced Leather Shirt  -->
+<production id="416" count="1"/>
+<!--  Reinforced Leather Gaiters  -->
+<production id="2446" count="1"/>
+<!--  Reinforced Leather Gloves  -->
+<production id="2422" count="1"/>
+<!--  Reinforced Leather Boots  -->
+</item>
+<item id="4">
+<ingredient id="57" count="30000"/>
+<production id="395" count="1"/>
+<!--  Manticore Skin Shirt  -->
+<production id="417" count="1"/>
+<!--  Manticore Skin Gaiters  -->
+<production id="2448" count="1"/>
+<!--  Manticore Skin Gloves  -->
+<production id="2424" count="1"/>
+<!--  Manticore Skin Boots  -->
+</item>
+<!--  D Grade Robe / Magic Armor  -->
+<item id="5">
+<ingredient id="57" count="30000"/>
+<production id="437" count="1"/>
+<!--  Mithril Tunic  -->
+<production id="470" count="1"/>
+<!--  Mithril Stockings  -->
+<production id="2450" count="1"/>
+<!--  Mithril Gloves  -->
+<production id="2426" count="1"/>
+<!--  Elven Mithril Boots  -->
+</item>
+<item id="6">
+<ingredient id="57" count="30000"/>
+<production id="436" count="1"/>
+<!--  Tunic of Knowledge  -->
+<production id="469" count="1"/>
+<!--  Stockings of Knowledge  -->
+<production id="2447" count="1"/>
+<!--  Gloves of Knowledge  -->
+<production id="2423" count="1"/>
+<!--  Boots of Knowledge  -->
+</item>
+<!--  D Grade Full Body Options  -->
+<item id="7">
+<ingredient id="57" count="30000"/>
+<production id="396" count="1"/>
+<!--  Salamander Skin Mail  -->
+<production id="2427" count="1"/>
+<!--  Salamander Skin Boots  -->
+</item>
+<item id="8">
+<ingredient id="57" count="30000"/>
+<production id="438" count="1"/>
+<!--  Sage's Rag  -->
+<production id="2451" count="1"/>
+<!--  Sage's Worn Gloves  -->
+</item>
+<!-- D Grade Shields -->
+<item id="9">
+<ingredient id="57" count="30000"/>
+<production id="626" count="1"/>
+<!-- Bronze Shield -->
+</item>
+<item id="10">
+<ingredient id="57" count="50000"/>
+<production id="627" count="1"/>
+<!-- Aspis -->
+</item>
+<item id="11">
+<ingredient id="57" count="80000"/>
+<production id="628" count="1"/>
+<!-- Hoplon -->
+</item>
+<item id="12">
+<ingredient id="57" count="120000"/>
+<production id="629" count="1"/>
+<!-- Kite Shield -->
+</item>
+<item id="13">
+<ingredient id="57" count="155000"/>
+<production id="630" count="1"/>
+<!-- Square Shield -->
+</item>
+<item id="14">
+<ingredient id="57" count="120000"/>
+<production id="2493" count="1"/>
+<!-- Brigandine Shield -->
+</item>
+<item id="15">
+<ingredient id="57" count="155000"/>
+<production id="2494" count="1"/>
+<!-- Plate Shield -->
+</item>
+
+</list>
+<!-- CREATED -->
+<!-- BY SMALLZ -->
+<!-- 2013 -->

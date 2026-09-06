@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="9830" type="Armor" name="Costume Cowboy">
+		<set name="icon" val="NevesOma_icq634024371_destorus_costume_cby.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9831" type="Armor" name="Helmet Cowboy">
+		<set name="icon" val="NevesOma_icq634024371_cwTxTe.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9832" type="Armor" name="Dark Helmet">
+		<set name="icon" val="MultiCrazY_DarkArmor.MultiCrazY_DarkArmor_Helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9833" type="Armor" name="Dark Suit">
+		<set name="icon" val="MultiCrazY_DarkArmor.MultiCrazY_DarkArmor_Suit_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9834" type="Armor" name="Costume Dragon Claw">
+		<set name="icon" val="RaccoonCustom01.bm2018_dragon_i02" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9835" type="Armor" name="Helmet Dragon Claw">
+		<set name="icon" val="RaccoonCustom01.bm_defense_circlet_01_64" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9836" type="Armor" name="Tauti Breastplate">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.tauti_heavy_upbody" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9837" type="Armor" name="Tauti Gaiters">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.tauti_heavy_downbody" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9838" type="Armor" name="Tauti Gloves">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.tauti_heavy_gloves" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9839" type="Armor" name="Tauti Shoes">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.tauti_heavy_shoes" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9840" type="Armor" name="Kelbim Leather Armor">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.kelbim_light_upbody" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9841" type="Armor" name="Kelbim Gaiters">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.kelbim_light_downbody" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9842" type="Armor" name="Kelbim Gloves">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.kelbim_light_gloves" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9843" type="Armor" name="Kelbim Shoes">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.kelbim_light_shoes" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9844" type="Armor" name="Freya Tunic">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.freya_robe_upbody" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9845" type="Armor" name="Freya Stokings">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.freya_robe_downbody" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="legs" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9846" type="Armor" name="Freya Gloves">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.freya_robe_gloves" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="gloves" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9847" type="Armor" name="Freya Shoes">
+		<set name="icon" val="SHEV_InfinityOdysseyTex.Icon.freya_robe_shoes" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="feet" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9848" type="Armor" name="Tauti Helmet">
+		<set name="icon" val="icon.armor_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="HEAVY" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9849" type="Armor" name="Freya Cap">
+		<set name="icon" val="icon.armor_cloth_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="MAGIC" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9850" type="Armor" name="Kelbim Leather Helmet">
+		<set name="icon" val="icon.armor_leather_helmet_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="head" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9851" type="Armor" name="Japan General">
+		<set name="icon" val="JapanIcon.g_co_japan_general_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9852" type="Armor" name="Costume Kiborg">
+		<set name="icon" val="NevesOma_icq634024371_destorus_kbr.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9853" type="Armor" name="Helmet Kiborg">
+		<set name="icon" val="NevesOma_icq634024371_destorusCBBtrx.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9854" type="Armor" name="White Knight">
+		<set name="icon" val="RaccoonCustom05.white_knight_suit" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+
+	<item id="9855" type="Armor" name="White Knight Suit">
+		<set name="icon" val="RaccoonCustom05.white_knight_suit_1" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+		<set name="is_tradable" val="true" />
+		<set name="is_dropable" val="true" />
+		<set name="is_sellable" val="true" />
+	</item>
+</list>

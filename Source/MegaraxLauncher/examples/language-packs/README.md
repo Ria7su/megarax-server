@@ -1,0 +1,13 @@
+# Language pack layout
+
+Create one folder per configured language and mirror the client-relative paths inside it:
+
+```text
+language-packs/
+  es/system/...
+  en/system/...
+  pt/system/...
+  ru/system/...
+```
+
+The launcher copies the selected folder over the client root immediately before launch. Keep personal files such as `Option.ini`, accounts, logs and screenshots out of every pack.

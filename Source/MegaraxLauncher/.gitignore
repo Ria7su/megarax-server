@@ -1,0 +1,6 @@
+bin/
+obj/
+*.user
+*.suo
+launcher.log
+launcher_state.json

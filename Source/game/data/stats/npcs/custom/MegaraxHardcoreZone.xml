@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<npc id="1004301" displayId="29030" level="86" type="Monster" name="Megarax Flame Hound" title="HARDCORE FARM" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<skill name="PhysicalSpecial" id="4032" level="10" /> <!-- NPC Strike -->
+			<skill name="RangeDDMagic" id="4178" level="9" /> <!-- BOSS Flamestrike -->
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="120000" sp="12500" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="9600" hpRegen="9" mp="1900" mpRegen="4" />
+			<attack physical="4800" magical="3280" random="12" critical="8" accuracy="0" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1810" magical="1810" evasion="5" />
+			<speed>
+				<walk ground="45" />
+				<run ground="130" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4032" level="10" /> <!-- NPC Strike -->
+			<skill id="4178" level="9" /> <!-- BOSS Flamestrike -->
+			<skill id="4279" level="1" /> <!-- Fire Attack Weak Point -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="31500" max="65100" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="9142" min="11" max="16" chance="100" /> <!-- Rax Coin -->
+				</group>
+				<group chance="100">
+					<item id="5575" min="6000" max="10000" chance="100" /> <!-- Ancient Adena -->
+				</group>
+				<group chance="5">
+					<item id="6501" min="1" max="1" chance="100" /> <!-- Megarax Surprise Box -->
+				</group>
+			</drop>
+		</dropLists>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>25</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="850" clanHelpRange="350" isAggressive="true">
+			<clanList>
+				<clan>MEGARAX_HARDCORE_FLAMES</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="31" />
+		</collision>
+	</npc>
+	<npc id="1004302" displayId="29033" level="87" type="Monster" name="Megarax Flame Watcher" title="HARDCORE FARM" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<skill name="PhysicalSpecial" id="4032" level="10" /> <!-- NPC Strike -->
+			<skill name="RangeDDMagic" id="4178" level="9" /> <!-- BOSS Flamestrike -->
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="125000" sp="13000" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="10200" hpRegen="9.5" mp="2000" mpRegen="4" />
+			<attack physical="5000" magical="3380" random="12" critical="9" accuracy="1" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="1880" magical="1880" evasion="5" />
+			<speed>
+				<walk ground="45" />
+				<run ground="132" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4032" level="10" /> <!-- NPC Strike -->
+			<skill id="4178" level="9" /> <!-- BOSS Flamestrike -->
+			<skill id="4279" level="1" /> <!-- Fire Attack Weak Point -->
+			<skill id="4408" level="16" /> <!-- HP Increase (8x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4411" level="15" /> <!-- Strong M. Atk. -->
+		</skillList>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="31500" max="65100" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="9142" min="11" max="16" chance="100" /> <!-- Rax Coin -->
+				</group>
+				<group chance="100">
+					<item id="5575" min="6000" max="10000" chance="100" /> <!-- Ancient Adena -->
+				</group>
+				<group chance="5">
+					<item id="6501" min="1" max="1" chance="100" /> <!-- Megarax Surprise Box -->
+				</group>
+			</drop>
+		</dropLists>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>25</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="850" clanHelpRange="350" isAggressive="true">
+			<clanList>
+				<clan>MEGARAX_HARDCORE_FLAMES</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="31" />
+		</collision>
+	</npc>
+</list>

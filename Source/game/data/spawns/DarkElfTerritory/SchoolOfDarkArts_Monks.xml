@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="SchoolOfDarkArts_MonkRitual">
+		<!-- Monastery-style invasion around the School of Dark Arts center: -49185, 49441, -5912. Sandramanaia's daily script uses the center point. -->
+		<!-- Custom clone IDs are used here so Dungeon Coin drops are exclusive to School of Dark Arts. -->
+		<npc id="1004101" x="-49485" y="49141" z="-5912" heading="8192" respawnDelay="360" /> <!-- Ritual Solina Brother -->
+		<npc id="1004102" x="-49185" y="48991" z="-5912" heading="16384" respawnDelay="360" /> <!-- Ritual Solina Lay Brother -->
+		<npc id="1004103" x="-48885" y="49141" z="-5912" heading="24576" respawnDelay="360" /> <!-- Ritual Silent Seeker -->
+		<npc id="1004104" x="-49635" y="49441" z="-5912" heading="0" respawnDelay="360" /> <!-- Ritual Silent Brother -->
+		<npc id="1004106" x="-49485" y="49741" z="-5912" heading="57344" respawnDelay="360" /> <!-- Ritual Guardian -->
+		<npc id="1004101" x="-49185" y="49891" z="-5912" heading="49152" respawnDelay="360" /> <!-- Ritual Solina Brother -->
+		<npc id="1004102" x="-48885" y="49741" z="-5912" heading="40960" respawnDelay="360" /> <!-- Ritual Solina Lay Brother -->
+		<npc id="1004103" x="-50035" y="49041" z="-5912" heading="8192" respawnDelay="360" /> <!-- Ritual Silent Seeker -->
+		<npc id="1004104" x="-48335" y="49041" z="-5912" heading="24576" respawnDelay="360" /> <!-- Ritual Silent Brother -->
+		<npc id="1004105" x="-50035" y="49841" z="-5912" heading="57344" respawnDelay="360" /> <!-- Ritual Warrior Monk -->
+		<npc id="1004106" x="-48335" y="49841" z="-5912" heading="40960" respawnDelay="360" /> <!-- Ritual Guardian -->
+		<npc id="1004101" x="-49785" y="48691" z="-5912" heading="12000" respawnDelay="360" /> <!-- Ritual Solina Brother -->
+		<npc id="1004102" x="-48585" y="48691" z="-5912" heading="21000" respawnDelay="360" /> <!-- Ritual Solina Lay Brother -->
+		<npc id="1004103" x="-49785" y="50191" z="-5912" heading="53500" respawnDelay="360" /> <!-- Ritual Silent Seeker -->
+		<npc id="1004104" x="-48585" y="50191" z="-5912" heading="44500" respawnDelay="360" /> <!-- Ritual Silent Brother -->
+		<npc id="1004105" x="-50385" y="49441" z="-5912" heading="0" respawnDelay="360" /> <!-- Ritual Warrior Monk -->
+		<npc id="1004105" x="-47985" y="49441" z="-5912" heading="32768" respawnDelay="360" /> <!-- Ritual Warrior Monk -->
+		<npc id="1004106" x="-49185" y="48241" z="-5912" heading="16384" respawnDelay="360" /> <!-- Ritual Guardian -->
+		<npc id="1004106" x="-49185" y="50641" z="-5912" heading="49152" respawnDelay="360" /> <!-- Ritual Guardian -->
+		<npc id="1004103" x="-50685" y="48841" z="-5912" heading="9000" respawnDelay="420" /> <!-- Outer Ritual Seeker -->
+		<npc id="1004104" x="-47685" y="50041" z="-5912" heading="42000" respawnDelay="420" /> <!-- Outer Ritual Brother -->
+		<npc id="1004105" x="-50685" y="50041" z="-5912" heading="56500" respawnDelay="420" /> <!-- Outer Warrior Monk -->
+		<npc id="1004106" x="-47685" y="48841" z="-5912" heading="24576" respawnDelay="420" /> <!-- Outer Guardian -->
+		<npc id="1004101" x="-49185" y="47891" z="-5912" heading="16384" respawnDelay="420" /> <!-- North Ritual Brother -->
+		<npc id="1004102" x="-49185" y="51091" z="-5912" heading="49152" respawnDelay="420" /> <!-- South Ritual Lay Brother -->
+		<npc id="1004107" x="-50285" y="48641" z="-5912" heading="9000" respawnDelay="600" /> <!-- Ritual Beholder of Light -->
+		<npc id="1004107" x="-48085" y="50241" z="-5912" heading="42000" respawnDelay="600" /> <!-- Ritual Beholder of Light -->
+	</spawn>
+</list>

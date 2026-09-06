@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kingdomEconomy enabled="true" adenaItemId="57" raxCoinItemId="9142" saveIntervalMinutes="5" territoryCheckSeconds="15">
+	<messages
+		enterNeutral="Welcome to the Kingdom of %kingdom%. Ruled by %clan%. Royal tax: %tax%%. Kingdom level: %level%."
+		enterRuler="Welcome home, defender of %kingdom%. Royal bonus active: +%bonus%% Adena. Royal Contribution enabled."
+		tax="Royal Tax: %amount% Adena contributed to the Kingdom of %kingdom%."
+		contribution="Royal Contribution: +%points% points in the Kingdom of %kingdom%."
+		raxReward="Royal Contribution reward: +%amount% Rax Coin." />
+	<contribution pointsPerRaxCoin="500" dailyRaxLimit="5" weeklyRaxLimit="25" minPlayerLevel="40" maxMonsterLevelGap="9" minAdenaDelta="1" pvpSameTargetCooldownMinutes="30" blockSameIpPvp="true" blockSameHwidPvp="true" />
+	<activity monsterPoints="1" championPoints="10" raidPoints="100" territoryMissionPoints="50" enemyPvpPoints="25" castleDefensePoints="30" />
+	<levels>
+		<level value="1" cost="5000000000" title="Open Treasury" dropBonusPercent="1" xpBonusPercent="0" adenaBonusPercent="1" />
+		<level value="2" cost="7000000000" title="Royal Spoils" dropBonusPercent="1" xpBonusPercent="0" adenaBonusPercent="1" />
+		<level value="3" cost="9000000000" title="Scholars Charter" dropBonusPercent="1" xpBonusPercent="2" adenaBonusPercent="1" />
+		<level value="4" cost="12000000000" title="Teleport Steward" dropBonusPercent="1" xpBonusPercent="2" adenaBonusPercent="2" />
+		<level value="5" cost="15000000000" title="Merchant Discount" dropBonusPercent="2" xpBonusPercent="2" adenaBonusPercent="2" />
+		<level value="6" cost="20000000000" title="Exclusive Raid" dropBonusPercent="2" xpBonusPercent="3" adenaBonusPercent="3" />
+		<level value="7" cost="26000000000" title="Kingdom Buff" dropBonusPercent="2" xpBonusPercent="3" adenaBonusPercent="4" />
+		<level value="8" cost="33000000000" title="Premium Merchant" dropBonusPercent="3" xpBonusPercent="4" adenaBonusPercent="4" />
+		<level value="9" cost="41000000000" title="Weekly Event" dropBonusPercent="3" xpBonusPercent="4" adenaBonusPercent="5" />
+		<level value="10" cost="50000000000" title="Legendary Aura" dropBonusPercent="5" xpBonusPercent="5" adenaBonusPercent="5" />
+	</levels>
+	<kingdoms>
+		<kingdom id="aden" castleId="5" name="Aden" prosperity="89" neutralTaxPercent="3" allyTaxPercent="1" enemyTaxPercent="5" rulerAdenaBonusPercent="5" allyAdenaBonusPercent="2">
+			<territory id="cemetery" name="Cemetery" minX="164000" maxX="191000" minY="16000" maxY="42000" minZ="-4500" maxZ="1000" />
+			<territory id="forbidden_gateway" name="Forbidden Gateway" minX="175000" maxX="195000" minY="14000" maxY="42000" minZ="-4500" maxZ="1000" />
+			<territory id="silent_valley" name="Silent Valley" minX="156000" maxX="185000" minY="42000" maxY="76000" minZ="-5200" maxZ="2000" />
+			<territory id="giants_cave" name="Giants Cave" minX="174000" maxX="198000" minY="43000" maxY="68000" minZ="-7000" maxZ="1000" />
+			<territory id="blazing_swamp" name="Blazing Swamp" minX="145000" maxX="175000" minY="-26000" maxY="4000" minZ="-4500" maxZ="1000" />
+			<territory id="wall_of_argos" name="Wall of Argos" minX="160000" maxX="190000" minY="-65000" maxY="-25000" minZ="-5500" maxZ="1000" />
+		</kingdom>
+		<kingdom id="rune" castleId="8" name="Rune" prosperity="76" neutralTaxPercent="3" allyTaxPercent="1" enemyTaxPercent="5" rulerAdenaBonusPercent="5" allyAdenaBonusPercent="2">
+			<territory id="imperial_tomb" name="Imperial Tomb" minX="169000" maxX="192000" minY="-93000" maxY="-71000" minZ="-9000" maxZ="-2500" />
+			<territory id="valley_of_saints" name="Valley of Saints" minX="52000" maxX="89000" minY="-88000" maxY="-42000" minZ="-5500" maxZ="1000" />
+			<territory id="forest_of_dead" name="Forest of the Dead" minX="42000" maxX="72000" minY="-62000" maxY="-20000" minZ="-5200" maxZ="1000" />
+		</kingdom>
+		<kingdom id="goddard" castleId="7" name="Goddard" prosperity="81" neutralTaxPercent="3" allyTaxPercent="1" enemyTaxPercent="5" rulerAdenaBonusPercent="5" allyAdenaBonusPercent="2">
+			<territory id="hot_springs" name="Hot Springs" minX="132000" maxX="158000" minY="-125000" maxY="-100000" minZ="-4200" maxZ="1000" />
+			<territory id="forge_of_gods" name="Forge of the Gods" minX="158000" maxX="183000" minY="-121000" maxY="-96000" minZ="-7000" maxZ="1000" />
+			<territory id="ketra" name="Ketra Orc Outpost" minX="135000" maxX="158000" minY="-86000" maxY="-64000" minZ="-5200" maxZ="1000" />
+			<territory id="varka" name="Varka Silenos Barracks" minX="104000" maxX="128000" minY="-50000" maxY="-22000" minZ="-5200" maxZ="1000" />
+		</kingdom>
+		<kingdom id="oren" castleId="4" name="Oren" prosperity="72" neutralTaxPercent="3" allyTaxPercent="1" enemyTaxPercent="5" rulerAdenaBonusPercent="5" allyAdenaBonusPercent="2">
+			<territory id="sea_of_spores" name="Sea of Spores" minX="56000" maxX="76000" minY="16000" maxY="42000" minZ="-5200" maxZ="1000" />
+			<territory id="enchanted_valley" name="Enchanted Valley" minX="94000" maxX="128000" minY="24000" maxY="68000" minZ="-5200" maxZ="1000" />
+			<territory id="tower_of_insolence" name="Tower of Insolence" minX="108000" maxX="124000" minY="12000" maxY="22000" minZ="-5200" maxZ="12000" />
+		</kingdom>
+	</kingdoms>
+</kingdomEconomy>

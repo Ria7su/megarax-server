@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>MegaraxLauncher</AssemblyName>
+    <RootNamespace>MegaraxLauncher</RootNamespace>
+    <Version>1.1.0</Version>
+    <FileVersion>1.1.0.0</FileVersion>
+    <Authors>Megarax</Authors>
+    <Company>Megarax</Company>
+    <Product>Megarax Launcher</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\megarax-launcher-bg.png" />
+    <Resource Include="Assets\megarax-hero-banner.png" />
+    <Resource Include="Assets\megarax-playhard-frame.png" />
+    <Resource Include="Assets\megarax-feature-character.png" />
+    <Resource Include="Assets\megarax-logo.png" />
+    <None Update="config.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

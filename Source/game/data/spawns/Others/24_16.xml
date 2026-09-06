@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="24_16">
+		<npc id="9901" x="147957" y="-55221" z="-2759" heading="46544" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9911" x="147020" y="-56231" z="-2806" heading="11405" respawnDelay="60" /> <!-- SERVICES - MEGARAX -->
+		<npc id="9913" x="147376" y="-56426" z="-2806" heading="11934" respawnDelay="60" /> <!-- RENTAL MANAGER - MEGARAX -->
+		<npc id="9914" x="148393" y="-56240" z="-2806" heading="22653" respawnDelay="60" /> <!-- DAILY MANAGER - MEGARAX -->
+		<npc id="9903" x="148079" y="-55371" z="-2759" heading="34207" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+		<npc id="31356" x="147436" y="-56194" z="-2807" heading="43159" respawnDelay="60" /> <!-- Megarax News - MEGARAX -->
+		<npc id="9900" x="148036" y="-56430" z="-2806" heading="20833" respawnDelay="60" /> <!-- GMSHOP - MEGARAX -->
+	</spawn>
+</list>

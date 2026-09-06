@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="MegaraxAnnouncers">
+		<npc id="31356" x="82696" y="148396" z="-3495" heading="32768" respawnDelay="60" /> <!-- Giran -->
+		<npc id="31356" x="-13920" y="121977" z="-2984" heading="32768" respawnDelay="60" /> <!-- Gludio -->
+		<npc id="31356" x="15693" y="142886" z="-2696" heading="32768" respawnDelay="60" /> <!-- Dion -->
+		<npc id="31356" x="-80785" y="149735" z="-3040" heading="32768" respawnDelay="60" /> <!-- Gludin -->
+		<npc id="31356" x="111417" y="219422" z="-3544" heading="32768" respawnDelay="60" /> <!-- Heine -->
+		<npc id="31356" x="116036" y="76319" z="-2703" heading="32768" respawnDelay="60" /> <!-- Hunter Village -->
+	</spawn>
+</list>

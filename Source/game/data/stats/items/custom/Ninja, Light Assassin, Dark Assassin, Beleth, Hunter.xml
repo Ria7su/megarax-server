@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+<item id="9812" type="Armor" name="Megarax Red Arrow">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_001_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9813" type="Armor" name="Megarax Ninja Suit">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_003_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9814" type="Armor" name="Megarax White Assassin">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_006_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9815" type="Armor" name="Megarax Dark Assassin">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_007_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="chest" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9816" type="Armor" name="Megarax Golden Armour">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_008_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9817" type="Armor" name="Hat Red Arrow">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_001_h_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9818" type="Armor" name="Ninja Hair	">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_003_h_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9819" type="Armor" name="Hat Assassin">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_006_h_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9820" type="Armor" name="Hat Dark Assassin">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_007_h_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9821" type="Armor" name="Helmet Golden">
+		<set name="icon" val="viRUS_Developments_Pack01.viRUS_Icon.viRUS_008_h_i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="NONE" />
+		<set name="bodypart" val="hairall" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="1" />
+		<set name="price" val="0" />
+	</item>
+</list>

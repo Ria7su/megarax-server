@@ -1,0 +1,90 @@
+{
+  "version": "2026.07.01.1",
+  "generatedAt": "2026-07-01T00:00:00Z",
+  "files": [
+    {
+      "localPath": "system/l2.exe",
+      "url": "https://patch.megaraxtest.com/system/l2.exe",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 10485760,
+      "critical": true
+    },
+    {
+      "localPath": "system/interface.xdat",
+      "url": "https://patch.megaraxtest.com/system/interface.xdat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 524288,
+      "critical": true
+    },
+    {
+      "localPath": "system/npcgrp.dat",
+      "url": "https://patch.megaraxtest.com/system/npcgrp.dat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 2097152,
+      "critical": true
+    },
+    {
+      "localPath": "system/itemname-e.dat",
+      "url": "https://patch.megaraxtest.com/system/itemname-e.dat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 2097152,
+      "critical": true
+    },
+    {
+      "localPath": "system/etcitemgrp.dat",
+      "url": "https://patch.megaraxtest.com/system/etcitemgrp.dat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 1048576,
+      "critical": true
+    },
+    {
+      "localPath": "system/armorgrp.dat",
+      "url": "https://patch.megaraxtest.com/system/armorgrp.dat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 1048576,
+      "critical": true
+    },
+    {
+      "localPath": "system/weapongrp.dat",
+      "url": "https://patch.megaraxtest.com/system/weapongrp.dat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 1048576,
+      "critical": true
+    },
+    {
+      "localPath": "system/skillgrp.dat",
+      "url": "https://patch.megaraxtest.com/system/skillgrp.dat",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 1048576,
+      "critical": true
+    },
+    {
+      "localPath": "systextures/megarax.utx",
+      "url": "https://patch.megaraxtest.com/systextures/megarax.utx",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 8388608,
+      "critical": false
+    },
+    {
+      "localPath": "animations/megarax.ukx",
+      "url": "https://patch.megaraxtest.com/animations/megarax.ukx",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 8388608,
+      "critical": false
+    },
+    {
+      "localPath": "textures/megarax.utx",
+      "url": "https://patch.megaraxtest.com/textures/megarax.utx",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 8388608,
+      "critical": false
+    },
+    {
+      "localPath": "staticmeshes/megarax.usx",
+      "url": "https://patch.megaraxtest.com/staticmeshes/megarax.usx",
+      "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
+      "size": 8388608,
+      "critical": false
+    }
+  ]
+}

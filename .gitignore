@@ -1,0 +1,50 @@
+# ============================================================
+#  L2 Megarax - baseline .gitignore
+#  Repo root: C:\Sv Megarax   (contiene Source\ e interlude\)
+# ============================================================
+
+# --- Geodata / pathnode (estatico, binario, ~2.3 GB, derivado del cliente) ---
+interlude/
+Source/game/data/geodata/
+Source/login/data/geodata/
+
+# --- Logs / crash dumps / PIDs ---
+*.log
+Source/game/log/
+Source/login/log/
+Source/**/hs_err_pid*.log
+Source/runtime/**/*.pid
+Source/runtime/supervisor/
+
+# --- Backups ad-hoc (se respaldan aparte) ---
+Source/backup/
+Source/backups/
+*.bak
+*.bak_*
+Source/libs/*.jar.bak*
+Source/libs/*.patched-*.jar
+
+# --- Working dirs de agentes / temporales ---
+Source/.codex_tmp_*/
+Source/.codex_build_*/
+Source/.agents/
+
+# --- Bundles generados ---
+Source/game/data/scripts.zip
+Source/game/data/scripts/**/*.class
+
+# --- Proyectos satelite (repos / builds propios; se versionan aparte) ---
+Source/website/
+Source/MegaraxDiscordManager/node_modules/
+Source/MegaraxDiscordManager/dist/
+Source/MegaraxDiscordManager/logs/
+Source/MegaraxLauncher/bin/
+Source/MegaraxLauncher/obj/
+Source/MegaraxLauncher/Build/
+Source/MegaraxLauncher/outputs/
+
+# --- SO / editor ---
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp

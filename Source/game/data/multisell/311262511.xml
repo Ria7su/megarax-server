@@ -1,0 +1,556 @@
+﻿<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+<npcs>
+<npc>31126</npc>
+<!--  Blacksmith of Mammon - MEGARAX A Grade SA  -->
+</npcs>
+<!--  â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•  -->
+<!--       MEGARAX - A GRADE WEAPON SA UPGRADES ONLY       -->
+<!--       Solo armas que se craftean en 10000.xml         -->
+<!--       Costo: Arma Base + Adena + Ancient Adena + Rax Coin  -->
+<!--       Adena: 57 | Ancient Adena: 5575 | Rax Coin: 9142  -->
+<!--  â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•  -->
+<!--  Tallum Blade - Special Abilities  -->
+<item>
+<!--  Tallum Blade -> Tallum Blade [Critical Poison]  -->
+<ingredient id="80" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5635" count="1"/>
+</item>
+<item>
+<!--  Tallum Blade -> Tallum Blade [Haste]  -->
+<ingredient id="80" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5636" count="1"/>
+</item>
+<item>
+<!--  Tallum Blade -> Tallum Blade [Anger]  -->
+<ingredient id="80" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5637" count="1"/>
+</item>
+<!--  Halberd - Special Abilities  -->
+<item>
+<!--  Halberd -> Halberd [Haste]  -->
+<ingredient id="98" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5626" count="1"/>
+</item>
+<item>
+<!--  Halberd -> Halberd [Critical Stun]  -->
+<ingredient id="98" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5627" count="1"/>
+</item>
+<item>
+<!--  Halberd -> Halberd [Wide Blow]  -->
+<ingredient id="98" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5628" count="1"/>
+</item>
+<!--  Elemental Sword - Special Abilities  -->
+<item>
+<!--  Elemental Sword -> Elemental Sword [Magic Power]  -->
+<ingredient id="150" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5638" count="1"/>
+</item>
+<item>
+<!--  Elemental Sword -> Elemental Sword [Magic Paralyze]  -->
+<ingredient id="150" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5639" count="1"/>
+</item>
+<item>
+<!--  Elemental Sword -> Elemental Sword [Empower]  -->
+<ingredient id="150" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5640" count="1"/>
+</item>
+<!--  Sword of Miracles - Special Abilities  -->
+<item>
+<!--  Sword of Miracles -> Sword of Miracles [Magic Power]  -->
+<ingredient id="151" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5641" count="1"/>
+</item>
+<item>
+<!--  Sword of Miracles -> Sword of Miracles [Magic Silence]  -->
+<ingredient id="151" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5642" count="1"/>
+</item>
+<item>
+<!--  Sword of Miracles -> Sword of Miracles [Acumen]  -->
+<ingredient id="151" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5643" count="1"/>
+</item>
+<!--  Elysian - Special Abilities  -->
+<item>
+<!--  Elysian -> Elysian [Health]  -->
+<ingredient id="164" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5602" count="1"/>
+</item>
+<item>
+<!--  Elysian -> Elysian [Anger]  -->
+<ingredient id="164" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5603" count="1"/>
+</item>
+<item>
+<!--  Elysian -> Elysian [Critical Drain]  -->
+<ingredient id="164" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5604" count="1"/>
+</item>
+<!--  Dasparion's Staff - Special Abilities  -->
+<item>
+<!--  Dasparion's Staff -> Dasparion's Staff [Mana Up]  -->
+<ingredient id="212" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5596" count="1"/>
+</item>
+<item>
+<!--  Dasparion's Staff -> Dasparion's Staff [Conversion]  -->
+<ingredient id="212" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5597" count="1"/>
+</item>
+<item>
+<!--  Dasparion's Staff -> Dasparion's Staff [Acumen]  -->
+<ingredient id="212" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5598" count="1"/>
+</item>
+<!--  Branch of The Mother Tree - Special Abilities  -->
+<item>
+<!--  Branch of The Mother Tree -> Branch of The Mother Tree [Conversion]  -->
+<ingredient id="213" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5605" count="1"/>
+</item>
+<item>
+<!--  Branch of The Mother Tree -> Branch of The Mother Tree [Magic Damage]  -->
+<ingredient id="213" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5606" count="1"/>
+</item>
+<item>
+<!--  Branch of The Mother Tree -> Branch of The Mother Tree [Acumen]  -->
+<ingredient id="213" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="750000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="900"/>
+<production id="5607" count="1"/>
+</item>
+<!--  Bloody Orchid - Special Abilities  -->
+<item>
+<!--  Bloody Orchid -> Bloody Orchid [Focus]  -->
+<ingredient id="235" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5614" count="1"/>
+</item>
+<item>
+<!--  Bloody Orchid -> Bloody Orchid [Back Blow]  -->
+<ingredient id="235" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5615" count="1"/>
+</item>
+<item>
+<!--  Bloody Orchid -> Bloody Orchid [Critical Bleed]  -->
+<ingredient id="235" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5616" count="1"/>
+</item>
+<!--  Soul Separator - Special Abilities  -->
+<item>
+<!--  Soul Separator -> Soul Separator [Guidance]  -->
+<ingredient id="236" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5617" count="1"/>
+</item>
+<item>
+<!--  Soul Separator -> Soul Separator [Critical Damage]  -->
+<ingredient id="236" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5618" count="1"/>
+</item>
+<item>
+<!--  Soul Separator -> Soul Separator [Rsk. Haste]  -->
+<ingredient id="236" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5619" count="1"/>
+</item>
+<!--  Blood Tornado - Special Abilities  -->
+<item>
+<!--  Blood Tornado -> Blood Tornado [Haste]  -->
+<ingredient id="269" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5620" count="1"/>
+</item>
+<item>
+<!--  Blood Tornado -> Blood Tornado [Focus]  -->
+<ingredient id="269" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5621" count="1"/>
+</item>
+<item>
+<!--  Blood Tornado -> Blood Tornado [Anger]  -->
+<ingredient id="269" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="2500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="900000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1000"/>
+<production id="5622" count="1"/>
+</item>
+<!--  Dragon Grinder - Special Abilities  -->
+<item>
+<!--  Dragon Grinder -> Dragon Grinder [Rsk. Evasion]  -->
+<ingredient id="270" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5623" count="1"/>
+</item>
+<item>
+<!--  Dragon Grinder -> Dragon Grinder [Guidance]  -->
+<ingredient id="270" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5624" count="1"/>
+</item>
+<item>
+<!--  Dragon Grinder -> Dragon Grinder [Health]  -->
+<ingredient id="270" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5625" count="1"/>
+</item>
+<!--  Carnage Bow - Special Abilities  -->
+<item>
+<!--  Carnage Bow -> Carnage Bow [Light]  -->
+<ingredient id="288" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1250000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1400"/>
+<production id="5608" count="1"/>
+</item>
+<item>
+<!--  Carnage Bow -> Carnage Bow [Critical Bleed]  -->
+<ingredient id="288" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1250000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1400"/>
+<production id="5609" count="1"/>
+</item>
+<item>
+<!--  Carnage Bow -> Carnage Bow [Mana Up]  -->
+<ingredient id="288" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1250000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1400"/>
+<production id="5610" count="1"/>
+</item>
+<!--  Soul Bow - Special Abilities  -->
+<item>
+<!--  Soul Bow -> Soul Bow [Cheap Shot]  -->
+<ingredient id="289" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1250000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1400"/>
+<production id="5611" count="1"/>
+</item>
+<item>
+<!--  Soul Bow -> Soul Bow [Quick Recovery]  -->
+<ingredient id="289" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1250000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1400"/>
+<production id="5612" count="1"/>
+</item>
+<item>
+<!--  Soul Bow -> Soul Bow [Critical Poison]  -->
+<ingredient id="289" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3500000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1250000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1400"/>
+<production id="5613" count="1"/>
+</item>
+<!--  Dragon Slayer - Special Abilities  -->
+<item>
+<!--  Dragon Slayer -> Dragon Slayer [Health]  -->
+<ingredient id="81" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="4000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1500000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1600"/>
+<production id="5644" count="1"/>
+</item>
+<item>
+<!--  Dragon Slayer -> Dragon Slayer [Critical Bleed]  -->
+<ingredient id="81" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="4000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1500000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1600"/>
+<production id="5645" count="1"/>
+</item>
+<item>
+<!--  Dragon Slayer -> Dragon Slayer [Critical Drain]  -->
+<ingredient id="81" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="4000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1500000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1600"/>
+<production id="5646" count="1"/>
+</item>
+<!--  Dark Legion's Edge - Special Abilities  -->
+<item>
+<!--  Dark Legion's Edge -> Dark Legion's Edge [Critical Damage]  -->
+<ingredient id="2500" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="4000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1500000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1600"/>
+<production id="5647" count="1"/>
+</item>
+<item>
+<!--  Dark Legion's Edge -> Dark Legion's Edge [Health]  -->
+<ingredient id="2500" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="4000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1500000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1600"/>
+<production id="5648" count="1"/>
+</item>
+<item>
+<!--  Dark Legion's Edge -> Dark Legion's Edge [Rsk. Focus]  -->
+<ingredient id="2500" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="4000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1500000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1600"/>
+<production id="5649" count="1"/>
+</item>
+<!--  Meteor Shower - Special Abilities  -->
+<item>
+<!--  Meteor Shower -> Meteor Shower [Focus]  -->
+<ingredient id="2504" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5599" count="1"/>
+</item>
+<item>
+<!--  Meteor Shower -> Meteor Shower [Critical Bleed]  -->
+<ingredient id="2504" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5600" count="1"/>
+</item>
+<item>
+<!--  Meteor Shower -> Meteor Shower [Rsk. Haste]  -->
+<ingredient id="2504" count="1"/>
+<!--  Adena  -->
+<ingredient id="57" count="3000000"/>
+<!--  Ancient Adena  -->
+<ingredient id="5575" count="1100000"/>
+<!--  Rax Coin  -->
+<ingredient id="9142" count="1200"/>
+<production id="5601" count="1"/>
+</item>
+</list>

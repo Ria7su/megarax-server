@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="25_12">
+		<npc id="21207" x="173127" y="-174162" z="3459" heading="34772" respawnDelay="40" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="173728" y="-174184" z="3459" heading="3094" respawnDelay="40" /> <!-- Nephilim Commander -->
+		<npc id="21207" x="177072" y="-175238" z="3009" heading="45760" respawnDelay="40" /> <!-- Nephilim Commander -->
+	</spawn>
+</list>

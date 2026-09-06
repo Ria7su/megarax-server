@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<npc id="9925" level="85" type="Monster" name="Tiat" title="Monster Card Raid" usingServerSideName="true" usingServerSideTitle="true">
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="10253400" sp="1081544" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="261551.926" hpRegen="441.65" mp="1708.8" mpRegen="20" />
+			<attack physical="722.31" magical="1398.68" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1602" magical="293" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="230" />
+			</speed>
+			<hitTime>710</hitTime>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4032" level="7" /> <!-- NPC Strike -->
+			<skill id="4072" level="7" /> <!-- Shock / Stun -->
+			<skill id="4085" level="1" /> <!-- Critical Power -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4416" level="18" /> <!-- Dragon-style passive -->
+			<skill id="4045" level="1" /> <!-- Resist Full Magic Attack -->
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<corpseTime>1</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1000" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>tiat_event_clan</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="65" />
+			<height normal="174" />
+		</collision>
+	</npc>
+</list>

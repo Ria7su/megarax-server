@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="16_25">
+		<npc id="30311" x="-100226" y="237267" z="-3598" heading="47671" respawnDelay="60" /> <!-- Sir Collin Windawood -->
+		<npc id="9901" x="-100381" y="237281" z="-3597" heading="47881" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+	</spawn>
+</list>

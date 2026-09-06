@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+<item id="9300" type="Armor" name="Warrior Cloak  Unique">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="hairall" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="500" />
+        <add stat="runSpd" val="10" />
+        <add stat="pDef" val="100" />
+        <add stat="mDef" val="100" />
+    </stats>
+</item>
+<item id="9301" type="Armor" name="Assassin Cloak  Unique">
+     <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="hairall" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="600" />
+        <add stat="runSpd" val="15" />
+        <add stat="pDef" val="150" />
+        <add stat="mDef" val="150" />
+    </stats>
+</item>
+<item id="9302" type="Armor" name="Support Cloak  Unique">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="hairall" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="700" />
+        <add stat="runSpd" val="20" />
+        <add stat="pDef" val="200" />
+        <add stat="mDef" val="200" />
+        <add stat="pAtkSpd" val="200" />
+        <add stat="pAtk" val="200" />
+    </stats>
+</item>
+<item id="9303" type="Armor" name="Mage Cloak  Unique">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="hairall" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="800" />
+        <add stat="runSpd" val="25" />
+        <add stat="pDef" val="300" />
+        <add stat="mDef" val="300" />
+        <add stat="pAtkSpd" val="300" />
+        <add stat="pAtk" val="400" />
+    </stats>
+</item>
+</list>

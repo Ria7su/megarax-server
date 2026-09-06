@@ -1,0 +1,142 @@
+﻿<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<npc id="9917" level="80" type="Monster" name="Korab">
+		<parameters>
+			<param name="MoveAroundSocial" value="50" />
+			<param name="MoveAroundSocial1" value="50" />
+			<param name="MoveAroundSocial2" value="50" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<!-- <skill name="SelfBuff" id="4091" level="1" /> --> <!-- NPC Ogre Spirit Totem -->
+			<skill name="SelfRangeDDMagic" id="4072" level="7" /> <!-- Stun -->
+			<skill name="PhysicalSpecial" id="4032" level="7" /> <!-- NPC Strike -->
+		</parameters>
+
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+
+		<equipment lhand="4754" /> 
+
+		<acquire exp="9102" sp="925" />
+
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="25400.15331" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="731.52506" magical="499.53679" random="30" critical="4" accuracy="4.75" attackSpeed="253" type="POLE" range="80" distance="120" width="180" />
+			<defence physical="305.35947" magical="203.311781207645" />
+
+			<speed>
+				<walk ground="30" />
+				<run ground="174" />
+			</speed>
+
+			<hitTime>520</hitTime>
+		</stats>
+
+		<status undying="false" canBeSown="true" />
+
+		<skillList>
+			<skill id="4032" level="7" /> <!-- NPC Strike -->
+			<skill id="4072" level="7" /> <!-- Shock -->
+			<skill id="4085" level="1" /> <!-- Critical Power -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4091" level="1" /> <!-- NPC Ogre Spirit Totem -->
+			<skill id="4281" level="1" /> <!-- Wind Attack Weak Point -->
+			<skill id="4410" level="12" /> <!-- Slightly Strong P. Atk. -->
+			<skill id="4411" level="12" /> <!-- Slightly Strong M. Atk. -->
+			<skill id="4412" level="10" /> <!-- Slightly Weak P. Def. -->
+			<skill id="4413" level="10" /> <!-- Slightly Weak M. Def. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+		</skillList>
+
+		<shots shotChance="30" spiritChance="30" />
+
+		<exCrtEffect>false</exCrtEffect>
+
+		<collision>
+			<radius normal="13.5" grown="16" />
+			<height normal="29.0" grown="42.5" />
+		</collision>
+	</npc>
+
+	<npc id="9918" level="87" type="Monster" name="Borak" title="MEGARAX ELITE" usingServerSideTitle="false">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="SoulShot" value="300" />
+			<param name="SoulShotRate" value="45" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="10" />
+			<param name="LongRangeGuardRate" value="10" />
+			<skill name="SelfBuff" id="78" level="2" /> <!-- War Cry -->
+			<skill name="SelfBuff2" id="90090" level="1" /> <!-- Borak Frenzy -->
+			<skill name="SelfRangeDDMagic" id="4072" level="10" /> <!-- Shock -->
+			<skill name="PhysicalSpecial" id="4032" level="10" /> <!-- NPC Strike -->
+		</parameters>
+
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+
+		<acquire exp="120000" sp="12500" />
+
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="45000" hpRegen="50" mp="3663.95" mpRegen="7.29" />
+			<attack physical="2405" magical="2951.1" random="30" critical="4" accuracy="0.75" attackSpeed="204" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="410" magical="300" evasion="5" />
+
+			<speed>
+				<walk ground="71" />
+				<run ground="198" />
+			</speed>
+
+			<hitTime>430</hitTime>
+		</stats>
+
+		<status undying="false" canBeSown="true" />
+
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="57" min="160000" max="220000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="9142" min="40" max="60" chance="100" /> <!-- Rax Coin; average 50 -->
+				</group>
+				<group chance="100">
+					<item id="5575" min="8000" max="12000" chance="100" /> <!-- Ancient Adena -->
+				</group>
+				<group chance="5">
+					<item id="6501" min="1" max="1" chance="100" /> <!-- Megarax Surprise Box -->
+				</group>
+			</drop>
+		</dropLists>
+
+		<skillList>
+			<skill id="78" level="2" /> <!-- War Cry -->
+			<skill id="4032" level="10" /> <!-- NPC Strike -->
+			<skill id="4072" level="10" /> <!-- Shock -->
+			<skill id="4085" level="1" /> <!-- Critical Power -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4335" level="1" /> <!-- Sacred Attack -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="90090" level="1" /> <!-- Borak Frenzy -->
+		</skillList>
+
+		<shots shotChance="45" spiritChance="15" />
+
+		<exCrtEffect>true</exCrtEffect>
+
+		<ai type="BALANCED" aggroRange="900" clanHelpRange="450" isAggressive="true">
+			<clanList>
+				<clan>MEGARAX_BORAK</clan>
+			</clanList>
+		</ai>
+
+		<collision>
+			<radius normal="18" grown="21" />
+			<height normal="32" grown="42" />
+		</collision>
+	</npc>
+</list>

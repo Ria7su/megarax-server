@@ -1,0 +1,149 @@
+﻿<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+<npc id="9920" level="70" type="Monster" name="Giant Kalab">
+<race>HUMANOID</race>
+<sex>MALE</sex>
+<acquire exp="50000" sp="5000"/>
+<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+<vitals hp="4000" hpRegen="30" mp="2297" mpRegen="60"/>
+<attack physical="750" magical="900" random="30" critical="4" accuracy="4.75" attackSpeed="150" type="SWORD" range="40" distance="80" width="120"/>
+<defence physical="350" magical="350" evasion="-18"/>
+<speed>
+<walk ground="154"/>
+<run ground="150"/>
+</speed>
+<hitTime>370</hitTime>
+</stats>
+<status undying="false" noSleepMode="true"/>
+<skillList>
+<skill id="4416" level="18"/>
+<skill id="4045" level="1"/>
+</skillList>
+<dropLists>
+<drop>
+<group chance="100">
+<item id="57" min="50000" max="80000" chance="100"/>
+</group>
+<group chance="100">
+<item id="9142" min="4" max="7" chance="100"/> <!-- Rax Coin -->
+</group>
+<group chance="100">
+<item id="5575" min="2000" max="4000" chance="100"/> <!-- Ancient Adena -->
+</group>
+<group chance="2">
+<item id="6501" min="1" max="1" chance="100"/> <!-- Megarax Surprise Box -->
+</group>
+<group chance="5">
+<item id="8762" min="1" max="1" chance="100"/> <!-- Top-Grade Life Stone: level 76 -->
+</group>
+<group chance="33">
+<item id="6622" min="1" max="1" chance="50"/>
+</group>
+</drop>
+</dropLists>
+<corpseTime>3</corpseTime>
+<exCrtEffect>true</exCrtEffect>
+<ai type="BALANCED" aggroRange="0" clanHelpRange="0" isAggressive="false"/>
+<collision>
+<radius normal="95"/>
+<height normal="40"/>
+</collision>
+</npc>
+<npc id="9921" level="70" type="Monster" name="Giant Korag">
+<race>HUMANOID</race>
+<sex>MALE</sex>
+<acquire exp="50000" sp="5000"/>
+<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+<vitals hp="4000" hpRegen="30" mp="2297" mpRegen="60"/>
+<attack physical="750" magical="900" random="30" critical="4" accuracy="4.75" attackSpeed="150" type="SWORD" range="40" distance="80" width="120"/>
+<defence physical="350" magical="350" evasion="-18"/>
+<speed>
+<walk ground="154"/>
+<run ground="150"/>
+</speed>
+<hitTime>370</hitTime>
+</stats>
+<status undying="false" noSleepMode="true"/>
+<skillList>
+<skill id="4416" level="18"/>
+<skill id="4045" level="1"/>
+</skillList>
+<dropLists>
+<drop>
+<group chance="100">
+<item id="57" min="50000" max="80000" chance="100"/>
+</group>
+<group chance="100">
+<item id="9142" min="4" max="7" chance="100"/> <!-- Rax Coin -->
+</group>
+<group chance="100">
+<item id="5575" min="2000" max="4000" chance="100"/> <!-- Ancient Adena -->
+</group>
+<group chance="2">
+<item id="6501" min="1" max="1" chance="100"/> <!-- Megarax Surprise Box -->
+</group>
+<group chance="5">
+<item id="8762" min="1" max="1" chance="100"/> <!-- Top-Grade Life Stone: level 76 -->
+</group>
+<group chance="33">
+<item id="6622" min="1" max="1" chance="50"/>
+</group>
+</drop>
+</dropLists>
+<corpseTime>3</corpseTime>
+<exCrtEffect>true</exCrtEffect>
+<ai type="BALANCED" aggroRange="0" clanHelpRange="0" isAggressive="false"/>
+<collision>
+<radius normal="95"/>
+<height normal="40"/>
+</collision>
+</npc>
+<npc id="9922" level="70" type="Monster" name="Giant Morbi">
+<race>HUMANOID</race>
+<sex>MALE</sex>
+<acquire exp="50000" sp="5000"/>
+<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+<vitals hp="4000" hpRegen="30" mp="2297" mpRegen="60"/>
+<attack physical="750" magical="900" random="30" critical="4" accuracy="4.75" attackSpeed="150" type="SWORD" range="40" distance="80" width="120"/>
+<defence physical="350" magical="350" evasion="-18"/>
+<speed>
+<walk ground="154"/>
+<run ground="150"/>
+</speed>
+<hitTime>370</hitTime>
+</stats>
+<status undying="false" noSleepMode="true"/>
+<skillList>
+<skill id="4416" level="18"/>
+<skill id="4045" level="1"/>
+</skillList>
+<dropLists>
+<drop>
+<group chance="100">
+<item id="57" min="50000" max="80000" chance="100"/>
+</group>
+<group chance="100">
+<item id="9142" min="4" max="7" chance="100"/> <!-- Rax Coin -->
+</group>
+<group chance="100">
+<item id="5575" min="2000" max="4000" chance="100"/> <!-- Ancient Adena -->
+</group>
+<group chance="2">
+<item id="6501" min="1" max="1" chance="100"/> <!-- Megarax Surprise Box -->
+</group>
+<group chance="5">
+<item id="8762" min="1" max="1" chance="100"/> <!-- Top-Grade Life Stone: level 76 -->
+</group>
+<group chance="33">
+<item id="6622" min="1" max="1" chance="50"/>
+</group>
+</drop>
+</dropLists>
+<corpseTime>3</corpseTime>
+<exCrtEffect>true</exCrtEffect>
+<ai type="BALANCED" aggroRange="0" clanHelpRange="0" isAggressive="false"/>
+<collision>
+<radius normal="95"/>
+<height normal="40"/>
+</collision>
+</npc>
+</list>

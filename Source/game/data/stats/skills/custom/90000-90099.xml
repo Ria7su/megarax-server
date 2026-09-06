@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+	<skill id="90000" levels="10" name="Megarax Rebirth HP">
+		<table name="#hp">500 1000 1500 2000 2500 3000 3500 4000 4500 5000</table>
+		<set name="icon" val="icon.skill4416_human" />
+		<set name="operateType" val="P" />
+		<set name="targetType" val="SELF" />
+		<set name="magicLevel" val="80" />
+		<effects>
+			<effect name="MaxHp">
+				<param power="#hp" />
+				<param heal="true" />
+			</effect>
+		</effects>
+	</skill>
+	<skill id="90090" levels="1" name="Borak Frenzy">
+		<set name="icon" val="icon.skill0176" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<set name="abnormalLevel" val="1" />
+		<set name="abnormalTime" val="120" />
+		<set name="abnormalType" val="PINCH" />
+		<set name="abnormalVisualEffect" val="BIG_BODY" />
+		<set name="effectPoint" val="500" />
+		<set name="hitTime" val="1500" />
+		<set name="magicLevel" val="85" />
+		<set name="mpConsume" val="25" />
+		<set name="reuseDelay" val="600000" />
+		<effects>
+			<effect name="Buff">
+				<mul stat="pAtk" val="1.35" />
+				<mul stat="pAtkSpd" val="1.12" />
+				<add stat="accCombat" val="4" />
+			</effect>
+		</effects>
+	</skill>
+</list>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<instance id="3050" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/instance.xsd">
+	<allowSummon val="true" />
+	<emptyDestroyTime val="1" />
+	<PvPInstance val="false" />
+	<exitPoint x="83400" y="147943" z="-3404" />
+</instance>

@@ -1,0 +1,246 @@
+schemaVersion: 1
+network:
+  name: Megarax Network
+  locale: es
+  englishEnabled: true
+  bannerUrl: null
+features:
+  worldOfWarcraft: false
+  webhooks: false
+  tickets: true
+  selectableRoles: true
+placeholders:
+  WEBSITE_URL: "{{WEBSITE_URL}}"
+  DOWNLOAD_URL: "{{DOWNLOAD_URL}}"
+  ACCOUNT_URL: "{{ACCOUNT_URL}}"
+  OPENING_DATE: "{{OPENING_DATE}}"
+  BETA_DATE: "{{BETA_DATE}}"
+  SUPPORT_EMAIL: "{{SUPPORT_EMAIL}}"
+  SERVER_STATUS_URL: "{{SERVER_STATUS_URL}}"
+status:
+  loginServer: Manual
+  gameServer: Manual
+  website: Manual
+  launcher: En preparación
+  playersOnline: "0"
+  lastRestart: Pendiente
+  nextMaintenance: Pendiente
+roles:
+  - {
+      key: founder,
+      name: "👑 Founder",
+      color: "#D7B56D",
+      group: staff,
+      permissions: [],
+      manualPermissions: [Administrator],
+      autoAssign: false,
+      protected: true,
+    }
+  - {
+      key: administrator,
+      name: "⚙️ Administrator",
+      color: "#C0392B",
+      group: staff,
+      permissions: [ManageChannels, ManageRoles, ManageMessages, ManageThreads],
+      manualPermissions: [ManageGuild, ViewAuditLog],
+    }
+  - {
+      key: developer,
+      name: "💻 Developer",
+      color: "#3498DB",
+      group: staff,
+      permissions:
+        [
+          ViewChannel,
+          SendMessages,
+          EmbedLinks,
+          AttachFiles,
+          ReadMessageHistory,
+          ManageMessages,
+          ManageThreads,
+        ],
+    }
+  - {
+      key: game_master,
+      name: "🛡️ Game Master",
+      color: "#9B59B6",
+      group: staff,
+      permissions:
+        [ViewChannel, SendMessages, EmbedLinks, AttachFiles, ReadMessageHistory, ManageMessages],
+    }
+  - {
+      key: moderator,
+      name: "🔨 Moderator",
+      color: "#E67E22",
+      group: staff,
+      permissions:
+        [
+          ViewChannel,
+          SendMessages,
+          EmbedLinks,
+          AttachFiles,
+          ReadMessageHistory,
+          ManageMessages,
+          ManageThreads,
+        ],
+    }
+  - {
+      key: support,
+      name: "🎫 Support",
+      color: "#1ABC9C",
+      group: staff,
+      permissions:
+        [
+          ViewChannel,
+          SendMessages,
+          EmbedLinks,
+          AttachFiles,
+          ReadMessageHistory,
+          ManageMessages,
+          ManageThreads,
+        ],
+    }
+  - {
+      key: helper,
+      name: "✨ Helper",
+      color: "#2ECC71",
+      group: staff,
+      permissions: [ViewChannel, SendMessages, EmbedLinks, AttachFiles, ReadMessageHistory],
+    }
+  - { key: clan_leader, name: "🏰 Clan Leader", color: "#A67C52", group: community }
+  - { key: content_creator, name: "🎥 Content Creator", color: "#E91E63", group: community }
+  - { key: beta_tester, name: "🧪 Beta Tester", color: "#00BCD4", group: community }
+  - { key: premium, name: "💎 Premium", color: "#8E44AD", group: community }
+  - { key: pvp_player, name: "⚔️ PvP Player", color: "#E74C3C", group: community, selectable: true }
+  - { key: pve_player, name: "🐉 PvE Player", color: "#27AE60", group: community, selectable: true }
+  - { key: player, name: "🎮 Player", color: "#95A5A6", group: community }
+  - { key: lineage_ii, name: "Lineage II", group: interest, selectable: true }
+  - { key: world_of_warcraft, name: "World of Warcraft", group: interest, selectable: true }
+  - { key: spanish, name: "Español", group: interest, selectable: true }
+  - { key: english, name: "English", group: interest, selectable: true }
+  - { key: announcements, name: "Anuncios", group: interest, selectable: true }
+  - { key: maintenance, name: "Mantenimientos", group: interest, selectable: true }
+  - { key: events, name: "Eventos", group: interest, selectable: true }
+  - { key: clans_interest, name: "Clanes", group: interest, selectable: true }
+categories:
+  - key: start
+    name: "━━ EMPIEZA AQUÍ ━━"
+    everyoneVisible: true
+    channels:
+      - { key: welcome, name: "👋・bienvenida", type: text, readOnly: true, content: bienvenida.md }
+      - { key: rules, name: "📜・reglas", type: text, readOnly: true, content: reglas.md }
+      - {
+          key: how_to_play,
+          name: "📥・como-jugar",
+          type: text,
+          readOnly: true,
+          content: como-jugar.md,
+        }
+      - {
+          key: server_info,
+          name: "📖・informacion-del-servidor",
+          type: text,
+          readOnly: true,
+          content: informacion.md,
+        }
+      - { key: role_select, name: "🎭・elige-tus-roles", type: text, readOnly: true }
+      - { key: faq, name: "❓・preguntas-frecuentes", type: text, readOnly: true }
+  - key: official
+    name: "━━ INFORMACIÓN OFICIAL ━━"
+    channels:
+      - { key: announcements, name: "📢・anuncios", type: announcement, readOnly: true }
+      - {
+          key: server_status,
+          name: "🟢・estado-del-servidor",
+          type: text,
+          readOnly: true,
+          content: estado.md,
+        }
+      - { key: updates, name: "🛠・actualizaciones", type: text, readOnly: true }
+      - {
+          key: features,
+          name: "⚔️・caracteristicas",
+          type: text,
+          readOnly: true,
+          content: features.md,
+        }
+      - { key: events, name: "🗓・eventos", type: text, readOnly: true, content: eventos.md }
+      - {
+          key: administration,
+          name: "👑・administracion",
+          type: text,
+          readOnly: true,
+          content: administracion.md,
+        }
+      - { key: roadmap, name: "🧭・roadmap", type: text, readOnly: true, content: roadmap.md }
+      - { key: polls, name: "📊・encuestas", type: text }
+  - key: lineage
+    name: "━━ LINEAGE II MEGARAX ━━"
+    channels:
+      - { key: l2_general, name: "💬・l2-general", type: text }
+      - { key: pvp, name: "⚔️・pvp", type: text, content: pvp.md }
+      - { key: raids, name: "🐉・raids-y-dungeons", type: text, content: dungeons.md }
+      - { key: clans, name: "🛡・clanes", type: forum, content: clanes.md }
+      - { key: trade, name: "💰・comercio", type: text, content: economia.md }
+      - { key: guides, name: "📚・guias", type: forum }
+      - {
+          key: bugs,
+          name: "🐞・reportar-bugs",
+          type: forum,
+          tags:
+            [
+              Cliente,
+              Launcher,
+              Gameplay,
+              Quest,
+              NPC,
+              Item,
+              Visual,
+              Economía,
+              PvP,
+              Dungeon,
+              Raid,
+              En revisión,
+              Confirmado,
+              Resuelto,
+              Rechazado,
+            ],
+        }
+      - { key: suggestions, name: "💡・sugerencias", type: forum }
+  - key: community
+    name: "━━ COMUNIDAD ━━"
+    channels:
+      - { key: general, name: "💬・general", type: text }
+      - { key: media, name: "📸・screenshots-y-videos", type: media }
+      - { key: creators, name: "🎥・creadores-de-contenido", type: text }
+      - { key: off_topic, name: "🤣・off-topic", type: text }
+  - key: support
+    name: "━━ SOPORTE ━━"
+    channels:
+      - {
+          key: ticket_create,
+          name: "🎫・crear-ticket",
+          type: text,
+          readOnly: true,
+          content: soporte.md,
+        }
+      - { key: report_player, name: "🚨・reportar-jugador", type: text, readOnly: true }
+      - { key: appeals, name: "🔨・apelaciones", type: text, readOnly: true }
+  - key: voice
+    name: "━━ CANALES DE VOZ ━━"
+    channels:
+      - { key: voice_general, name: "🔊 General", type: voice }
+      - { key: party_1, name: "⚔️ Party 1", type: voice }
+      - { key: party_2, name: "⚔️ Party 2", type: voice }
+      - { key: raid_voice, name: "🐉 Raid", type: voice }
+      - { key: clan_temp, name: "🏰 Clan Temporal", type: voice }
+  - key: staff
+    name: "━━ STAFF ━━"
+    staffOnly: true
+    channels:
+      - { key: staff_general, name: "📋・staff-general", type: text }
+      - { key: tickets_log, name: "🎫・tickets-log", type: text }
+      - { key: moderation_log, name: "🔨・moderacion-log", type: text }
+      - { key: internal_bugs, name: "🐞・bugs-internos", type: text }
+      - { key: development, name: "💻・desarrollo", type: text }
+      - { key: audit_log, name: "📊・audit-log", type: text }

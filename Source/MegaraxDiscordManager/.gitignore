@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+logs/*.log
+backups/*.json
+state/*.json
+plans/*.json
+transcripts/*
+!logs/.gitkeep
+!backups/.gitkeep
+!state/.gitkeep
+!plans/.gitkeep
+!transcripts/.gitkeep

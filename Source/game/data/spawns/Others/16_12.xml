@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="16_12">
+		<npc id="9901" x="-115298" y="-181362" z="-6783" heading="4836" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9901" x="-114708" y="-181528" z="-6781" heading="508" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+	</spawn>
+</list>

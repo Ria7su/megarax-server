@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="18_19">
+		<npc id="9901" x="-46336" y="49415" z="-5686" heading="32989" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9902" x="-48842" y="49464" z="-5912" heading="34615" respawnDelay="60" /> <!-- WAREHOUSE - MEGARAX -->
+		<npc id="9902" x="-48842" y="49464" z="-5912" heading="34615" respawnDelay="60" /> <!-- WAREHOUSE - MEGARAX -->
+	</spawn>
+</list>

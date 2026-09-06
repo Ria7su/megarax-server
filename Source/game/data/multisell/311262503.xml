@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>31126</npc> <!-- Blacksmith of Mammon -->
+	</npcs>
+	<!-- Tallum Blade | Recipe: 5471 -->
+  <item>
+	<ingredient id="9142" count="7000"/>
+	<ingredient id="5471" count="1"/>
+	<production id="80" count="1"/>
+  </item>
+ 
+  <!-- Halberd | Recipe: 5459 -->
+  <item>
+	<ingredient id="9142" count="6000"/>
+	<ingredient id="5459" count="1"/>
+	<production id="98" count="1"/>
+  </item>
+ 
+  <!-- Elemental Sword | Recipe: 5469 -->
+  <item>
+	<ingredient id="9142" count="6000"/>
+	<ingredient id="5469" count="1"/>
+	<production id="150" count="1"/>
+  </item>
+ 
+  <!-- Dasparion's Staff | Recipe: 5461 -->
+  <item>
+	<ingredient id="9142" count="7000"/>
+	<ingredient id="5461" count="1"/>
+	<production id="212" count="1"/>
+  </item>
+ 
+  <!-- Dark Legion's Edge | Recipe: 5465 -->
+  <item>
+	<ingredient id="9142" count="7000"/>
+	<ingredient id="5465" count="1"/>
+	<production id="2500" count="1"/>
+  </item>
+ 
+  <!-- Forgotten Blade | Recipe: 6882 -->
+  <item>
+	<ingredient id="9142" count="8000"/>
+	<ingredient id="6882" count="1"/>
+	<production id="6364" count="1"/>
+  </item>
+ 
+  <!-- Arcana Mace | Recipe: 6900 -->
+  <item>
+	<ingredient id="9142" count="7000"/>
+	<ingredient id="6900" count="1"/>
+	<production id="6579" count="1"/>
+  </item>
+ 
+  <!-- Draconic Bow | Recipe: 7581 -->
+  <item>
+	<ingredient id="9142" count="8000"/>
+	<ingredient id="7581" count="1"/>
+	<production id="7575" count="1"/>
+  </item>
+ 
+  <!-- Sirra's Blade | Recipe: 8691 -->
+  <item>
+	<ingredient id="9142" count="7000"/>
+	<ingredient id="8691" count="1"/>
+	<production id="8678" count="1"/>
+  </item>
+ 
+  <!-- Barakiel's Axe | Recipe: 8695 -->
+  <item>
+	<ingredient id="9142" count="6000"/>
+	<ingredient id="8695" count="1"/>
+	<production id="8680" count="1"/>
+  </item>
+ 
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!--         ARMADURAS GRADO A                           -->
+  <!--         Solo Rax Coin (sin recipe)                  -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+ 
+  <!-- Armor of Nightmare -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="374" count="1"/>
+  </item>
+ 
+  <!-- Majestic Plate Armor -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="2383" count="1"/>
+  </item>
+ 
+  <!-- Leather Armor of Nightmare -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="2394" count="1"/>
+  </item>
+ 
+  <!-- Majestic Leather Armor -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="2395" count="1"/>
+  </item>
+ 
+  <!-- Robe of Nightmare -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="2408" count="1"/>
+  </item>
+ 
+  <!-- Majestic Robe -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="2409" count="1"/>
+  </item>
+ 
+  <!-- Helm of Nightmare -->
+  <item>
+	<ingredient id="9142" count="2000"/>
+	<production id="2418" count="1"/>
+  </item>
+ 
+  <!-- Majestic Circlet -->
+  <item>
+	<ingredient id="9142" count="2000"/>
+	<production id="2419" count="1"/>
+  </item>
+ 
+  <!-- Gauntlets of Nightmare -->
+  <item>
+	<ingredient id="9142" count="1500"/>
+	<production id="2479" count="1"/>
+  </item>
+ 
+  <!-- Majestic Gauntlets -->
+  <item>
+	<ingredient id="9142" count="1500"/>
+	<production id="2482" count="1"/>
+  </item>
+ 
+  <!-- Boots of Nightmare -->
+  <item>
+	<ingredient id="9142" count="1500"/>
+	<production id="2440" count="1"/>
+  </item>
+ 
+  <!-- Majestic Boots -->
+  <item>
+	<ingredient id="9142" count="1500"/>
+	<production id="583" count="1"/>
+  </item>
+ 
+  <!-- Shield of Nightmare -->
+  <item>
+	<ingredient id="9142" count="2000"/>
+	<production id="2498" count="1"/>
+  </item>
+ 
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!--              ARMAS GRADO S                          -->
+  <!--        Recipe (100%) + Rax Coin = Arma              -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+ 
+  <!-- Basalt Battlehammer | Recipe: 6884 -->
+  <item>
+	<ingredient id="9142" count="12000"/>
+	<ingredient id="6884" count="1"/>
+	<production id="6365" count="1"/>
+  </item>
+ 
+  <!-- Sword of Ipos | Recipe: 8693 -->
+  <item>
+	<ingredient id="9142" count="14000"/>
+	<ingredient id="8693" count="1"/>
+	<production id="8679" count="1"/>
+  </item>
+ 
+  <!-- Naga Storm | Recipe: 8699 -->
+  <item>
+	<ingredient id="9142" count="14000"/>
+	<ingredient id="8699" count="1"/>
+	<production id="8682" count="1"/>
+  </item>
+ 
+  <!-- Tiphon's Spear | Recipe: 8701 -->
+  <item>
+	<ingredient id="9142" count="12000"/>
+	<ingredient id="8701" count="1"/>
+	<production id="8683" count="1"/>
+  </item>
+ 
+  <!-- Shyeed's Bow | Recipe: 8703 -->
+  <item>
+	<ingredient id="9142" count="18000"/>
+	<ingredient id="8703" count="1"/>
+	<production id="8684" count="1"/>
+  </item>
+ 
+  <!-- Sobekk's Hurricane | Recipe: 8705 -->
+  <item>
+	<ingredient id="9142" count="14000"/>
+	<ingredient id="8705" count="1"/>
+	<production id="8685" count="1"/>
+  </item>
+ 
+  <!-- Daimon Crystal | Recipe: 8711 -->
+  <item>
+	<ingredient id="9142" count="16000"/>
+	<ingredient id="8711" count="1"/>
+	<production id="8688" count="1"/>
+  </item>
+ 
+  <!-- Kaim Vanul's Bones | Recipe: 8311 -->
+  <item>
+	<ingredient id="9142" count="14000"/>
+	<ingredient id="8311" count="1"/>
+	<production id="7893" count="1"/>
+  </item>
+ 
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!--         ARMADURAS GRADO S                           -->
+  <!--         Solo Rax Coin (sin recipe)                  -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+ 
+  <!-- Imperial Crusader Breastplate -->
+  <item>
+	<ingredient id="9142" count="10000"/>
+	<production id="6373" count="1"/>
+  </item>
+ 
+  <!-- Imperial Crusader Gaiters -->
+  <item>
+	<ingredient id="9142" count="8000"/>
+	<production id="6374" count="1"/>
+  </item>
+ 
+  <!-- Imperial Crusader Gauntlets -->
+  <item>
+	<ingredient id="9142" count="3000"/>
+	<production id="6375" count="1"/>
+  </item>
+ 
+  <!-- Imperial Crusader Boots -->
+  <item>
+	<ingredient id="9142" count="3000"/>
+	<production id="6376" count="1"/>
+  </item>
+ 
+  <!-- Imperial Crusader Shield -->
+  <item>
+	<ingredient id="9142" count="4000"/>
+	<production id="6377" count="1"/>
+  </item>
+ 
+  <!-- Imperial Crusader Helmet -->
+  <item>
+	<ingredient id="9142" count="5000"/>
+	<production id="6378" count="1"/>
+  </item>
+ 
+  <!-- Draconic Leather Armor -->
+  <item>
+	<ingredient id="9142" count="10000"/>
+	<production id="6379" count="1"/>
+  </item>
+ 
+  <!-- Draconic Leather Gloves -->
+  <item>
+	<ingredient id="9142" count="3000"/>
+	<production id="6380" count="1"/>
+  </item>
+ 
+  <!-- Draconic Leather Boots -->
+  <item>
+	<ingredient id="9142" count="3000"/>
+	<production id="6381" count="1"/>
+  </item>
+ 
+  <!-- Draconic Leather Helmet -->
+  <item>
+	<ingredient id="9142" count="5000"/>
+	<production id="6382" count="1"/>
+  </item>
+ 
+  <!-- Major Arcana Robe -->
+  <item>
+	<ingredient id="9142" count="10000"/>
+	<production id="6383" count="1"/>
+  </item>
+ 
+  <!-- Major Arcana Gloves -->
+  <item>
+	<ingredient id="9142" count="3000"/>
+	<production id="6384" count="1"/>
+  </item>
+ 
+  <!-- Major Arcana Boots -->
+  <item>
+	<ingredient id="9142" count="3000"/>
+	<production id="6385" count="1"/>
+  </item>
+ 
+  <!-- Major Arcana Circlet -->
+  <item>
+	<ingredient id="9142" count="5000"/>
+	<production id="6386" count="1"/>
+  </item>
+ 
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+  <!--              JOYERIA RAID BOSS                      -->
+  <!-- â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• -->
+ 
+  <!-- Earring of Antharas -->
+  <item>
+	<ingredient id="9142" count="8000"/>
+	<production id="6656" count="1"/>
+  </item>
+ 
+  <!-- Necklace of Valakas -->
+  <item>
+	<ingredient id="9142" count="8000"/>
+	<production id="6657" count="1"/>
+  </item>
+ 
+  <!-- Ring of Baium -->
+  <item>
+	<ingredient id="9142" count="7000"/>
+	<production id="6658" count="1"/>
+  </item>
+ 
+  <!-- Earring of Zaken -->
+  <item>
+	<ingredient id="9142" count="6000"/>
+	<production id="6659" count="1"/>
+  </item>
+ 
+  <!-- Ring of Queen Ant -->
+  <item>
+	<ingredient id="9142" count="6000"/>
+	<production id="6660" count="1"/>
+  </item>
+ 
+  <!-- Earring of Orfen -->
+  <item>
+	<ingredient id="9142" count="5000"/>
+	<production id="6661" count="1"/>
+  </item>
+ 
+  <!-- Ring of Core -->
+  <item>
+	<ingredient id="9142" count="5000"/>
+	<production id="6662" count="1"/>
+  </item>
+ 
+  <!-- Necklace of Frintezza -->
+  <item>
+	<ingredient id="9142" count="8000"/>
+	<production id="8191" count="1"/>
+  </item>
+  
+</list>

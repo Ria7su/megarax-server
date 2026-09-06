@@ -1,0 +1,31 @@
+{
+  "gamePath": ".",
+  "manifestUrl": "https://patch.your-domain.com/manifest.json",
+  "websiteUrl": "https://your-domain.com",
+  "discordUrl": "https://discord.gg/megarax",
+  "registerUrl": "https://your-domain.com/register",
+  "newsUrl": "",
+  "serverStatusUrl": null,
+  "serverHost": null,
+  "serverPort": null,
+  "executableRelativePath": "system/l2.exe",
+  "downloadRetryCount": 3,
+  "requireHttps": true,
+  "defaultLanguage": "es",
+  "clientLanguages": [
+    { "code": "es", "displayName": "Español", "packRelativePath": "language-packs/es" },
+    { "code": "en", "displayName": "English", "packRelativePath": "language-packs/en" },
+    { "code": "pt", "displayName": "Português", "packRelativePath": "language-packs/pt" },
+    { "code": "ru", "displayName": "Русский", "packRelativePath": "language-packs/ru" }
+  ],
+  "criticalFiles": [
+    "system/l2.exe",
+    "system/interface.xdat",
+    "system/npcgrp.dat",
+    "system/itemname-e.dat",
+    "system/etcitemgrp.dat",
+    "system/armorgrp.dat",
+    "system/weapongrp.dat",
+    "system/skillgrp.dat"
+  ]
+}

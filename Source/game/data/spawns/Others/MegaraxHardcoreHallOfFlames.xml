@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="MegaraxHardcoreHallOfFlames">
+		<npc id="1004301" x="189438" y="-116436" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Hound -->
+		<npc id="1004302" x="190122" y="-116385" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Watcher -->
+		<npc id="1004301" x="190649" y="-116740" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Hound -->
+		<npc id="1004302" x="189267" y="-116971" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Watcher -->
+		<npc id="1004301" x="190090" y="-117279" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Hound -->
+		<npc id="1004302" x="189681" y="-117468" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Watcher -->
+		<npc id="1004301" x="190615" y="-117492" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Hound -->
+		<npc id="1004302" x="189105" y="-116210" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Watcher -->
+		<npc id="1004301" x="189964" y="-115932" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Hound -->
+		<npc id="1004302" x="190790" y="-116108" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Watcher -->
+		<npc id="1004301" x="189351" y="-115566" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Hound -->
+		<npc id="1004302" x="190431" y="-115522" z="-1624" heading="32768" respawnDelay="90" /> <!-- Megarax Flame Watcher -->
+	</spawn>
+</list>

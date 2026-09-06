@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<npc id="1004000" displayId="9906" level="80" type="Folk" name="DUNGEON MANAGER" usingServerSideName="true" title="MEGARAX" usingServerSideTitle="true">
+		<collision>
+			<radius normal="8" />
+			<height normal="42" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="2444" hpRegen="7.5" mp="1345" mpRegen="2.7" />
+			<attack physical="688" magical="470" random="30" critical="4" accuracy="4" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="295" magical="216" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="false" />
+	</npc>
+
+	<npc id="1004001" displayId="20858" level="82" type="Monster" name="Megarax Angel" usingServerSideName="true">
+		<collision>
+			<radius normal="8" />
+			<height normal="33" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="27200" hpRegen="12" mp="2500" mpRegen="5" />
+			<attack physical="2800" magical="1700" random="30" critical="4" accuracy="7" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1000" magical="850" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004002" displayId="27184" level="84" type="Monster" name="Megarax Angel Killer" usingServerSideName="true">
+		<collision>
+			<radius normal="10" />
+			<height normal="38" />
+		</collision>
+		<sex>MALE</sex>
+		<equipment rhand="78" /> <!-- rhand: Elven Sword -->
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="44200" hpRegen="14" mp="3200" mpRegen="6" />
+			<attack physical="3600" magical="2100" random="30" critical="4" accuracy="8" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1350" magical="1000" />
+			<speed>
+				<walk ground="50" />
+				<run ground="165" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004003" displayId="18008" level="86" type="Monster" name="Megarax Guardian" usingServerSideName="true" title="Dungeon Boss" usingServerSideTitle="true">
+		<collision>
+			<radius normal="18" />
+			<height normal="90" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="260000" hpRegen="20" mp="5000" mpRegen="8" />
+			<attack physical="5200" magical="2800" random="30" critical="4" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2400" magical="1700" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004010" displayId="21508" level="80" type="Monster" name="Megarax Stakato Guard" usingServerSideName="true">
+		<collision>
+			<radius normal="9" />
+			<height normal="26" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="60000" hpRegen="16" mp="3000" mpRegen="6" />
+			<attack physical="3100" magical="1550" random="30" critical="4" accuracy="8" attackSpeed="270" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1800" magical="1300" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>BUG</race>
+		<status attackable="true" />
+		<ai aggroRange="650" clanHelpRange="250" isAggressive="true" />
+	</npc>
+
+	<npc id="1004011" displayId="21509" level="81" type="Monster" name="Megarax Stakato Soldier" usingServerSideName="true">
+		<collision>
+			<radius normal="10" />
+			<height normal="28" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="72000" hpRegen="17" mp="3300" mpRegen="7" />
+			<attack physical="3600" magical="1750" random="30" critical="5" accuracy="8" attackSpeed="275" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2050" magical="1500" />
+			<speed>
+				<walk ground="50" />
+				<run ground="165" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>BUG</race>
+		<status attackable="true" />
+		<ai aggroRange="700" clanHelpRange="250" isAggressive="true" />
+	</npc>
+
+	<npc id="1004018" displayId="22117" level="82" type="Monster" name="Megarax Stakato Crusher" usingServerSideName="true">
+		<collision>
+			<radius normal="13" />
+			<height normal="34" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="95000" hpRegen="19" mp="3800" mpRegen="7" />
+			<attack physical="4300" magical="2000" random="30" critical="6" accuracy="9" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2350" magical="1700" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>BUG</race>
+		<status attackable="true" />
+		<ai aggroRange="750" clanHelpRange="300" isAggressive="true" />
+	</npc>
+
+	<npc id="1004012" displayId="21304" level="80" type="Monster" name="Megarax Argos Watchman" usingServerSideName="true">
+		<collision>
+			<radius normal="10" />
+			<height normal="28" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="55000" hpRegen="15" mp="3200" mpRegen="6" />
+			<attack physical="3200" magical="1750" random="30" critical="4" accuracy="8" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1800" magical="1350" />
+			<speed>
+				<walk ground="50" />
+				<run ground="165" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>GIANT</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004013" displayId="21305" level="81" type="Monster" name="Megarax Argos Scout" usingServerSideName="true">
+		<collision>
+			<radius normal="10" />
+			<height normal="30" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="65000" hpRegen="16" mp="3400" mpRegen="7" />
+			<attack physical="3600" magical="1950" random="30" critical="5" accuracy="8" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1950" magical="1450" />
+			<speed>
+				<walk ground="50" />
+				<run ground="168" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>GIANT</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004014" displayId="21306" level="82" type="Monster" name="Megarax Argos Supervisor" usingServerSideName="true">
+		<collision>
+			<radius normal="12" />
+			<height normal="32" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="80000" hpRegen="17" mp="3800" mpRegen="7" />
+			<attack physical="4100" magical="2200" random="30" critical="5" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2150" magical="1600" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>GIANT</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004015" displayId="21520" level="82" type="Monster" name="Megarax Grail Protector" usingServerSideName="true">
+		<collision>
+			<radius normal="11" />
+			<height normal="31" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="90000" hpRegen="18" mp="4200" mpRegen="8" />
+			<attack physical="4800" magical="2600" random="30" critical="6" accuracy="9" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="2600" magical="1900" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004016" displayId="21524" level="83" type="Monster" name="Megarax Grail Destroyer" usingServerSideName="true">
+		<collision>
+			<radius normal="12" />
+			<height normal="33" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="115000" hpRegen="20" mp="4500" mpRegen="8" />
+			<attack physical="5600" magical="3000" random="30" critical="6" accuracy="10" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3000" magical="2200" />
+			<speed>
+				<walk ground="50" />
+				<run ground="172" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+	</npc>
+
+	<npc id="1004017" displayId="21528" level="84" type="Monster" name="Megarax Grail Messenger" usingServerSideName="true">
+		<collision>
+			<radius normal="13" />
+			<height normal="35" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="140000" hpRegen="22" mp="4800" mpRegen="9" />
+			<attack physical="6200" magical="3300" random="30" critical="7" accuracy="10" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3300" magical="2450" />
+			<speed>
+				<walk ground="50" />
+				<run ground="175" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+	</npc>
+	<npc id="1004019" displayId="21528" level="87" type="Monster" name="Megarax Anais" usingServerSideName="true" title="RED ROUTE BOSS" usingServerSideTitle="true">
+		<collision>
+			<radius normal="18" />
+			<height normal="42" />
+		</collision>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="520000" hpRegen="28" mp="5200" mpRegen="10" />
+			<attack physical="6500" magical="3300" random="30" critical="7" accuracy="10" attackSpeed="265" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3800" magical="2850" />
+			<speed>
+				<walk ground="50" />
+				<run ground="172" />
+			</speed>
+			<hitTime>520</hitTime>
+		</stats>
+		<race>DIVINE</race>
+		<status attackable="true" />
+		<dropLists>
+			<drop>
+				<group chance="100">
+					<item id="57" min="160000" max="220000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="100">
+					<item id="9142" min="3" max="6" chance="100" /> <!-- Rax Coin -->
+				</group>
+				<group chance="20">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<skillList>
+			<skill id="4032" level="10" /> <!-- NPC Strike -->
+			<skill id="4072" level="10" /> <!-- Shock -->
+			<skill id="4085" level="1" /> <!-- Critical Power -->
+			<skill id="4086" level="1" /> <!-- Critical Chance -->
+			<skill id="4335" level="1" /> <!-- Sacred Attack -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4438" level="4" /> <!-- Greater Resist Sleep -->
+			<skill id="4439" level="4" /> <!-- Greater Resist Hold -->
+		</skillList>
+		<shots shotChance="45" spiritChance="20" />
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="1200" clanHelpRange="500" isAggressive="true">
+			<clanList>
+				<clan>MEGARAX_ANAIS</clan>
+			</clanList>
+		</ai>
+	</npc>
+</list>

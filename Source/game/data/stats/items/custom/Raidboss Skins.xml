@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="9862" type="Armor" name="Megarax Ancient Antharas">
+		<set name="icon" val="Racoon_CostumeNewValakasNew2.Icon.Body2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9863" type="Armor" name="Megarax Antharas Dragon">
+		<set name="icon" val="Racoon_CostumeNewValakasNew1.Icon.Body" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9864" type="Armor" name="Megarax Fafurion Dragon">
+		<set name="icon" val="Racoon_CostumeValakasNew2.Icon.valakas_icon2" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9865" type="Armor" name="Megarax Classic Valakas">
+		<set name="icon" val="Racoon_VakasClassic.Icon.Body" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9866" type="Armor" name="Megarax Crimson Dragon">
+		<set name="icon" val="RaccoonUnique3_Red.Icon.icon_r" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="fullarmor" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="CLOTH" />
+		<set name="weight" val="10" />
+		<set name="price" val="0" />
+	</item>
+
+</list>

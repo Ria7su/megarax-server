@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="24_18">
+		<npc id="30766" x="160611" y="21236" z="-3714" heading="32768" respawnDelay="60" /> <!-- Cleo -->
+		<npc id="9901" x="146732" y="25809" z="-2039" heading="891" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="31690" x="147629" y="27498" z="-2230" heading="47729" respawnDelay="60" /> <!-- Monument of Heroes -->
+		<npc id="31688" x="147556" y="27486" z="-2230" heading="47997" respawnDelay="60" /> <!-- Grand Olympiad Manager -->
+		<npc id="9901" x="147455" y="27482" z="-2230" heading="48779" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9900" x="147223" y="27356" z="-2231" heading="50973" respawnDelay="60" /> <!-- GMSHOP - MEGARAX -->
+		<npc id="9903" x="147691" y="27375" z="-2231" heading="48965" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+		<npc id="9914" x="147820" y="26586" z="-2231" heading="16383" respawnDelay="60" /> <!-- DAILY MANAGER - MEGARAX -->
+		<npc id="31756" x="147333" y="27493" z="-2230" heading="47093" respawnDelay="60" /> <!-- CLASSMASTER - MEGARAX -->
+		<npc id="9911" x="146868" y="26576" z="-2231" heading="17374" respawnDelay="60" /> <!-- SERVICES - MEGARAX -->
+		<npc id="9913" x="147094" y="26577" z="-2231" heading="15086" respawnDelay="60" /> <!-- RENTAL MANAGER - MEGARAX -->
+		<npc id="9903" x="146945" y="25673" z="-2039" heading="16383" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+		<npc id="31356" x="147271" y="27861" z="-2294" heading="11902" respawnDelay="60" /> <!-- Megarax News - MEGARAX -->
+	</spawn>
+</list>

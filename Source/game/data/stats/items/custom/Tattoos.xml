@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+<item id="9540" type="Armor" name="Tattoo of Fight Lv.1">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="400" />
+        <add stat="runSpd" val="8" />
+        <add stat="pDef" val="50" />
+        <add stat="mDef" val="50" />
+        <add stat="pAtkSpd" val="110" />
+        <add stat="pAtk" val="80" />
+    </stats>
+</item>
+<item id="9541" type="Armor" name="Tattoo of Fight Lv.2">
+     <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="500" />
+        <add stat="runSpd" val="10" />
+        <add stat="pDef" val="75" />
+        <add stat="mDef" val="75" />
+        <add stat="pAtkSpd" val="165" />
+        <add stat="pAtk" val="130" />
+    </stats>
+</item>
+<item id="9542" type="Armor" name="Tattoo of Fight Lv.3">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="650" />
+        <add stat="runSpd" val="12" />
+        <add stat="pDef" val="100" />
+        <add stat="mDef" val="100" />
+        <add stat="pAtkSpd" val="220" />
+        <add stat="pAtk" val="200" />
+    </stats>
+</item>
+<item id="9543" type="Armor" name="Tattoo of Fight Lv.4">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="800" />
+        <add stat="runSpd" val="15" />
+        <add stat="pDef" val="150" />
+        <add stat="mDef" val="150" />
+        <add stat="pAtkSpd" val="286" />
+        <add stat="pAtk" val="300" />
+    </stats>
+</item>
+<item id="9544" type="Armor" name="Tattoo of Fight Lv.5">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="1000" /> 
+        <add stat="runSpd" val="20" />
+        <add stat="pDef" val="220" />
+        <add stat="mDef" val="220" />
+        <add stat="pAtkSpd" val="352" />
+        <add stat="pAtk" val="420" />
+    </stats>
+</item>
+<item id="9545" type="Armor" name="Tattoo of Fight - Gm Power">
+  <for>
+    <mul order="0x30" stat="pAtkSpd" val="1.50"/> <!-- Attack Speed +50% -->
+    <mul order="0x30" stat="pAtk" val="1.25"/> <!-- P. Atk +20% -->
+    <add order="0x40" stat="maxMp" val="1000"/> <!-- Maximum MP +1000 -->
+    <add val='50' order='0x40' stat='runSpd'/>
+    <mul order="0x30" stat="pDef" val="1.10"/> <!-- P Def. +10% -->
+    <mul order="0x30" stat="mDef" val="1.10"/> <!-- M Def. +10% -->
+    <add order="0x40" stat="maxHp" val="7000"/> <!-- Maximum HP +1000 -->
+  <enchant val='0' order='0x0C' stat='pDef'/>
+</for>
+</item>
+<item id="9546" type="Armor" name="Tattoo of Mage Lv.1">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="300" />
+        <add stat="maxMp" val="500" />
+        <add stat="mAtkSpd" val="220" />
+        <add stat="mAtk" val="100" />
+        <add stat="runSpd" val="8" />
+        <add stat="pDef" val="50" />
+        <add stat="mDef" val="50" />
+    </stats>
+</item>
+<item id="9547" type="Armor" name="Tattoo of Mage Lv.2">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="400" />
+        <add stat="maxMp" val="650" />
+        <add stat="mAtkSpd" val="275" />
+        <add stat="mAtk" val="160" />
+        <add stat="runSpd" val="10" />
+        <add stat="pDef" val="75" />
+        <add stat="mDef" val="75" />
+    </stats>
+</item>
+<item id="9548" type="Armor" name="Tattoo of Mage Lv.3">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="550" />
+        <add stat="mAtkSpd" val="330" />
+        <add stat="mAtk" val="240" />
+        <add stat="maxMp" val="800" />
+        <add stat="runSpd" val="12" />
+        <add stat="pDef" val="100" />
+        <add stat="mDef" val="100" />
+    </stats>
+</item>
+<item id="9549" type="Armor" name="Tattoo of Mage Lv.4">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="700" />
+        <add stat="mAtkSpd" val="418" />
+        <add stat="mAtk" val="340" />
+        <add stat="maxMp" val="950" />
+        <add stat="runSpd" val="15" />
+        <add stat="pDef" val="150" />
+        <add stat="mDef" val="150" />
+    </stats>
+</item>
+<item id="9550" type="Armor" name="Tattoo of Mage Lv.5">
+    <set name="default_action" val="EQUIP" />
+    <set name="armor_type" val="LIGHT" />
+    <set name="bodypart" val="underwear" />
+    <set name="immediate_effect" val="true" />
+    <set name="crystal_count" val="0" />
+    <set name="crystal_type" val="D" />
+    <set name="material" val="DYESTUFF" />
+    <set name="weight" val="0" />
+    <set name="price" val="0" />
+    <set name="enchant_enabled" val="false" />
+    <stats>
+        <add stat="maxHp" val="1000" />
+        <add stat="mAtkSpd" val="495" />
+        <add stat="mAtk" val="480" />
+        <add stat="maxMp" val="1200" />
+        <add stat="runSpd" val="20" />
+        <add stat="pDef" val="220" />
+        <add stat="mDef" val="220" />
+    </stats>
+</item>
+</list>

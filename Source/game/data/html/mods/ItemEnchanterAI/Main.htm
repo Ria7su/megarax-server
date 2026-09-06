@@ -1,0 +1,58 @@
+<html><body bgcolor=000000>
+<center>
+<table width=300 bgcolor=000000>
+<tr><td align=center bgcolor=000000>
+<button value="Item Enchanter AI" width=295 height=24 back="Galaxy.2955" fore="Galaxy.2955">
+<table width=294 bgcolor=000000>
+<tr><td align=center bgcolor=000000><font color="E6C27A">Select your item and enchant scroll.</font></td></tr>
+</table>
+<table width=294 bgcolor=000000>
+<tr>
+<td width=74 align=center bgcolor=000000><font color="B09878">STATUS</font><br1><font color="%status_color%">%status%</font></td>
+<td width=220 bgcolor=000000><font color="FFFFFF">%message%</font></td>
+</tr>
+</table>
+<br1>
+<button value="Selected Item" width=295 height=24 back="Galaxy.2955" fore="Galaxy.2955">
+<table width=294 bgcolor=000000>
+<tr>
+<td width=38 align=center bgcolor=000000>%item_icon%</td>
+<td width=168 bgcolor=000000><font color="LEVEL">%item_name%</font><br1><font color="D8B66A">%item_type% / %item_grade% / %current_enchant%</font></td>
+<td width=88 align=center bgcolor=000000><button value="Select" action="bypass -h voice .enchantai items 1" width=74 height=24 back="Galaxy.105_OVER" fore="Galaxy.105"></td>
+</tr>
+</table>
+<br1>
+<button value="Selected Scroll" width=295 height=24 back="Galaxy.2955" fore="Galaxy.2955">
+<table width=294 bgcolor=000000>
+<tr>
+<td width=38 align=center bgcolor=000000>%scroll_icon%</td>
+<td width=168 bgcolor=000000><font color="LEVEL">%scroll_name%</font><br1><font color="D8B66A">%scroll_type% / x%scroll_count%</font></td>
+<td width=88 align=center bgcolor=000000><button value="Select" action="bypass -h voice .enchantai scrolls 1" width=74 height=24 back="Galaxy.105_OVER" fore="Galaxy.105"></td>
+</tr>
+</table>
+<table width=294 bgcolor=000000>
+<tr>
+<td width=98 align=center bgcolor=000000><font color="B09878">Current</font><br1><font color="FFFFFF">%current_enchant%</font></td>
+<td width=98 align=center bgcolor=000000><font color="B09878">Max</font><br1><font color="FFFFFF">%max_enchant%</font></td>
+<td width=98 align=center bgcolor=000000><font color="B09878">Auto</font><br1><font color="FF6600">2 sec</font></td>
+</tr>
+</table>
+<br1>
+<table width=294 bgcolor=000000>
+<tr>
+<td width=98 align=center bgcolor=000000>%toggle_button%</td>
+<td width=98 align=center bgcolor=000000><button value="Refresh" action="bypass -h voice .enchantai" width=90 height=24 back="Galaxy.105_OVER" fore="Galaxy.105"></td>
+<td width=98 align=center bgcolor=000000><button value="Back" action="bypass -h voice .enchantai" width=90 height=24 back="Galaxy.105_OVER" fore="Galaxy.105"></td>
+</tr>
+</table>
+<table width=294 bgcolor=000000>
+<tr>
+<td width=147 align=center bgcolor=000000><button value="Clear Item" action="bypass -h voice .enchantai clearItem" width=105 height=24 back="Galaxy.105_OVER" fore="Galaxy.105"></td>
+<td width=147 align=center bgcolor=000000><button value="Clear Scroll" action="bypass -h voice .enchantai clearScroll" width=105 height=24 back="Galaxy.105_OVER" fore="Galaxy.105"></td>
+</tr>
+</table>
+<font color="B09878">Megarax Forge Protocol</font>
+</td></tr>
+</table>
+</center>
+</body></html>

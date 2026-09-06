@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="MegaraxCommunityProjects">
+		<npc id="1005010" x="116150" y="76270" z="-2703" heading="32768" respawnDelay="60" /> <!-- Hunter Village -->
+	</spawn>
+</list>

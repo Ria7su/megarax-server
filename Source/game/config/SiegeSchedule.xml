@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../data/xsd/SiegeSchedule.xsd">
+	<schedule castleId="1" castleName="Gludio" siegeEnabled="false" day="SUNDAY" hour="16" maxConcurrent="1" />
+	<schedule castleId="2" castleName="Dion" siegeEnabled="false" day="SUNDAY" hour="20" maxConcurrent="1" />
+	<schedule castleId="3" castleName="Giran" siegeEnabled="true" day="SUNDAY" hour="16" maxConcurrent="1" />
+	<schedule castleId="4" castleName="Oren" siegeEnabled="false" day="SUNDAY" hour="20" maxConcurrent="1" />
+	<schedule castleId="5" castleName="Aden" siegeEnabled="false" day="SUNDAY" hour="16" maxConcurrent="1" />
+	<schedule castleId="6" castleName="Innadril" siegeEnabled="false" day="SUNDAY" hour="20" maxConcurrent="1" />
+	<schedule castleId="7" castleName="Goddard" siegeEnabled="false" day="SUNDAY" hour="16" maxConcurrent="1" />
+	<schedule castleId="8" castleName="Rune" siegeEnabled="false" day="SUNDAY" hour="20" maxConcurrent="1" />
+	<schedule castleId="9" castleName="Schuttgart" siegeEnabled="false" day="SUNDAY" hour="16" maxConcurrent="1" />
+</list>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/initialEquipment.xsd">
+	<!-- Human Fighter -->
+	<equipment classId="0">
+		<item id="23" count="1" equipped="true" /> <!-- Chest -->
+	    <item id="2386" count="1" equipped="true" /> <!-- Pants -->
+	    <item id="43" count="1" equipped="true" /> <!-- Helmet -->
+	    <item id="66" count="1" equipped="true" /> <!-- Weapon -->
+	    <item id="5588" count="1" /> <!-- Tutorial Guide -->
+	    <item id="9130" count="1" /> <!-- Box Iniciate -->
+    </equipment>
+	<!-- Human Mystic -->
+	<equipment classId="10">
+		<item id="6355" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="1101" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
+		<item id="1104" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
+		<item id="44" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="5588" count="1" /> <!-- Tutorial Guide -->
+		<item id="9130" count="1" /> <!-- Box Iniciate -->
+	</equipment>
+	<!-- Elven Fighter -->
+	<equipment classId="18">
+		<item id="23" count="1" equipped="true" /> <!-- Chest -->
+	    <item id="2386" count="1" equipped="true" /> <!-- Pants -->
+	    <item id="43" count="1" equipped="true" /> <!-- Helmet -->
+	    <item id="66" count="1" equipped="true" /> <!-- Weapon -->
+	    <item id="5588" count="1" /> <!-- Tutorial Guide -->
+	    <item id="9130" count="1" /> <!-- Box Iniciate -->
+    </equipment>
+	<!-- Elven Mystic -->
+	<equipment classId="25">
+		<item id="6355" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="1101" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
+		<item id="1104" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
+		<item id="44" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="5588" count="1" /> <!-- Tutorial Guide -->
+		<item id="9130" count="1" /> <!-- Box Iniciate -->
+	</equipment>
+	<!-- Dark Fighter -->
+	<equipment classId="31">
+		<item id="23" count="1" equipped="true" /> <!-- Chest -->
+	    <item id="2386" count="1" equipped="true" /> <!-- Pants -->
+	    <item id="43" count="1" equipped="true" /> <!-- Helmet -->
+	    <item id="66" count="1" equipped="true" /> <!-- Weapon -->
+	    <item id="5588" count="1" /> <!-- Tutorial Guide -->
+	    <item id="9130" count="1" /> <!-- Box Iniciate -->
+    </equipment>
+	<!-- Dark Mystic -->
+	<equipment classId="38">
+		<item id="6355" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="1101" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
+		<item id="1104" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
+		<item id="44" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="5588" count="1" /> <!-- Tutorial Guide -->
+		<item id="9130" count="1" /> <!-- Box Iniciate -->
+	</equipment>
+	<!-- Orc Fighter -->
+	<equipment classId="44">
+		<item id="23" count="1" equipped="true" /> <!-- Chest -->
+	    <item id="2386" count="1" equipped="true" /> <!-- Pants -->
+	    <item id="43" count="1" equipped="true" /> <!-- Helmet -->
+	    <item id="66" count="1" equipped="true" /> <!-- Weapon -->
+	    <item id="5588" count="1" /> <!-- Tutorial Guide -->
+	    <item id="9130" count="1" /> <!-- Box Iniciate -->
+    </equipment>
+	<!-- Orc Mystic -->
+	<!-- NOTE: This is orc_mage (orc_shaman is retail typo) -->
+	<equipment classId="49">
+		<item id="6355" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="1101" count="1" equipped="true" /> <!-- Apprentice's Tunic -->
+		<item id="1104" count="1" equipped="true" /> <!-- Apprentice's Stockings -->
+		<item id="44" count="1" equipped="true" /> <!-- Apprentice's Wand -->
+		<item id="5588" count="1" /> <!-- Tutorial Guide -->
+		<item id="9130" count="1" /> <!-- Box Iniciate -->
+	</equipment>
+	<!-- Dwarf Fighter -->
+	<equipment classId="53">
+		<item id="23" count="1" equipped="true" /> <!-- Chest -->
+	    <item id="2386" count="1" equipped="true" /> <!-- Pants -->
+	    <item id="43" count="1" equipped="true" /> <!-- Helmet -->
+	    <item id="1301" count="1" equipped="true" /> <!-- Weapon -->
+	    <item id="5588" count="1" /> <!-- Tutorial Guide -->
+	    <item id="9130" count="1" /> <!-- Box Iniciate -->
+    </equipment>
+</list>

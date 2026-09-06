@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="MegaraxLivingChronicle">
+		<npc id="1005000" x="-82010" y="243850" z="-3712" heading="32768" respawnDelay="60" /> <!-- Talking Island -->
+		<npc id="1005000" x="46920" y="51560" z="-2976" heading="32768" respawnDelay="60" /> <!-- Elven Village -->
+		<npc id="1005000" x="16790" y="15080" z="-4136" heading="32768" respawnDelay="60" /> <!-- Dark Elf Village -->
+		<npc id="1005000" x="-45680" y="-110360" z="-240" heading="32768" respawnDelay="60" /> <!-- Orc Village -->
+		<npc id="1005000" x="116700" y="-183900" z="-1560" heading="32768" respawnDelay="60" /> <!-- Dwarven Village -->
+		<npc id="1005000" x="116080" y="76270" z="-2703" heading="32768" respawnDelay="60" /> <!-- Hunter Village / current arrival -->
+	</spawn>
+</list>

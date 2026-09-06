@@ -1,0 +1,70 @@
+<html>
+<title>Megarax Buffer</title>
+<body>
+<center>
+
+<button value="Saved Buff Schemes" width=295 height=24 back="Galaxy.2955" fore="Galaxy.2955">
+
+<table width=292 bgcolor="000000">
+<tr>
+<td width=38 align=center>
+<img src="icon.skill1045" width=32 height=32>
+</td>
+<td width=238>
+<font color="0099FF">Your Buff Profiles</font><br1>
+<font color="ae9977">Create a setup once, then apply it quickly.</font>
+</td>
+</tr>
+</table>
+
+<br>
+
+<button value="Create New Scheme" width=295 height=24 back="Galaxy.2955" fore="Galaxy.2955">
+
+<table width=292 bgcolor="000000">
+<tr>
+<td align=center>
+<font color="ae9977">Available slots:</font> <font color="LEVEL">%max_schemes%</font>
+</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr>
+<td align=center>
+<edit var="name" width=155 height=15>
+</td>
+</tr>
+<tr><td height=5></td></tr>
+<tr>
+<td align=center>
+<button value="Create" action="bypass npc_%objectId%_createscheme $name" width=105 height=21 back="Galaxy.105_OVER" fore="Galaxy.105">
+</td>
+</tr>
+</table>
+
+<br>
+
+<button value="Apply Or Edit" width=295 height=24 back="Galaxy.2955" fore="Galaxy.2955">
+
+<table width=292 bgcolor="000000">
+<tr>
+<td align=center>
+<font color="ae9977">Choose one of your saved schemes below.</font>
+</td>
+</tr>
+<tr><td height=6></td></tr>
+<tr>
+<td align=center>
+%schemes%
+</td>
+</tr>
+<tr><td height=8></td></tr>
+<tr>
+<td align=center>
+<button value="Back" action="bypass npc_%objectId%_menu" width=105 height=21 back="Galaxy.105_OVER" fore="Galaxy.105">
+</td>
+</tr>
+</table>
+
+</center>
+</body>
+</html>

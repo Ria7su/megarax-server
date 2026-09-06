@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/zones.xsd">
+	<!-- PVP Zones -->
+	<zone name="dion_monster_pvp" type="ArenaZone" shape="NPoly" minZ="-3596" maxZ="0"> <!-- [20_23] -->
+		<node X="11947" Y="183019" />
+		<node X="12937" Y="183019" />
+		<node X="12943" Y="184010" />
+		<node X="11941" Y="184010" />
+	</zone>
+	<zone name="gludin_pvp" type="ArenaZone" shape="NPoly" minZ="-3752" maxZ="-352"> <!-- [17_22] -->
+		<node X="-88411" Y="141732" />
+		<node X="-87429" Y="141733" />
+		<node X="-87429" Y="142708" />
+		<node X="-88408" Y="142708" />
+	</zone>
+	<zone name="giran_pvp_battle" type="ArenaZone" shape="NPoly" minZ="-3850" maxZ="-350"> <!-- [22_22] -->
+		<node X="72493" Y="142263" />
+		<node X="73493" Y="142264" />
+		<node X="73493" Y="143261" />
+		<node X="72495" Y="143258" />
+	</zone>
+	<zone name="colosseum_battle1" type="ArenaZone" shape="NPoly" minZ="-3498" maxZ="-3298"> <!-- [24_19] -->
+		<node X="151252" Y="45918" />
+		<node X="151219" Y="46182" />
+		<node X="150677" Y="46786" />
+		<node X="148334" Y="46788" />
+		<node X="147748" Y="46166" />
+		<node X="147744" Y="45916" />
+		<node X="148238" Y="45301" />
+		<node X="150781" Y="45307" />
+	</zone>
+	<zone name="colosseum_battle2" type="ArenaZone" shape="NPoly" minZ="-3498" maxZ="-3298"> <!-- [24_19] -->
+		<node X="151236" Y="47268" />
+		<node X="151255" Y="47520" />
+		<node X="150785" Y="48132" />
+		<node X="148258" Y="48126" />
+		<node X="147712" Y="47532" />
+		<node X="147728" Y="47294" />
+		<node X="148278" Y="46707" />
+		<node X="150697" Y="46709" />
+	</zone>
+	<zone name="colosseum_battle3" type="ArenaZone" shape="NPoly" minZ="-3587" maxZ="-3387"> <!-- [24_19] -->
+		<node X="148047" Y="46276" />
+		<node X="150955" Y="46276" />
+		<node X="150956" Y="47052" />
+		<node X="148049" Y="47053" />
+	</zone>
+
+	<!-- MEGARAX Dynamic PvP Zones -->
+<zone name="megarax_forest_dead_pvp" type="ArenaZone" shape="NPoly" minZ="-4500" maxZ="-1500">
+	<node X="46107" Y="-60328" />
+	<node X="58107" Y="-60328" />
+	<node X="58107" Y="-48328" />
+	<node X="46107" Y="-48328" />
+</zone>
+
+<zone name="megarax_talking_island_conquest" type="ArenaZone" shape="NPoly" minZ="-3900" maxZ="-3000">
+	<node X="-102798" Y="234247" />
+	<node X="-97798" Y="234247" />
+	<node X="-97798" Y="239247" />
+	<node X="-102798" Y="239247" />
+</zone>
+
+<zone name="megarax_imperial_tomb_pvp" type="ArenaZone" shape="NPoly" minZ="-4055" maxZ="-1455">
+	<node X="172380" Y="-86685" />
+	<node X="190380" Y="-86685" />
+	<node X="190380" Y="-70685" />
+	<node X="172380" Y="-70685" />
+</zone>
+
+<zone name="megarax_toi_13_pvp" type="ArenaZone" shape="NPoly" minZ="-11500" maxZ="-10000">
+	<node X="-18768" Y="-40712" />
+	<node X="-13968" Y="-40712" />
+	<node X="-13968" Y="-37112" />
+	<node X="-18768" Y="-37112" />
+</zone>
+
+<zone name="megarax_ketra_orc_pvp" type="ArenaZone" shape="NPoly" minZ="-5000" maxZ="-2500">
+	<node X="138000" Y="-76000" />
+	<node X="156000" Y="-76000" />
+	<node X="156000" Y="-59000" />
+	<node X="138000" Y="-59000" />
+</zone>
+
+<zone name="megarax_pagan_temple_pvp" type="ArenaZone" shape="NPoly" minZ="-11500" maxZ="-10000">
+	<node X="-23000" Y="-45000" />
+	<node X="-9000" Y="-45000" />
+	<node X="-9000" Y="-33000" />
+	<node X="-23000" Y="-33000" />
+</zone>
+</list>

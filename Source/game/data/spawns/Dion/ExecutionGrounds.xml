@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+
+	<!-- TODOS LOS MOBS CAMBIADOS A ID 18343 -->
+
+
+	<spawn zone="dion02_2122_19">
+		<territory minZ="-3894" maxZ="-3094">
+			<node x="41756" y="149052" />
+			<node x="41136" y="151006" />
+			<node x="40160" y="151658" />
+			<node x="38625" y="151563" />
+			<node x="36644" y="150004" />
+			<node x="36000" y="148753" />
+			<node x="40615" y="148333" />
+		</territory>
+		<npc id="18343" count="2" respawnDelay="35" />
+		<npc id="18343" count="4" respawnDelay="35" />
+	</spawn>
+
+	<spawn zone="dion02_2122_20s">
+		<territory minZ="-3960" maxZ="-3360">
+			<node x="40207" y="145191" />
+			<node x="41090" y="146457" />
+			<node x="40727" y="147323" />
+			<node x="38391" y="147509" />
+			<node x="38314" y="146511" />
+			<node x="39653" y="145086" />
+		</territory>
+		<npc id="18343" count="2" respawnDelay="35" />
+		<npc id="18343" count="3" respawnDelay="35" />
+	</spawn>
+
+	<!-- CONTINÚA IGUAL EN TODO EL ARCHIVO -->
+	<!-- SOLO SE CAMBIARON TODOS LOS npc id="" POR 18343 -->
+
+</list>

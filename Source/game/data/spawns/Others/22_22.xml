@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="22_22">
+		<npc id="9902" x="82838" y="149408" z="-3495" heading="48603" respawnDelay="60" /> <!-- WAREHOUSE - MEGARAX -->
+		<npc id="9902" x="83691" y="149248" z="-3431" heading="31546" respawnDelay="60" /> <!-- WAREHOUSE - MEGARAX -->
+		<npc id="50007" x="87045" y="148703" z="-3428" heading="32155" respawnDelay="60" /> <!-- Andromeda - Wedding Manager -->
+		<npc id="9903" x="83075" y="148394" z="-3495" heading="31674" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+		<npc id="9903" x="83077" y="148845" z="-3495" heading="30357" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+		<npc id="31756" x="83075" y="147912" z="-3495" heading="31674" respawnDelay="60" /> <!-- CLASSMASTER - MEGARAX -->
+		<npc id="31126" x="82026" y="149573" z="-3495" heading="49730" respawnDelay="60" /> <!-- Blacksmith of Mammon -->
+		<npc id="35187" x="81663" y="149713" z="-3495" heading="48751" respawnDelay="60" /> <!-- Manor Manager - Giran -->
+		<npc id="9911" x="83682" y="147991" z="-3431" heading="32024" respawnDelay="60" /> <!-- SERVICES - MEGARAX -->
+		<npc id="30109" x="82718" y="149695" z="-3495" heading="48877" respawnDelay="60" /> <!-- Hannavalt - Grand Master -->
+		<npc id="30120" x="82622" y="149699" z="-3495" heading="49433" respawnDelay="60" /> <!-- Maximilian - High Priest -->
+		<npc id="30115" x="82522" y="149701" z="-3495" heading="49151" respawnDelay="60" /> <!-- Jurek - Grand Magister -->
+		<npc id="30474" x="82435" y="149703" z="-3495" heading="50043" respawnDelay="60" /> <!-- Angus - Grand Master -->
+		<npc id="30513" x="82345" y="149700" z="-3495" heading="50397" respawnDelay="60" /> <!-- Penatus - High Prefect -->
+		<npc id="31081" x="83350" y="149349" z="-3431" heading="48717" respawnDelay="60" /> <!-- Priest of Dawn -->
+		<npc id="9913" x="83576" y="147561" z="-3431" heading="15640" respawnDelay="60" /> <!-- RENTAL MANAGER - MEGARAX -->
+		<npc id="31049" x="82107" y="149057" z="-3493" heading="10344" respawnDelay="60" /> <!-- Pepper - Symbol Maker -->
+		<npc id="9914" x="83696" y="148857" z="-3431" heading="32767" respawnDelay="60" /> <!-- DAILY MANAGER - MEGARAX -->
+		<npc id="1002000" x="82103" y="148169" z="-3493" heading="54135" respawnDelay="60" /> <!-- Jeadin - Experience Devourer -->
+		<npc id="31365" x="83072" y="149324" z="-3495" heading="32314" respawnDelay="60" /> <!-- RANKING MANAGER - MEGARAX -->
+		<npc id="9911" x="82366" y="148792" z="-3493" heading="1758" respawnDelay="60" /> <!-- SERVICES - MEGARAX -->
+		<npc id="9911" x="82371" y="148420" z="-3493" heading="61843" respawnDelay="60" /> <!-- SERVICES - MEGARAX -->
+		<npc id="9901" x="83406" y="147892" z="-3431" heading="14325" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="1004000" x="83690" y="148382" z="-3431" heading="32367" respawnDelay="60" /> <!-- DUNGEON MANAGER - MEGARAX -->
+		<npc id="9900" x="82188" y="148604" z="-3493" heading="64349" respawnDelay="60" /> <!-- GMSHOP - MEGARAX -->
+		<npc id="31805" x="82852" y="147510" z="-3495" heading="16383" respawnDelay="60" /> <!-- Adventure Guildsman -->
+		<npc id="900010" x="82839" y="147805" z="-3495" heading="16383" respawnDelay="60" /> <!-- GLADIATOR - MEGARAX -->
+		<npc id="1005010" x="82488" y="147490" z="-3464" heading="16383" respawnDelay="60" /> <!-- MEMORIAL DE LOS CAMINOS - CONSTRUIDO POR LOS JUGADORES -->
+		<npc id="1005000" x="82493" y="147557" z="-3464" heading="15583" respawnDelay="60" /> <!-- AELIA - CRONISTA DE MEGARAX -->
+	</spawn>
+</list>

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/teleporterData.xsd">
+    <npc id="9901">
+        <teleport type="NORMAL">
+            <location name="Town of Giran" x="83336" y="147972" z="-3404" feeCount="18000" />
+            <location name="Town of Aden" x="146705" y="25840" z="-2000" feeCount="24000" />
+            <location name="Town of Rune" x="43835" y="-47749" z="-792" feeCount="46000" />
+            <location name="Town of Gludio" x="-12694" y="122776" z="-3114" feeCount="23000" />
+            <location name="Town of Heine" x="111455" y="219400" z="-3546" feeCount="35000" />
+            <location name="Dark Elven Village" x="9716" y="15502" z="-4500" feeCount="830" />
+            <location name="Dwarven Village" x="115120" y="-178112" z="-916" feeCount="770" />
+            <location name="Talking Island Village" x="-84141" y="244623" z="-3729" feeCount="1000" />
+            <location name="Town of Goddard" x="148024" y="-55281" z="-2728" feeCount="470" />
+            <location name="Town of Schuttgart" x="87478" y="-142297" z="-1352" feeCount="470" />
+            <location name="Town of Dion" x="15671" y="142994" z="-2704" feeCount="470" />
+            <location name="Village of Gludin" x="-80826" y="149775" z="-3043" feeCount="470" />
+            <location name="Town of Oren" x="83011" y="53207" z="-1470" feeCount="470" />
+            <location name="Elven Village" x="46890" y="51531" z="-2976" feeCount="470" />
+            <location name="Orc Village" x="-45186" y="-112459" z="-236" feeCount="470" />
+            <location name="Elven Ruins" x="-112367" y="234703" z="-3688" feeCount="470" />
+            <location name="Lv15+" x="-112367" y="234703" z="-3688" feeCount="1000" />
+            <location name="Lv25+" x="-19120" y="136816" z="-3752" feeCount="1000" />
+            <location name="Lv35+" x="73024" y="118485" z="-3720" feeCount="1000" />
+            <location name="Lv45+" x="167047" y="20304" z="-3328" feeCount="1000" />
+            <location name="Lv55+" x="131557" y="114509" z="-3712" feeCount="1000" />
+            <location name="Lv65+" x="165054" y="-47861" z="-3560" feeCount="1000" />
+            <location name="Lv75+" x="186699" y="-75915" z="-2826" feeCount="1000" />
+            <location name="Lv80+" x="169533" y="-116228" z="-2312" feeCount="1000" />
+            <location name="Party Lv15+" x="-41248" y="122848" z="-2912" feeCount="1000" />
+            <location name="Party Lv30+" x="17225" y="114173" z="-3440" feeCount="1000" />
+            <location name="Party Lv45+" x="73024" y="118485" z="-3720" feeCount="1000" />
+            <location name="Party Lv60+" x="131557" y="114509" z="-3712" feeCount="1000" />
+            <location name="Party Lv70+" x="165054" y="-47861" z="-3560" feeCount="1000" />
+            <location name="Party Lv75+" x="106414" y="-87799" z="-2949" feeCount="1000" />
+            <location name="Summon Zone" x="47777" y="186131" z="-3512" feeCount="1000" />
+            <location name="Clan Conquest" x="-100264" y="236650" z="-3560" feeCount="1000" />
+            <location name="Giran Harbor" x="47938" y="186864" z="-3420" feeCount="1000" />
+        </teleport>
+        <teleport type="OTHER">
+            <location name="Secret Books Farm" x="181737" y="46469" z="-4276" feeCount="1000" />
+            <location name="Rax Coin | Life Stone" x="110654" y="-87802" z="-3295" feeCount="1000" />
+            <location name="Rax Coin x3" x="34816" y="147634" z="-3561" feeCount="1000" />
+            <location name="Craft Coin Farm" x="171946" y="-173352" z="3440" feeCount="1000" />
+            <location name="Lilith Raid" x="-46330" y="49476" z="-5685" feeCount="1000" />
+            <location name="Anakim Raid" x="-114437" y="-181477" z="-6781" feeCount="1000" />
+            <location name="Discarded Guardian" x="48000" y="243376" z="-6611" feeCount="1000" />
+            <location name="Zombie Lord Farakelsus" x="22500" y="80300" z="-2772" feeCount="1000" />
+            <location name="Madness Beast" x="-54096" y="84288" z="-3512" feeCount="1000" />
+            <location name="Serpent Demon Bifrons" x="-13056" y="215680" z="-3760" feeCount="1000" />
+            <location name="Sukar Wererat Chief" x="-3456" y="112864" z="-3456" feeCount="1000" />
+            <location name="Malex Herald of Dagoniel" x="9649" y="77467" z="-3808" feeCount="1000" />
+            <location name="Kaysha Herald of Icarus" x="-47367" y="51548" z="-5904" feeCount="1000" />
+            <location name="Greyclaw Kutus" x="-54416" y="146480" z="-2887" feeCount="1000" />
+            <location name="Tracker Leader Sharuk" x="-55920" y="186768" z="-3336" feeCount="1000" />
+            <location name="Kuroboros&apos;Priest" x="-62368" y="179440" z="-3594" feeCount="1000" />
+            <location name="Unrequited Kael" x="-60428" y="188264" z="-4512" feeCount="1000" />
+            <location name="Langk Matriarch Rashkos" x="-47552" y="219232" z="-2413" feeCount="1000" />
+            <location name="Pan Dryad" x="7376" y="169376" z="-3600" feeCount="1000" />
+            <location name="Princess Molrang" x="-60976" y="127552" z="-2960" feeCount="1000" />
+            <location name="Zombie Lord Crowl" x="-12656" y="138176" z="-3584" feeCount="1000" />
+            <location name="Ikuntai" x="-21800" y="152000" z="-2900" feeCount="1000" />
+            <location name="Soul Scavenger" x="-45616" y="111024" z="-3808" feeCount="1000" />
+            <location name="Betrayer of Urutu Freki" x="-18048" y="-101264" z="-2112" feeCount="1000" />
+            <location name="Mammon Collector Talos" x="172064" y="-214752" z="-3565" feeCount="1000" />
+            <location name="Tiger Hornet" x="29216" y="179280" z="-3624" feeCount="1000" />
+            <location name="Patriarch Kuroboros" x="-62000" y="190256" z="-3687" feeCount="1000" />
+            <location name="Tirak" x="-57360" y="186272" z="-4967" feeCount="1000" />
+            <location name="Partisan Leader Talakin" x="49248" y="127792" z="-3552" feeCount="1000" />
+            <location name="Elf Renoa" x="-37856" y="198128" z="-2672" feeCount="1000" />
+            <location name="Turek Mercenary Captain" x="-94208" y="100240" z="-3520" feeCount="1000" />
+            <location name="Cat&apos;s Eye Bandit" x="53712" y="102656" z="-1072" feeCount="1000" />
+            <location name="Agent of Beres, Meana" x="116128" y="139392" z="-3640" feeCount="1000" />
+            <location name="Ragraman" x="-54464" y="170288" z="-3136" feeCount="1000" />
+            <location name="Apepi" x="127076" y="214973" z="-3100" feeCount="1000" />
+            <location name="Giant Wasteland Basilisk" x="-16912" y="174912" z="-3264" feeCount="1000" />
+            <location name="Boss Akata" x="48575" y="-106191" z="-1568" feeCount="1000" />
+            <location name="Captain of Queen&apos;s Royal Guards" x="29928" y="107160" z="-3708" feeCount="1000" />
+            <location name="Skyla" x="117808" y="102880" z="-3600" feeCount="1000" />
+            <location name="Vuku Grand Seer Gharmash" x="17696" y="179056" z="-3520" feeCount="1000" />
+            <location name="Nurka&apos;s Messenger" x="45600" y="120592" z="-2455" feeCount="1000" />
+            <location name="Corsair Captain Kylon" x="35992" y="191312" z="-3104" feeCount="1000" />
+            <location name="Breka Warlock Pastu" x="90384" y="125568" z="-2128" feeCount="1000" />
+            <location name="Stakato Queen Zyrnna" x="27280" y="101744" z="-3696" feeCount="1000" />
+            <location name="Cronos&apos;s Servitor Mumu" x="68832" y="203024" z="-3547" feeCount="1000" />
+            <location name="Revenant of Sir Calibus" x="51632" y="153920" z="-3552" feeCount="1000" />
+            <location name="Remmel" x="10416" y="126880" z="-3676" feeCount="1000" />
+            <location name="Chertuba of Great Soul" x="-91024" y="116304" z="-3466" feeCount="1000" />
+            <location name="Sejarr&apos;s Servitor" x="123536" y="133504" z="-3584" feeCount="1000" />
+            <location name="Guilotine, Warden of the Execution Grounds" x="50896" y="146576" z="-3645" feeCount="1000" />
+            <location name="Flame Lord Shadar" x="43872" y="123968" z="-2928" feeCount="1000" />
+            <location name="Tasaba Patriarch Hellena" x="88123" y="166312" z="-3412" feeCount="1000" />
+            <location name="Soul Collector Acheron" x="43152" y="152352" z="-2848" feeCount="1000" />
+            <location name="Gargoyle Lord Sirocco" x="-16096" y="184288" z="-3817" feeCount="1000" />
+            <location name="Red Eye Captain Trakia" x="40128" y="101920" z="-1241" feeCount="1000" />
+            <location name="Eye of Beleth" x="5000" y="189000" z="-3728" feeCount="1000" />
+            <location name="Sebek" x="76352" y="193216" z="-3648" feeCount="1000" />
+            <location name="Evil Spirit Tempest" x="53600" y="143472" z="-3872" feeCount="1000" />
+            <location name="Rayito The Looter" x="127900" y="-160600" z="-1100" feeCount="1000" />
+            <location name="Lizardmen Leader Hellion" x="26064" y="121808" z="-3738" feeCount="1000" />
+            <location name="Premo Prime" x="101888" y="200224" z="-3708" feeCount="1000" />
+            <location name="Leader of Cat Gang" x="88512" y="140576" z="-3483" feeCount="1000" />
+            <location name="Nellis&apos; Vengeful Spirit" x="123000" y="-141000" z="-1100" feeCount="1000" />
+            <location name="Gwindorr" x="86534" y="216888" z="-3176" feeCount="1000" />
+            <location name="Water Spirit Lian" x="83056" y="183232" z="-3616" feeCount="1000" />
+            <location name="Wizard of Storm Teruk" x="92528" y="84752" z="-3703" feeCount="1000" />
+            <location name="Icarus Sample 1" x="125789" y="207644" z="-3752" feeCount="1000" />
+            <location name="Leto Chief Talkin" x="87536" y="75872" z="-3591" feeCount="1000" />
+            <location name="Shaman King Selu" x="73520" y="66912" z="-3728" feeCount="1000" />
+            <location name="Water Couatle Ateka" x="73776" y="201552" z="-3760" feeCount="1000" />
+            <location name="Fafurion&apos;s Page Sika" x="111582" y="209341" z="-3687" feeCount="1000" />
+            <location name="Road Scavenger Leader" x="72192" y="125424" z="-3657" feeCount="1000" />
+            <location name="Nakondas" x="128352" y="138464" z="-3467" feeCount="1000" />
+            <location name="Retreat Spider Cletu" x="124240" y="75376" z="-2800" feeCount="1000" />
+            <location name="Crazy Mechanic Golem" x="90848" y="16368" z="-5296" feeCount="1000" />
+            <location name="Earth Protector Panathen" x="125920" y="190208" z="-3291" feeCount="1000" />
+            <location name="Timak Orc Chief Ranger" x="66944" y="67504" z="-3704" feeCount="1000" />
+            <location name="Rotten Tree Repiro" x="64048" y="16048" z="-3536" feeCount="1000" />
+            <location name="Dread Avenger Kraven" x="62416" y="8096" z="-3376" feeCount="1000" />
+            <location name="Flamestone Golem" x="79648" y="18320" z="-5232" feeCount="1000" />
+            <location name="Thief Kelbar" x="107000" y="92000" z="-2272" feeCount="1000" />
+            <location name="Biconne of Blue Sky" x="107056" y="168176" z="-3456" feeCount="1000" />
+            <location name="Shacram" x="113840" y="84256" z="-2480" feeCount="1000" />
+            <location name="Tiger King Karuta" x="75968" y="110784" z="-2512" feeCount="1000" />
+            <location name="Iron Giant Totem" x="93120" y="19440" z="-3607" feeCount="1000" />
+            <location name="Archon Suscepter" x="15000" y="119000" z="-11900" feeCount="1000" />
+            <location name="Timak Orc Gosmos" x="67296" y="64128" z="-3723" feeCount="1000" />
+            <location name="Evil Spirit Cyrion" x="111440" y="82912" z="-2912" feeCount="1000" />
+            <location name="Fafurion&apos;s Henchman Istary" x="126624" y="174448" z="-3056" feeCount="1000" />
+            <location name="Barion" x="107792" y="27728" z="-3488" feeCount="1000" />
+            <location name="Necrosentinel Royal Guard" x="81920" y="113136" z="-3056" feeCount="1000" />
+            <location name="King Tarlk" x="77104" y="5408" z="-3088" feeCount="1000" />
+            <location name="Orfen&apos;s Handmaiden" x="42032" y="24128" z="-4704" feeCount="1000" />
+            <location name="Katu Van Leader Atui" x="92976" y="7920" z="-3914" feeCount="1000" />
+            <location name="Karte" x="116352" y="27648" z="-3319" feeCount="1000" />
+            <location name="Mirror of Oblivion" x="133632" y="87072" z="-3623" feeCount="1000" />
+            <location name="Carnamakos" x="23800" y="119500" z="-8976" feeCount="1000" />
+            <location name="Ghost of Peasant Leader" x="169744" y="11920" z="-2732" feeCount="1000" />
+            <location name="Messenger of Fairy Queen Berun" x="121872" y="64032" z="-3536" feeCount="1000" />
+            <location name="Carnage Lord Gato" x="75488" y="-9360" z="-2720" feeCount="1000" />
+            <location name="Cursed Clara" x="89904" y="105712" z="-3292" feeCount="1000" />
+            <location name="Lilith&apos;s Witch Marilion" x="54651" y="180269" z="-4976" feeCount="1000" />
+            <location name="Zaken&apos;s Chief Mate Tillion" x="43160" y="220463" z="-3680" feeCount="1000" />
+            <location name="Verfa" x="125520" y="27216" z="-3632" feeCount="1000" />
+            <location name="Deadman Ereve" x="150304" y="67776" z="-3688" feeCount="1000" />
+            <location name="Captain of Red Flag Shaka" x="94992" y="-23168" z="-2176" feeCount="1000" />
+            <location name="Grave Robber Kim" x="175712" y="29856" z="-3776" feeCount="1000" />
+            <location name="Gigantic Chaos Golem" x="96524" y="-111070" z="-3335" feeCount="1000" />
+            <location name="Fafurion&apos;s Envoy Pingolpin" x="88300" y="258000" z="-10200" feeCount="1000" />
+            <location name="Atraiban" x="54941" y="206705" z="-3728" feeCount="1000" />
+            <location name="Dark Shaman Varangka" x="74516" y="-101968" z="-960" feeCount="1000" />
+            <location name="Magus Kenishee" x="53517" y="205413" z="-3728" feeCount="1000" />
+            <location name="Paniel The Unicorn" x="124984" y="43200" z="-3625" feeCount="1000" />
+            <location name="Furious Thieles" x="113920" y="52960" z="-3735" feeCount="1000" />
+            <location name="Enchanted Forest Watcher Ruell" x="125600" y="50100" z="-3600" feeCount="1000" />
+            <location name="Sorcerer Isirr" x="135872" y="94592" z="-3735" feeCount="1000" />
+            <location name="Beleth&apos;s Seer Sephia" x="125280" y="102576" z="-3305" feeCount="1000" />
+            <location name="Black Lily" x="92544" y="115232" z="-3200" feeCount="1000" />
+            <location name="Harit Hero Tamash" x="165984" y="88048" z="-2384" feeCount="1000" />
+            <location name="Zaken&apos;s Butcher Krantz" x="42050" y="208107" z="-3752" feeCount="1000" />
+            <location name="Pagan Watcher Cerberon" x="-12621" y="-240437" z="-8160" feeCount="1000" />
+            <location name="Bandit Leader Barda" x="104096" y="-16896" z="-1803" feeCount="1000" />
+            <location name="Ghost Knight Kabed" x="183568" y="24560" z="-3184" feeCount="1000" />
+            <location name="Eva&apos;s Spirit Niniel" x="83174" y="254428" z="-10873" feeCount="1000" />
+            <location name="Refugee Hopeful Leo" x="86300" y="-8200" z="-3000" feeCount="1000" />
+            <location name="Harit Guardian Garangky" x="166288" y="68096" z="-3264" feeCount="1000" />
+            <location name="Timak Seer Ragoth" x="66672" y="46704" z="-3920" feeCount="1000" />
+            <location name="Eva&apos;s Guardian Millenu" x="88532" y="245798" z="-10376" feeCount="1000" />
+            <location name="Soulless Wild Boar" x="165424" y="93776" z="-2992" feeCount="1000" />
+            <location name="Demon Kurikups" x="41966" y="215417" z="-3728" feeCount="1000" />
+            <location name="Abyss Brukunt" x="155000" y="85400" z="-3200" feeCount="1000" />
+            <location name="Captain Of The Ice Queen&apos;s Royal Guard" x="106000" y="-128000" z="-3000" feeCount="1000" />
+            <location name="Ice Fairy Sirra" x="102752" y="-124449" z="-2792" feeCount="1000" />
+            <location name="The 3rd Underwater Guardian" x="76787" y="245775" z="-10376" feeCount="1000" />
+            <location name="Ghost of the Well Lidia" x="173880" y="-11412" z="-2880" feeCount="1000" />
+            <location name="Guardian of the Statue of Giant Karum" x="181834" y="52353" z="-4344" feeCount="1000" />
+            <location name="Taik High Prefect Arak" x="170320" y="42640" z="-4832" feeCount="1000" />
+            <location name="Ancient Weird Drake" x="120080" y="111248" z="-3047" feeCount="1000" />
+            <location name="Lord Ishka" x="115072" y="112272" z="-3018" feeCount="1000" />
+            <location name="Giant Marpanak" x="193902" y="54135" z="-4184" feeCount="1000" />
+            <location name="Fairy Queen Timiniel" x="113600" y="47120" z="-4640" feeCount="1000" />
+            <location name="Roaring Lord Kastor" x="104240" y="-3664" z="-3392" feeCount="1000" />
+            <location name="Gorgolos" x="186210" y="61479" z="-4000" feeCount="1000" />
+            <location name="Rahha" x="117232" y="-9476" z="-3320" feeCount="1000" />
+            <location name="Fierce Tiger King Angel" x="170656" y="85184" z="-2000" feeCount="1000" />
+            <location name="Gargoyle Lord Tiphon" x="170048" y="-24896" z="-3440" feeCount="1000" />
+            <location name="Enmity Ghost Ramdal" x="113232" y="17456" z="-4384" feeCount="1000" />
+            <location name="Shilen&apos;s Priest Hisilrome" x="168288" y="28368" z="-3632" feeCount="1000" />
+            <location name="Hekaton Prime" x="191777" y="56197" z="-7624" feeCount="1000" />
+            <location name="Last Titan Utenus" x="186919" y="56297" z="-4480" feeCount="1000" />
+            <location name="Demon&apos;s Agent Falston" x="93296" y="-75104" z="-1824" feeCount="1000" />
+            <location name="Kernon&apos;s Faithful Servant Kelone" x="144400" y="-28192" z="-1920" feeCount="1000" />
+            <location name="Bloody Priest Rudelto" x="143265" y="110044" z="-3944" feeCount="1000" />
+            <location name="Spirit of Andras, The Betrayer" x="185800" y="-26500" z="-2000" feeCount="1000" />
+            <location name="Shilen&apos;s Messenger Cabrio" x="180968" y="12035" z="-2720" feeCount="1000" />
+            <location name="Korim" x="116151" y="16227" z="1944" feeCount="1000" />
+            <location name="Roaring Skylancer" x="130500" y="59098" z="3584" feeCount="1000" />
+            <location name="Fafurion&apos;s Herald Lokness" x="102656" y="157424" z="-3735" feeCount="1000" />
+            <location name="Palibati Queen Themis" x="192376" y="22087" z="-3608" feeCount="1000" />
+            <location name="Beast Lord Behemoth" x="123504" y="-23696" z="-3481" feeCount="1000" />
+            <location name="Anakim&apos;s Nemesis Zakaron" x="151053" y="88124" z="-5424" feeCount="1000" />
+            <location name="Flame of Splendor Barakiel" x="91008" y="-85904" z="-2736" feeCount="1000" />
+            <location name="Meanas Anor" x="156704" y="-6096" z="-4185" feeCount="1000" />
+            <location name="Eilhalder von Hellmann" x="59331" y="-42403" z="-3003" feeCount="1000" />
+            <location name="Immortal Savior Mardil" x="113200" y="17552" z="-1424" feeCount="1000" />
+            <location name="Water Dragon Seer Sheshark" x="108096" y="157408" z="-3688" feeCount="1000" />
+            <location name="Vanor Chief Kandra" x="116400" y="-62528" z="-3264" feeCount="1000" />
+            <location name="Doom Blade Tanatos" x="127903" y="-13399" z="-3720" feeCount="1000" />
+            <location name="Death Lord Hallate" x="113551" y="17083" z="-2120" feeCount="1000" />
+            <location name="Plague Golem" x="170000" y="-60000" z="-3500" feeCount="1000" />
+            <location name="Antharas Priest Cloe" x="152660" y="110387" z="-5520" feeCount="1000" />
+            <location name="Krokian Padisha Sobekk" x="119760" y="157392" z="-3744" feeCount="1000" />
+            <location name="Icicle Emperor Bumbalump" x="158352" y="-121088" z="-2240" feeCount="1000" />
+            <location name="Kernon" x="113432" y="16403" z="3960" feeCount="1000" />
+            <location name="Storm Winged Naga" x="137568" y="-19488" z="-3552" feeCount="1000" />
+            <location name="Last Lesser Giant Olkuth" x="187238" y="46171" z="-5848" feeCount="1000" />
+            <location name="Palatanos of Horrific Power" x="147104" y="-20560" z="-3377" feeCount="1000" />
+            <location name="Bloody Empress Decarbia" x="188983" y="13647" z="-2672" feeCount="1000" />
+            <location name="Death Lord Ipos" x="154088" y="-14116" z="-3736" feeCount="1000" />
+            <location name="Death Lord Shax" x="179311" y="-7632" z="-4896" feeCount="1000" />
+            <location name="Flamestone Giant" x="144600" y="-5500" z="-4100" feeCount="1000" />
+            <location name="Ocean Flame Ashakiel" x="123808" y="153408" z="-3671" feeCount="1000" />
+            <location name="Fire of Wrath Shuriel" x="113102" y="16002" z="6992" feeCount="1000" />
+            <location name="Last Lesser Giant Glaki" x="172451" y="55410" z="-5928" feeCount="1000" />
+            <location name="Hestia, Guardian Deity of the Hot Springs" x="134672" y="-115600" z="-1216" feeCount="1000" />
+            <location name="Daimon The White-Eyed" x="186304" y="-43744" z="-3193" feeCount="1000" />
+            <location name="Longhorn Golkonda" x="116263" y="15916" z="6992" feeCount="1000" />
+            <location name="Cherub Galaxia" x="113600" y="15104" z="9559" feeCount="1000" />
+            <location name="Ketra&apos;s Hero Hekaton" x="148160" y="-73808" z="-4919" feeCount="1000" />
+            <location name="Varka&apos;s Hero Shadith" x="115552" y="-39200" z="-2480" feeCount="1000" />
+            <location name="Queen Shyeed" x="79634" y="-55428" z="-6104" feeCount="1000" />
+            <location name="Shadow of Halisha" x="173193" y="-76299" z="-7184" feeCount="1000" />
+            <location name="Shadow of Halisha" x="175610" y="-72453" z="-7184" feeCount="1000" />
+            <location name="Shadow of Halisha" x="189801" y="-88965" z="-7184" feeCount="1000" />
+            <location name="Shadow of Halisha" x="191544" y="-85575" z="-7184" feeCount="1000" />
+            <location name="Ketra&apos;s Commander Tayr" x="145504" y="-81664" z="-6016" feeCount="1000" />
+            <location name="Varka&apos;s Commander Mos" x="109216" y="-36160" z="-938" feeCount="1000" />
+            <location name="Ember" x="184542" y="-106330" z="-6304" feeCount="1000" />
+            <location name="Wings of Flame Ixion" x="189400" y="-105702" z="-782" feeCount="1000" />
+            <location name="Uruka" x="3776" y="-6768" z="-3276" feeCount="1000" />
+            <location name="Ketra&apos;s Chief Brakki" x="145008" y="-84992" z="-6240" feeCount="1000" />
+            <location name="Varka&apos;s Chief Horus" x="105584" y="-43024" z="-1728" feeCount="1000" />
+            <location name="Soul Of Fire Nastron" x="142368" y="-82512" z="-6487" feeCount="1000" />
+            <location name="Soul Of Water Ashutar" x="105452" y="-36775" z="-1050" feeCount="1000" />
+            <location name="Sailren" x="27298" y="-6846" z="-1970" feeCount="1000" />
+            <location name="Anais" x="112798" y="-76800" z="-10" feeCount="1000" />
+            <location name="Andreas Van Halter" x="-16382" y="-53450" z="-10432" feeCount="1000" />
+            <location name="Queen Ant" x="-21610" y="181594" z="-5734" feeCount="1000" />
+            <location name="Core" x="17723" y="108915" z="-6493" feeCount="1000" />
+            <location name="Orfen" x="55024" y="17368" z="-5412" feeCount="1000" />
+            <location name="Benom" x="11882" y="-49216" z="-3008" feeCount="1000" />
+            <location name="Zaken" x="55312" y="219168" z="-3223" feeCount="1000" />
+            <location name="Tyrannosaurus" x="19897" y="-9087" z="-2781" feeCount="1000" />
+            <location name="Baium" x="115213" y="16623" z="10080" feeCount="1000" />
+            <location name="Reserved Raid 214" x="83336" y="147972" z="-3404" feeCount="1000" />
+            <location name="Antharas" x="183409" y="114824" z="-8020" feeCount="1000" />
+            <location name="Reserved Raid 216" x="83336" y="147972" z="-3404" feeCount="1000" />
+            <location name="Valakas" x="213896" y="-115436" z="-1644" feeCount="1000" />
+            <location name="Frintezza" x="174238" y="-88011" z="-5115" feeCount="1000" />
+            <location name="Sandramanaia" x="183373" y="20300" z="-3200" feeCount="1000" />
+            <location name="Catacomb of the Heretic" x="-53174" y="-250275" z="-7911" feeCount="1000" />
+            <location name="Catacomb of the Branded" x="46217" y="170290" z="-4983" feeCount="1000" />
+            <location name="Catacomb of the Apostate" x="-20230" y="-250780" z="-8168" feeCount="1000" />
+            <location name="Catacomb of the Witch" x="140404" y="79678" z="-5431" feeCount="1000" />
+            <location name="Catacomb of Dark Omens" x="-19500" y="13508" z="-4905" feeCount="1000" />
+            <location name="Catacomb of the Forbidden Path" x="12521" y="-248481" z="-9585" feeCount="1000" />
+            <location name="Necropolis of Sacrifice" x="-41570" y="209785" z="-5089" feeCount="1000" />
+            <location name="Pilgrims Necropolis" x="45251" y="123890" z="-5415" feeCount="1000" />
+            <location name="Necropolis of Worship" x="111273" y="174015" z="-5417" feeCount="1000" />
+            <location name="Patriots Necropolis" x="-21726" y="77385" z="-5177" feeCount="1000" />
+            <location name="Necropolis of Devotion" x="-52254" y="79103" z="-4743" feeCount="1000" />
+            <location name="Necropolis of Martyrdom" x="118308" y="132800" z="-4833" feeCount="1000" />
+            <location name="Saints Necropolis" x="83000" y="209213" z="-5443" feeCount="1000" />
+            <location name="Disciples Necropolis" x="172251" y="-17605" z="-4903" feeCount="1000" />
+        </teleport>
+    </npc>
+</list>

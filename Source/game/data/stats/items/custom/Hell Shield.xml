@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="9989" type="Armor" name="Megarax Rare Hell Shield">
+		<set name="icon" val="LineageWeapons_RareHellShield_byNevesOma.icons.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SHIELD" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9990" type="Armor" name="Megarax Rare Lindvior Shield">
+		<set name="icon" val="LineageWeapons_RareLindShield_byNevesOma.icons.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SHIELD" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9991" type="Armor" name="Megarax Green Hell Shield">
+		<set name="icon" val="LineageWeapons_GreenHellShield_byNevesOma.icons.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SHIELD" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9992" type="Armor" name="Megarax Golden Hell Shield">
+		<set name="icon" val="LineageWeapons_GoldHellShield_byNevesOma.icons.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SHIELD" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9993" type="Armor" name="Megarax White Hell Shield">
+		<set name="icon" val="LineageWeapons_WhiteHellShield_byNevesOma.icons.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SHIELD" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="price" val="0" />
+	</item>
+
+	<item id="9994" type="Armor" name="Megarax Dark Hell Shield">
+		<set name="icon" val="LineageWeapons_DarkHellShield_byNevesOma.icons.i00" />
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="SHIELD" />
+		<set name="bodypart" val="lhand" />
+		<set name="immediate_effect" val="true" />
+		<set name="material" val="STEEL" />
+		<set name="weight" val="1300" />
+		<set name="price" val="0" />
+	</item>
+
+</list>

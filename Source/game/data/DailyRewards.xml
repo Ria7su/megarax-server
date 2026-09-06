@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- All item IDs below exist in this datapack. loyaltyItemId=0 is intentionally disabled until a real client/server item is assigned. -->
+<dailyRewards enabled="true" minimumLevel="80" onlineMinutes="20" resetHour="0" timeZone="America/New_York" season="season1" loyaltyItemId="0">
+	<reward id="free_1" track="FREE" day="1" name="Adena x100,000" shortName="100K ADENA" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="100000"/></reward>
+	<reward id="free_2" track="FREE" day="2" name="Dungeon Coin x10" shortName="10 DUNGEON" description="Dungeon Coin daily reward." icon="icon.etc_event_medal_i00"><item id="9143" count="10"/></reward>
+	<reward id="free_3" track="FREE" day="3" name="Rax Coin x500" shortName="500 RAX" description="Configurable Rax Coin test reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="500"/></reward>
+	<reward id="free_4" track="FREE" day="4" name="Craft Coin x100" shortName="100 CRAFT" description="Craft Coin daily reward." icon="icon.etc_event_medal_i00"><item id="4356" count="100"/></reward>
+	<reward id="free_5" track="FREE" day="5" name="Random A-Grade Item" shortName="A-GRADE" description="One random verified A-Grade weapon." icon="icon.weapon_tallum_blade_i00"><randomGroup count="1"><item id="80" weight="100"/><item id="81" weight="100"/><item id="98" weight="100"/><item id="150" weight="100"/><item id="151" weight="100"/><item id="164" weight="100"/><item id="212" weight="100"/><item id="213" weight="100"/></randomGroup></reward>
+	<reward id="free_6" track="FREE" day="6" name="Free Day 6" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="600000"/></reward>
+	<reward id="free_7" track="FREE" day="7" name="Free Day 7" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2500000"/></reward>
+	<reward id="free_8" track="FREE" day="8" name="Free Day 8" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="800000"/></reward>
+	<reward id="free_9" track="FREE" day="9" name="Free Day 9" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="900000"/></reward>
+	<reward id="free_10" track="FREE" day="10" name="Free Day 10" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1000000"/></reward>
+	<reward id="free_11" track="FREE" day="11" name="Free Day 11" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1100000"/></reward>
+	<reward id="free_12" track="FREE" day="12" name="Free Day 12" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1200000"/></reward>
+	<reward id="free_13" track="FREE" day="13" name="Free Day 13" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1300000"/></reward>
+	<reward id="free_14" track="FREE" day="14" name="Free Day 14" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1400000"/></reward>
+	<reward id="free_15" track="FREE" day="15" name="Free Day 15" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="5000000"/></reward>
+	<reward id="free_16" track="FREE" day="16" name="Free Day 16" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1600000"/></reward>
+	<reward id="free_17" track="FREE" day="17" name="Free Day 17" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1700000"/></reward>
+	<reward id="free_18" track="FREE" day="18" name="Free Day 18" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1800000"/></reward>
+	<reward id="free_19" track="FREE" day="19" name="Free Day 19" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="1900000"/></reward>
+	<reward id="free_20" track="FREE" day="20" name="Free Day 20" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2000000"/></reward>
+	<reward id="free_21" track="FREE" day="21" name="Free Day 21" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2500000"/></reward>
+	<reward id="free_22" track="FREE" day="22" name="Free Day 22" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2200000"/></reward>
+	<reward id="free_23" track="FREE" day="23" name="Free Day 23" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2300000"/></reward>
+	<reward id="free_24" track="FREE" day="24" name="Free Day 24" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2400000"/></reward>
+	<reward id="free_25" track="FREE" day="25" name="Free Day 25" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2500000"/></reward>
+	<reward id="free_26" track="FREE" day="26" name="Free Day 26" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2600000"/></reward>
+	<reward id="free_27" track="FREE" day="27" name="Free Day 27" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2700000"/></reward>
+	<reward id="free_28" track="FREE" day="28" name="Free Day 28" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2800000"/></reward>
+	<reward id="free_29" track="FREE" day="29" name="Free Day 29" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="2900000"/></reward>
+	<reward id="free_30" track="FREE" day="30" name="Free Day 30" description="Account daily Adena reward." icon="icon.etc_adena_i00"><item id="57" count="10000000"/></reward>
+	<reward id="premium_1" track="PREMIUM" day="1" name="Premium Day 1" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="30"/></reward>
+	<reward id="premium_2" track="PREMIUM" day="2" name="Premium Day 2" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="35"/></reward>
+	<reward id="premium_3" track="PREMIUM" day="3" name="Premium Day 3" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="40"/></reward>
+	<reward id="premium_4" track="PREMIUM" day="4" name="Premium Day 4" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="45"/></reward>
+	<reward id="premium_5" track="PREMIUM" day="5" name="Premium Day 5" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="50"/></reward>
+	<reward id="premium_6" track="PREMIUM" day="6" name="Premium Day 6" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="55"/></reward>
+	<reward id="premium_7" track="PREMIUM" day="7" name="Premium Day 7" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="250"/><item id="6673" count="5"/><item id="-1" count="1"/></reward>
+	<reward id="premium_8" track="PREMIUM" day="8" name="Premium Day 8" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="65"/></reward>
+	<reward id="premium_9" track="PREMIUM" day="9" name="Premium Day 9" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="70"/></reward>
+	<reward id="premium_10" track="PREMIUM" day="10" name="Premium Day 10" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="75"/></reward>
+	<reward id="premium_11" track="PREMIUM" day="11" name="Premium Day 11" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="80"/></reward>
+	<reward id="premium_12" track="PREMIUM" day="12" name="Premium Day 12" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="85"/></reward>
+	<reward id="premium_13" track="PREMIUM" day="13" name="Premium Day 13" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="90"/></reward>
+	<reward id="premium_14" track="PREMIUM" day="14" name="Premium Day 14" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="95"/></reward>
+	<reward id="premium_15" track="PREMIUM" day="15" name="Premium Day 15" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="500"/><item id="6673" count="5"/><item id="-1" count="2"/></reward>
+	<reward id="premium_16" track="PREMIUM" day="16" name="Premium Day 16" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="105"/></reward>
+	<reward id="premium_17" track="PREMIUM" day="17" name="Premium Day 17" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="110"/></reward>
+	<reward id="premium_18" track="PREMIUM" day="18" name="Premium Day 18" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="115"/></reward>
+	<reward id="premium_19" track="PREMIUM" day="19" name="Premium Day 19" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="120"/></reward>
+	<reward id="premium_20" track="PREMIUM" day="20" name="Premium Day 20" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="125"/></reward>
+	<reward id="premium_21" track="PREMIUM" day="21" name="Premium Day 21" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="250"/><item id="6673" count="5"/><item id="-1" count="3"/></reward>
+	<reward id="premium_22" track="PREMIUM" day="22" name="Premium Day 22" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="135"/></reward>
+	<reward id="premium_23" track="PREMIUM" day="23" name="Premium Day 23" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="140"/></reward>
+	<reward id="premium_24" track="PREMIUM" day="24" name="Premium Day 24" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="145"/></reward>
+	<reward id="premium_25" track="PREMIUM" day="25" name="Premium Day 25" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="150"/></reward>
+	<reward id="premium_26" track="PREMIUM" day="26" name="Premium Day 26" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="155"/></reward>
+	<reward id="premium_27" track="PREMIUM" day="27" name="Premium Day 27" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="160"/></reward>
+	<reward id="premium_28" track="PREMIUM" day="28" name="Premium Day 28" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="165"/></reward>
+	<reward id="premium_29" track="PREMIUM" day="29" name="Premium Day 29" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="170"/></reward>
+	<reward id="premium_30" track="PREMIUM" day="30" name="Premium Day 30" description="Premium account Rax Coin reward." icon="favero_l2_icons01.drop_diamond"><item id="9142" count="1000"/><item id="6673" count="10"/><item id="-1" count="5"/></reward>
+</dailyRewards>

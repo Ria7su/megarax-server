@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+<item id="9950" type="Armor" name="Rosalia Shield">
+	<set name="icon" val="LineageShield_BucksGame_byNevesOma.rosalia_i00" />
+	<set name="default_action" val="EQUIP" />
+	<set name="bodypart" val="lhand" />
+	<set name="immediate_effect" val="true" />
+	<set name="crystal_count" val="188" />
+	<set name="crystal_type" val="S" />
+	<set name="material" val="BONE" />
+	<set name="weight" val="1170" />
+	<set name="price" val="3760000" />
+	<set name="enchant_enabled" val="true" />
+	<conditions msgId="1518">
+		<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+	</conditions>
+	<stats>
+		<sub stat="rEvas" val="8" />
+		<set stat="rShld" val="20" />
+		<set stat="sDef" val="290" />
+		<enchant val="0" stat="sDef" />
+	</stats>
+</item>
+
+<item id="9951" type="Armor" name="TMB Shield">
+	<set name="icon" val="LineageShield_BucksGame_byNevesOma.tmb_000.tmb_i00" />
+	<set name="default_action" val="EQUIP" />
+	<set name="bodypart" val="lhand" />
+	<set name="immediate_effect" val="true" />
+	<set name="crystal_count" val="188" />
+	<set name="crystal_type" val="S" />
+	<set name="material" val="BONE" />
+	<set name="weight" val="1170" />
+	<set name="price" val="3760000" />
+	<set name="enchant_enabled" val="true" />
+	<conditions msgId="1518">
+		<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+	</conditions>
+	<stats>
+		<sub stat="rEvas" val="8" />
+		<set stat="rShld" val="20" />
+		<set stat="sDef" val="290" />
+		<enchant val="0" stat="sDef" />
+	</stats>
+</item>
+
+<item id="9952" type="Armor" name="Bear Shield">
+	<set name="icon" val="LineageShield_BucksGame_byNevesOma.bear_000.bear_i00" />
+	<set name="default_action" val="EQUIP" />
+	<set name="bodypart" val="lhand" />
+	<set name="immediate_effect" val="true" />
+	<set name="crystal_count" val="188" />
+	<set name="crystal_type" val="S" />
+	<set name="material" val="BONE" />
+	<set name="weight" val="1170" />
+	<set name="price" val="3760000" />
+	<set name="enchant_enabled" val="true" />
+	<conditions msgId="1518">
+		<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+	</conditions>
+	<stats>
+		<sub stat="rEvas" val="8" />
+		<set stat="rShld" val="20" />
+		<set stat="sDef" val="290" />
+		<enchant val="0" stat="sDef" />
+	</stats>
+</item>
+
+<item id="9953" type="Armor" name="Leaf Shield">
+	<set name="icon" val="LineageShield_BucksGame_byNevesOma.leaf_000.leaf_i00" />
+	<set name="default_action" val="EQUIP" />
+	<set name="bodypart" val="lhand" />
+	<set name="immediate_effect" val="true" />
+	<set name="crystal_count" val="188" />
+	<set name="crystal_type" val="S" />
+	<set name="material" val="BONE" />
+	<set name="weight" val="1170" />
+	<set name="price" val="3760000" />
+	<set name="enchant_enabled" val="true" />
+	<conditions msgId="1518">
+		<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+	</conditions>
+	<stats>
+		<sub stat="rEvas" val="8" />
+		<set stat="rShld" val="20" />
+		<set stat="sDef" val="290" />
+		<enchant val="0" stat="sDef" />
+	</stats>
+</item>
+
+<item id="9954" type="Armor" name="Wind Dragon Shield">
+	<set name="icon" val="LineageShieldDragon_BucksGame_byNevesOma.icons.i00" />
+	<set name="default_action" val="EQUIP" />
+	<set name="bodypart" val="lhand" />
+	<set name="immediate_effect" val="true" />
+	<set name="crystal_count" val="188" />
+	<set name="crystal_type" val="S" />
+	<set name="material" val="BONE" />
+	<set name="weight" val="1170" />
+	<set name="price" val="3760000" />
+	<set name="enchant_enabled" val="true" />
+	<conditions msgId="1518">
+		<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+	</conditions>
+	<stats>
+		<sub stat="rEvas" val="8" />
+		<set stat="rShld" val="20" />
+		<set stat="sDef" val="290" />
+		<enchant val="0" stat="sDef" />
+	</stats>
+</item>
+
+<item id="9955" type="Armor" name="Fire Dragon Shield">
+	<set name="icon" val="LineageShieldDragonF_BucksGame_byNevesOma.icons.i01" />
+	<set name="default_action" val="EQUIP" />
+	<set name="bodypart" val="lhand" />
+	<set name="immediate_effect" val="true" />
+	<set name="crystal_count" val="188" />
+	<set name="crystal_type" val="S" />
+	<set name="material" val="BONE" />
+	<set name="weight" val="1170" />
+	<set name="price" val="3760000" />
+	<set name="enchant_enabled" val="true" />
+	<conditions msgId="1518">
+		<player races="HUMAN,ELF,DARK_ELF,ORC,DWARF" />
+	</conditions>
+	<stats>
+		<sub stat="rEvas" val="8" />
+		<set stat="rShld" val="20" />
+		<set stat="sDef" val="290" />
+		<enchant val="0" stat="sDef" />
+	</stats>
+</item>
+</list>

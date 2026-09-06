@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<huntContracts enabled="true" offersPerDay="3" resetHour="0" timeZone="America/New_York" partyRange="1500">
+	<contract id="primeval_extermination" enabled="true" weight="30" type="KILL_NPC_GROUP" targetCount="150" minimumLevel="76" maximumLevel="85" premiumOnly="false" partySharing="true" partyRange="1500" huntMarks="5" shortName="PRIMEVAL" name="Primeval Extermination" description="Eliminate the verified Primeval Island creatures." icon="icon.etc_letter_red_i00" announceCompletion="true">
+		<npcs ids="22196,22197,22198,22200,22201,22202,22203,22204,22205,22208,22209,22210,22211,22212,22213,22214,22218,22219,22220,22221,22222,22223,22224,22225,22226" group="PRIMEVAL" />
+		<reward itemId="9143" count="5" />
+	</contract>
+	<contract id="ketra_offensive" enabled="true" weight="25" type="KILL_NPC_GROUP" targetCount="120" minimumLevel="74" maximumLevel="85" premiumOnly="false" partySharing="true" partyRange="1500" huntMarks="5" shortName="KETRA" name="Ketra Offensive" description="Defeat Ketra forces from the verified Ketra Orc Outpost spawns." icon="icon.etc_letter_red_i00" announceCompletion="true">
+		<npcs ids="21324,21325,21327,21328,21329,21331,21332,21334,21335,21336,21338,21339,21340,21342,21343,21345,21347" group="KETRA" />
+		<reward itemId="4356" count="50" />
+	</contract>
+	<contract id="varka_offensive" enabled="true" weight="25" type="KILL_NPC_GROUP" targetCount="120" minimumLevel="74" maximumLevel="85" premiumOnly="false" partySharing="true" partyRange="1500" huntMarks="5" shortName="VARKA" name="Varka Offensive" description="Defeat Varka forces from the verified Varka Silenos Outpost spawns." icon="icon.etc_letter_red_i00" announceCompletion="true">
+		<npcs ids="21350,21351,21353,21354,21355,21357,21358,21360,21361,21362,21364,21365,21366,21368,21369,21371,21373" group="VARKA" />
+		<reward itemId="4356" count="50" />
+	</contract>
+	<contract id="dungeon_specialist" enabled="true" weight="15" type="COMPLETE_DUNGEON" targetCount="1" minimumLevel="76" maximumLevel="85" premiumOnly="false" partySharing="false" huntMarks="8" shortName="DUNGEON" name="Dungeon Specialist" description="Successfully complete a verified Megarax Dungeon route." icon="icon.etc_letter_red_i00" announceCompletion="true">
+		<dungeons ids="MEGARAX_DUNGEON" />
+		<reward itemId="9143" count="10" />
+	</contract>
+	<contract id="raid_hunter" enabled="true" weight="15" type="KILL_RAID" targetCount="1" minimumLevel="76" maximumLevel="85" premiumOnly="false" partySharing="true" partyRange="2000" huntMarks="10" shortName="RAID" name="Raid Hunter" description="Participate in defeating a configured Megarax raid boss." icon="icon.etc_letter_red_i00" announceCompletion="true">
+		<raids ids="25283,25286,29065,9910" />
+	</contract>
+	<contract id="wanted_hunter" enabled="true" weight="10" type="PARTICIPATE_WANTED" targetCount="1" minimumLevel="76" maximumLevel="85" premiumOnly="false" partySharing="false" huntMarks="8" wantedSeals="3" shortName="WANTED" name="Wanted Hunter" description="Participate validly in defeating a Megarax Wanted Monster." icon="icon.etc_letter_red_i00" announceCompletion="true" />
+</huntContracts>

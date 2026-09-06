@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="20_18">
+		<npc id="9901" x="9690" y="15549" z="-4601" heading="5721" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9900" x="9767" y="15340" z="-4601" heading="13993" respawnDelay="60" /> <!-- GMSHOP - MEGARAX -->
+		<npc id="9903" x="9877" y="15313" z="-4600" heading="13481" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+	</spawn>
+</list>

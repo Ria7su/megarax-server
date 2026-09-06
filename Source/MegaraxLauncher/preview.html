@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Megarax Launcher Preview</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --gold: #f0c46d;
+      --muted-gold: #a67c3f;
+      --text: #ecd5aa;
+      --muted: #9c8970;
+      --lava: #c84224;
+      --panel: rgba(13, 9, 8, .86);
+      --border: #6f4d2d;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background:
+        radial-gradient(circle at 82% 84%, #3a1008 0, #120908 42%, #070606 100%);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .launcher {
+      width: min(1120px, 100%);
+      min-height: 660px;
+      border: 1px solid #7b5731;
+      border-radius: 10px;
+      background: rgba(8, 6, 6, .78);
+      padding: 26px;
+      display: grid;
+      grid-template-rows: 98px 1fr 98px;
+      gap: 18px;
+      box-shadow: 0 0 55px rgba(150, 38, 12, .25);
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .mark {
+      width: 64px;
+      height: 64px;
+      border-radius: 8px;
+      border: 1px solid var(--gold);
+      background: #35140c;
+      color: var(--gold);
+      display: grid;
+      place-items: center;
+      font-size: 36px;
+      font-weight: 900;
+      box-shadow: 0 0 28px rgba(170, 37, 13, .45);
+    }
+
+    h1 {
+      margin: 0;
+      color: #f3d79a;
+      font-size: 42px;
+      line-height: .95;
+      font-weight: 900;
+    }
+
+    .subtitle {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 600;
+    }
+
+    .status-row {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .pill {
+      border: 1px solid #4f3321;
+      border-radius: 6px;
+      background: rgba(17, 12, 10, .7);
+      padding: 10px 14px;
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: 360px 1fr;
+      gap: 24px;
+      min-height: 0;
+    }
+
+    .panel {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 22px;
+      min-height: 0;
+    }
+
+    .actions {
+      display: grid;
+      grid-template-rows: auto auto 1fr auto;
+      gap: 20px;
+    }
+
+    button {
+      width: 100%;
+      min-height: 44px;
+      border: 1px solid #9b6d36;
+      border-radius: 6px;
+      color: #f2dcb3;
+      background: linear-gradient(#3a1b10, #23110d);
+      font-size: 14px;
+      font-weight: 700;
+      cursor: default;
+    }
+
+    .play {
+      min-height: 72px;
+      border-color: #e0a545;
+      background: linear-gradient(#7a2413, #41150c);
+      color: #fff0c4;
+      font-size: 25px;
+      box-shadow: 0 0 28px rgba(170, 37, 13, .42);
+    }
+
+    .stack {
+      display: grid;
+      gap: 10px;
+    }
+
+    .links {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+
+    .links .wide {
+      grid-column: 1 / -1;
+    }
+
+    .version {
+      color: var(--muted);
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .news-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    h2 {
+      margin: 0;
+      color: #f3d79a;
+      font-size: 24px;
+    }
+
+    .news-head span {
+      color: var(--muted-gold);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .news-list {
+      display: grid;
+      gap: 12px;
+    }
+
+    article {
+      border: 1px solid #4f3321;
+      border-radius: 8px;
+      background: rgba(18, 12, 10, .72);
+      padding: 16px;
+    }
+
+    article h3 {
+      margin: 0;
+      color: #f3d79a;
+      font-size: 17px;
+    }
+
+    time {
+      display: block;
+      margin: 6px 0 8px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    article p {
+      margin: 0;
+      color: #dcc9a0;
+      font-size: 13px;
+      line-height: 1.4;
+    }
+
+    footer {
+      border: 1px solid #4f3321;
+      border-radius: 8px;
+      background: rgba(13, 9, 8, .78);
+      padding: 18px;
+      display: grid;
+      gap: 8px;
+      align-content: center;
+    }
+
+    .footer-line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 18px;
+      font-size: 14px;
+      font-weight: 700;
+    }
+
+    .current-file {
+      color: var(--muted);
+      font-size: 12px;
+      font-weight: 500;
+    }
+
+    .bar {
+      height: 12px;
+      border-radius: 6px;
+      border: 1px solid #49301f;
+      background: #160f0d;
+      overflow: hidden;
+    }
+
+    .bar span {
+      display: block;
+      height: 100%;
+      width: 68%;
+      border-radius: 5px;
+      background: linear-gradient(90deg, #8d1e18, #d54a26 48%, #f1b35c);
+    }
+
+    .bar.total span {
+      width: 42%;
+    }
+
+    @media (max-width: 880px) {
+      .launcher {
+        min-height: auto;
+        grid-template-rows: auto auto auto;
+      }
+
+      header,
+      main {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        align-items: flex-start;
+        flex-direction: column;
+      }
+
+      main {
+        display: grid;
+      }
+
+      .status-row {
+        justify-content: flex-start;
+      }
+    }
+  </style>
+</head>
+<body>
+  <section class="launcher" aria-label="Megarax Launcher Preview">
+    <header>
+      <div class="brand">
+        <div class="mark">M</div>
+        <div>
+          <h1>MEGARAX</h1>
+          <div class="subtitle">Lineage II Interlude</div>
+        </div>
+      </div>
+      <div class="status-row">
+        <div class="pill">Server: Online</div>
+        <div class="pill">Players: 247</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="panel actions">
+        <button class="play">PLAY</button>
+        <div class="stack">
+          <button>Update / Check Files</button>
+          <button>Repair</button>
+        </div>
+        <div class="links">
+          <button>Website</button>
+          <button>Discord</button>
+          <button class="wide">Register</button>
+        </div>
+        <div class="version">
+          Launcher v1.0.0 | Patch 2026.07.01.1<br>
+          Megarax official launcher
+        </div>
+      </section>
+
+      <section class="panel">
+        <div class="news-head">
+          <h2>Server News</h2>
+          <span>Megarax</span>
+        </div>
+        <div class="news-list">
+          <article>
+            <h3>Monster Cards Season 1</h3>
+            <time>2026-07-01</time>
+            <p>Collect cards from selected monsters and trade them for seasonal rewards.</p>
+          </article>
+          <article>
+            <h3>School of Dark Arts Ritual</h3>
+            <time>2026-07-01</time>
+            <p>A new dark ritual zone opens with custom encounters and rare drops.</p>
+          </article>
+          <article>
+            <h3>New Skins Added</h3>
+            <time>2026-07-01</time>
+            <p>Fresh cosmetic sets are available through Megarax services.</p>
+          </article>
+          <article>
+            <h3>PvP Zone War</h3>
+            <time>2026-07-01</time>
+            <p>Enter the active war zone and fight for ranking, glory, and event rewards.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-line">
+        <span>Downloading system/interface.xdat</span>
+        <span class="current-file">system/interface.xdat</span>
+      </div>
+      <div class="bar"><span></span></div>
+      <div class="bar total"><span></span></div>
+    </footer>
+  </section>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/items.xsd">
+	<item id="9824" type="Armor" name="Agathion - Anger">
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="false" />
+		<stats>
+			<add stat="maxHp" val="500" />
+			<add stat="pAtk" val="150" />
+			<add stat="pAtkSpd" val="100" />
+			<mul stat="pAtk" val="1.05" />
+		</stats>
+	</item>
+
+	<item id="9825" type="Armor" name="Agathion - Sorrow">
+		<set name="default_action" val="EQUIP" />
+		<set name="armor_type" val="LIGHT" />
+		<set name="bodypart" val="hair2" />
+		<set name="immediate_effect" val="true" />
+		<set name="crystal_count" val="0" />
+		<set name="crystal_type" val="D" />
+		<set name="material" val="DYESTUFF" />
+		<set name="weight" val="0" />
+		<set name="price" val="0" />
+		<set name="enchant_enabled" val="false" />
+		<stats>
+			<add stat="maxMp" val="500" />
+			<add stat="mAtk" val="150" />
+			<add stat="mAtkSpd" val="100" />
+			<mul stat="mCritRate" val="1.15" />
+		</stats>
+	</item>
+
+</list>

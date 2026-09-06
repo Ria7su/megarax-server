@@ -1,0 +1,41 @@
+{
+  "news": [
+    {
+      "title": "Monster Cards Season 1",
+      "tag": "LIVE",
+      "date": "2026-07-01",
+      "summary": "Collect monster cards and trade them for seasonal rewards.",
+      "accentColor": "#7C5CFF",
+      "accentTextColor": "#FFFFFF",
+      "featured": true,
+      "url": "https://megaraxtest.com/news/monster-cards-season-1"
+    },
+    {
+      "title": "School of Dark Arts Ritual",
+      "tag": "EVENT",
+      "date": "2026-07-01",
+      "summary": "A new dark ritual zone opens with custom encounters and rare drops.",
+      "accentColor": "#D4472F",
+      "accentTextColor": "#FFFFFF",
+      "url": "https://megaraxtest.com/news/school-of-dark-arts"
+    },
+    {
+      "title": "New Skins Added",
+      "tag": "FEATURE",
+      "date": "2026-07-01",
+      "summary": "Fresh cosmetic sets are available through Megarax services.",
+      "accentColor": "#B85CFF",
+      "accentTextColor": "#FFFFFF",
+      "url": "https://megaraxtest.com/news/new-skins"
+    },
+    {
+      "title": "PvP Zone War",
+      "tag": "PVP",
+      "date": "2026-07-01",
+      "summary": "Enter the active war zone and fight for ranking, glory, and rewards.",
+      "accentColor": "#F05A3C",
+      "accentTextColor": "#FFFFFF",
+      "url": "https://megaraxtest.com/news/pvp-zone-war"
+    }
+  ]
+}

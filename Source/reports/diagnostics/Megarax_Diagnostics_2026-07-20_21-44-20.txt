@@ -1,0 +1,220 @@
+﻿L2 Megarax read-only diagnostic snapshot
+Generated: 2026-07-20T21:44:20.3651861-04:00
+Window start: 2026-07-19T21:44:20.3326656-04:00
+Computer: GABRIEL
+
+===== JAVA PROCESSES =====
+(none)
+
+===== SERVER PORTS =====
+
+LocalAddress LocalPort OwningProcess
+------------ --------- -------------
+::                3306          5556
+
+===== MEMORY AND JAVA =====
+RAM total GB=15.52; free GB=3.91; boot=7/18/2026 7:43:41 PM
+JAVA_HOME=C:\Program Files\BellSoft\LibericaJDK-25\
+openjdk version "25" 2025-09-16 LTS
+OpenJDK Runtime Environment (build 25+37-LTS)
+OpenJDK 64-Bit Server VM (build 25+37-LTS, mixed mode, sharing)
+Game java.cfg=-server -Dfile.encoding=UTF-8 -Djava.util.logging.manager=org.l2jmobius.log.ServerLogManager -Dorg.slf4j.simpleLogger.log.com.zaxxer.hikari=warn -XX:+UseZGC -Xmx4g -Xms2g
+Login java.cfg=-server -Dfile.encoding=UTF-8 -Dorg.slf4j.simpleLogger.log.com.zaxxer.hikari=warn -XX:+UseZGC -Xms128m -Xmx256m
+
+===== POWER EVENTS =====
+
+TimeCreated            Id ProviderName                           LevelDisplayName Message                                                                                                                                                       
+-----------            -- ------------                           ---------------- -------                                                                                                                                                       
+7/20/2026 3:27:50 PM  566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 21 a 23. Motivo PolicyChange BootId: 196                                                                                 
+7/20/2026 3:27:50 PM  507 Microsoft-Windows-Kernel-Power         Información      El sistema está saliendo del modo de espera moderno motivo: Lid.                                                                                              
+7/20/2026 3:27:47 PM  506 Microsoft-Windows-Kernel-Power         Información      El sistema está entrando en el modo de espera moderno motivo: AC/DC Display Burst Suppressed.                                                                 
+7/20/2026 3:27:47 PM  566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 20 a 21. Motivo InputMouse BootId: 196                                                                                   
+7/20/2026 3:27:47 PM  507 Microsoft-Windows-Kernel-Power         Información      El sistema está saliendo del modo de espera moderno motivo: AC/DC Display Burst Suppressed.                                                                   
+7/20/2026 3:27:47 PM  172 Microsoft-Windows-Kernel-Power         Información      Estado de conectividad en modo de espera: Connected. Motivo: None                                                                                             
+7/20/2026 11:45:19 AM 172 Microsoft-Windows-Kernel-Power         Información      Estado de conectividad en modo de espera: Disconnected. Motivo: Policy Setting                                                                                
+7/20/2026 11:45:12 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 19 a 20. Motivo 55 BootId: 196                                                                                           
+7/20/2026 11:45:07 AM 506 Microsoft-Windows-Kernel-Power         Información      El sistema está entrando en el modo de espera moderno motivo: Austerity Battery Drain Budget Exceeded.                                                        
+7/20/2026 11:45:07 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 18 a 19. Motivo 55 BootId: 196                                                                                           
+7/20/2026 11:45:07 AM 507 Microsoft-Windows-Kernel-Power         Información      El sistema está saliendo del modo de espera moderno motivo: Austerity Battery Drain Budget Exceeded.                                                          
+7/20/2026 11:45:07 AM 172 Microsoft-Windows-Kernel-Power         Información      Estado de conectividad en modo de espera: Connected. Motivo: None                                                                                             
+7/20/2026 11:13:03 AM 172 Microsoft-Windows-Kernel-Power         Información      Estado de conectividad en modo de espera: Disconnected. Motivo: Adaptive Connected Standby                                                                    
+7/20/2026 11:12:57 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 17 a 18. Motivo PolicyChange BootId: 196                                                                                 
+7/20/2026 11:12:56 AM 506 Microsoft-Windows-Kernel-Power         Información      El sistema está entrando en el modo de espera moderno motivo: Lid.                                                                                            
+7/20/2026 11:12:56 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 15 a 17. Motivo PolicyChange BootId: 196                                                                                 
+7/20/2026 11:12:56 AM 507 Microsoft-Windows-Kernel-Power         Información      El sistema está saliendo del modo de espera moderno motivo: Lid.                                                                                              
+7/20/2026 11:12:54 AM 506 Microsoft-Windows-Kernel-Power         Información      El sistema está entrando en el modo de espera moderno motivo: AC/DC Display Burst Suppressed.                                                                 
+7/20/2026 11:12:54 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 13 a 15. Motivo InputMouse BootId: 196                                                                                   
+7/20/2026 11:12:54 AM 507 Microsoft-Windows-Kernel-Power         Información      El sistema está saliendo del modo de espera moderno motivo: AC/DC Display Burst Suppressed.                                                                   
+7/20/2026 11:12:52 AM 506 Microsoft-Windows-Kernel-Power         Información      El sistema está entrando en el modo de espera moderno motivo: Screen Off Request.                                                                             
+7/20/2026 11:12:52 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 12 a 13. Motivo FullWake BootId: 196                                                                                     
+7/20/2026 10:37:21 AM   1 Microsoft-Windows-Power-Troubleshooter Información      El sistema estaba en un estado de baja energía y se reanudó. Hora de suspensión: ‎2026‎-‎07‎-‎19T22:04:26.658391200Z Hora de reactivación: ‎2026‎-‎07‎-‎20T...
+7/20/2026 10:37:19 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 10 a 12. Motivo Unknown BootId: 196                                                                                      
+7/20/2026 10:37:19 AM 507 Microsoft-Windows-Kernel-Power         Información      El sistema está saliendo del modo de espera moderno motivo: Power Button.                                                                                     
+7/20/2026 10:37:19 AM 506 Microsoft-Windows-Kernel-Power         Información      El sistema está entrando en el modo de espera moderno motivo: Sleep, Hibernate, or Shutdown.                                                                  
+7/20/2026 10:37:19 AM 566 Microsoft-Windows-Kernel-Power         Información      La sesión del sistema ha cambiado de 9 a 10. Motivo SxTransition BootId: 196
+
+===== JAVA APPLICATION FAILURES =====
+(none)
+
+===== LATEST GAME LOG ENDINGS =====
+
+Name       Modified              Bytes LastLine                                                                                                                                                                                                 
+----       --------              ----- --------                                                                                                                                                                                                 
+java0.log  7/20/2026 3:48:06 PM  34253 2026.07.20 15:48:06,948	WARNING	116	org.l2jmobius.gameserver.LoginServerThread	LoginServerThread: LoginServer not available, trying to reconnect...                                                      
+java1.log  7/18/2026 11:32:52 PM 38913 2026.07.18 23:32:52,670	INFO	228	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 5seconds.                                                                               
+java2.log  7/18/2026 11:05:02 PM 36639 2026.07.18 23:05:02,255	INFO	264	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 5seconds.                                                                               
+java3.log  7/18/2026 10:12:20 PM 66700 2026.07.18 22:12:20,219	INFO	84	org.l2jmobius.gameserver.data.xml.SpawnData	SpawnData: Created file: data/spawns/Others/25_18.xml                                                                        
+java4.log  7/18/2026 8:30:53 PM  35666 2026.07.18 20:30:53,263	INFO	184	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 7seconds.                                                                               
+java5.log  7/18/2026 7:41:09 PM  35371 2026.07.18 19:41:09,046	INFO	114	org.l2jmobius.gameserver.Shutdown	SchemeBufferTable data has been saved.                                                                                                
+java6.log  7/18/2026 6:55:53 PM  31903 2026.07.18 18:55:53,182	INFO	159	custom.MegaraxPvPFarmTeleport.MegaraxPvPFarmTeleport	PvP farm teleport: player=Hulk zone=Forest of the Dead x=54541 y=-41753 z=-3072                                    
+java7.log  7/18/2026 6:49:35 PM  32066 2026.07.18 18:49:35,976	INFO	162	custom.MegaraxPvPFarmTeleport.MegaraxPvPFarmTeleport	PvP farm teleport: player=Hulk zone=Forest of the Dead x=54457 y=-41649 z=-3072                                    
+java8.log  7/18/2026 6:37:35 PM  31738 2026.07.18 18:37:35,028	INFO	73	custom.MegaraxDailyRaids.MegaraxDailyRaids	MegaraxDailyRaids: Next Sandramanaia spawn scheduled for 2026-07-19T18:00.                                                    
+java9.log  7/18/2026 6:34:50 PM  31899 2026.07.18 18:34:50,254	WARNING	145	org.l2jmobius.gameserver.model.actor.Creature	Master access level set for character Keylon! Just a warning to be careful ;)                                          
+java10.log 7/18/2026 6:12:47 PM  31595 2026.07.18 18:12:47,139	INFO	52	custom.MegaraxDailyRaids.MegaraxDailyRaids	MegaraxDailyRaids: Next Sandramanaia spawn scheduled for 2026-07-19T18:00.                                                    
+java11.log 7/18/2026 6:03:11 PM  39052 2026.07.18 18:03:11,646	INFO	171	org.l2jmobius.gameserver.model.quest.Quest	[VISUAL_DEBUG] stage=PREVIEW_PACKET packetUserInfoVisualChest=9865 visualLegs=6374 visualHair=9835 visualHair2=9824 visual...
+java12.log 7/18/2026 6:00:01 PM  35346 2026.07.18 18:00:01,094	INFO	119	org.l2jmobius.gameserver.Shutdown	The server has been successfully shut down in 5seconds.                                                                               
+java13.log 7/18/2026 5:57:23 PM  31294 2026.07.18 17:57:23,229	INFO	62	custom.MegaraxPvPFarmZones.MegaraxPvPFarmZones	[PvPZoneRotation] Primeval Isle activated. Suspended spawns=0, despawned=0, Boraks=15.                                    
+java14.log 7/18/2026 5:45:56 PM  32430 2026.07.18 17:45:56,945	INFO	122	custom.MegaraxPvPFarmTeleport.MegaraxPvPFarmTeleport	PvP farm teleport: player=Keylon zone=Tower of Insolence Floor 13 x=-16368 y=-38912 z=-10720
+
+===== CRITICAL LOG SIGNATURES =====
+
+Path                                      LineNumber Line                                                                                                                                    
+----                                      ---------- ----                                                                                                                                    
+C:\Sv Megarax\Source\login\log\java19.log         85 2026.06.25 09:26:01,243	INFO	196	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log         91 2026.06.25 09:51:30,734	INFO	243	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log         97 2026.06.25 10:07:53,632	INFO	254	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        103 2026.06.25 10:52:37,558	INFO	261	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        109 2026.06.25 11:11:47,679	INFO	282	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        115 2026.06.25 12:48:34,308	INFO	295	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        121 2026.06.25 14:43:37,982	INFO	336	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        127 2026.06.25 15:08:46,082	INFO	391	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        133 2026.06.25 15:12:50,118	INFO	404	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        139 2026.06.25 15:37:21,264	INFO	405	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        145 2026.06.25 18:34:53,941	INFO	416	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        151 2026.06.25 23:03:08,537	INFO	481	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        157 2026.06.25 23:09:31,031	INFO	602	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        163 2026.06.25 23:16:41,676	INFO	603	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        169 2026.06.26 07:31:02,426	INFO	608	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        175 2026.06.26 07:52:58,505	INFO	699	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        181 2026.06.26 08:13:10,596	INFO	708	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        187 2026.06.26 09:23:26,883	INFO	719	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        193 2026.06.26 10:05:01,134	INFO	726	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        199 2026.06.26 20:16:29,452	INFO	747	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        205 2026.06.26 20:51:59,231	INFO	956	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java19.log        211 2026.06.26 21:03:08,280	INFO	971	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          19 2026.07.18 15:29:21,828	INFO	53	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java2.log          25 2026.07.18 15:40:01,524	INFO	62	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java2.log          31 2026.07.18 15:48:00,428	INFO	75	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java2.log          37 2026.07.18 16:01:54,808	INFO	80	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java2.log          43 2026.07.18 16:20:35,422	INFO	87	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java2.log          49 2026.07.18 16:32:38,327	INFO	96	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java2.log          55 2026.07.18 16:36:38,048	INFO	103	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          61 2026.07.18 16:38:13,961	INFO	106	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          67 2026.07.18 16:40:17,677	INFO	107	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          73 2026.07.18 16:45:13,915	INFO	110	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          79 2026.07.18 16:48:22,441	INFO	113	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          85 2026.07.18 17:36:08,300	INFO	116	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          91 2026.07.18 17:38:53,048	INFO	135	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log          97 2026.07.18 17:44:55,356	INFO	140	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         103 2026.07.18 17:56:48,031	INFO	143	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         109 2026.07.18 17:58:31,824	INFO	150	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         115 2026.07.18 18:00:01,568	INFO	151	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         121 2026.07.18 18:11:58,196	INFO	152	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         127 2026.07.18 18:33:16,472	INFO	161	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         133 2026.07.18 18:36:45,636	INFO	170	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         139 2026.07.18 18:46:55,878	INFO	175	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         145 2026.07.18 18:51:23,436	INFO	180	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         151 2026.07.18 18:57:49,429	INFO	183	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java2.log         157 2026.07.18 19:41:13,595	INFO	186	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          19 2026.07.15 21:25:07,599	INFO	54	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java3.log          25 2026.07.15 21:33:33,701	INFO	69	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java3.log          31 2026.07.15 22:23:30,179	INFO	72	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java3.log          37 2026.07.15 22:37:49,055	INFO	97	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java3.log          43 2026.07.15 22:44:22,457	INFO	106	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          49 2026.07.15 23:05:43,089	INFO	109	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          55 2026.07.16 00:12:02,194	INFO	120	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          61 2026.07.16 00:17:31,343	INFO	149	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          67 2026.07.16 08:40:52,354	INFO	154	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          73 2026.07.16 09:13:37,589	INFO	303	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          79 2026.07.16 21:48:16,701	INFO	318	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          85 2026.07.17 00:35:51,607	INFO	659	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          91 2026.07.17 01:47:21,416	INFO	736	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log          97 2026.07.17 01:50:43,646	INFO	767	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         103 2026.07.17 11:17:36,196	INFO	772	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         109 2026.07.17 19:41:07,717	INFO	823	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         115 2026.07.17 19:45:09,836	INFO	910	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         121 2026.07.17 20:41:23,557	INFO	913	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         127 2026.07.17 20:49:03,117	INFO	940	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         133 2026.07.17 21:15:12,382	INFO	945	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         139 2026.07.17 21:23:35,681	INFO	958	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         145 2026.07.17 22:07:14,642	INFO	963	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         151 2026.07.17 23:57:11,951	INFO	984	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java3.log         157 2026.07.18 00:09:23,750	INFO	1035	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset
+C:\Sv Megarax\Source\login\log\java4.log          19 2026.07.13 22:03:16,254	INFO	53	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java5.log          19 2026.07.12 15:43:12,338	INFO	54	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java5.log          25 2026.07.12 16:48:56,850	INFO	233	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java5.log          31 2026.07.12 17:12:53,156	INFO	264	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java5.log          37 2026.07.12 21:47:14,577	INFO	277	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java5.log          43 2026.07.12 22:56:36,112	INFO	402	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java6.log          19 2026.07.09 16:14:54,705	INFO	53	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java6.log          25 2026.07.09 16:28:53,705	INFO	68	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java6.log          31 2026.07.09 16:40:15,363	INFO	75	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java6.log          37 2026.07.09 17:17:07,470	INFO	82	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java6.log          43 2026.07.09 18:25:29,313	INFO	99	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java6.log          49 2026.07.09 18:47:35,241	INFO	130	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java6.log          55 2026.07.09 18:57:04,624	INFO	141	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java6.log          61 2026.07.09 19:04:49,839	INFO	146	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java7.log          19 2026.07.08 20:57:21,897	INFO	61	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java7.log          25 2026.07.08 21:08:41,130	INFO	66	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java8.log          19 2026.07.08 08:32:10,996	INFO	54	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java8.log          25 2026.07.08 08:43:00,431	INFO	69	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java8.log          31 2026.07.08 08:45:21,218	INFO	76	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java8.log          37 2026.07.08 08:51:48,044	INFO	77	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java8.log          43 2026.07.08 09:27:22,505	INFO	82	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java9.log          19 2026.07.06 18:42:29,701	INFO	54	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java9.log          25 2026.07.07 16:01:05,538	INFO	67	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset  
+C:\Sv Megarax\Source\login\log\java9.log          31 2026.07.07 17:07:57,201	INFO	244	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java9.log          37 2026.07.07 22:04:36,718	INFO	275	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java9.log          43 2026.07.07 22:43:33,959	INFO	408	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java9.log          49 2026.07.07 22:50:07,338	INFO	427	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java9.log          55 2026.07.07 22:58:05,984	INFO	432	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java9.log          61 2026.07.07 23:13:44,698	INFO	437	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset 
+C:\Sv Megarax\Source\login\log\java9.log          67 2026.07.07 23:28:31,162	INFO	444	org.l2jmobius.loginserver.GameServerThread	GameServer [2] Sieghardt: Connection lost: Connection reset
+
+===== DATABASE STATUS =====
+engine_version	engine
+10.4.28-MariaDB	mariadb.org binary distribution
+Variable_name	Value
+Aborted_clients	47
+Aborted_connects	2
+Connections	459
+Max_used_connections	15
+Slow_queries	0
+Threads_connected	1
+Threads_running	6
+Uptime	180030
+Variable_name	Value
+interactive_timeout	28800
+long_query_time	10.000000
+max_connections	151
+slow_query_log	OFF
+wait_timeout	28800
+tables_count	size_mb
+152	7.53
+
+===== DATABASE SERVICES =====
+
+Name    State   StartMode ProcessId PathName                                                                                                            
+----    -----   --------- --------- --------                                                                                                            
+MariaDB Running Auto           5980 "C:\Program Files\MariaDB 12.1\bin\mysqld.exe" "--defaults-file=C:\Program Files\MariaDB 12.1\data\my.ini" "MariaDB"
+mysql   Running Auto           5556 C:\xampp\mysql\bin\mysqld.exe --defaults-file=c:\xampp\mysql\bin\my.ini mysql
+
+===== GEODATA =====
+Geo files=0
+PathFinding = 2; GeoDataPath = ./data/geodata/; PathnodePath = ./data/pathnode/
+
+===== RELEVANT SCHEDULED TASKS =====
+
+TaskPath                                       TaskName               State
+--------                                       --------               -----
+\Microsoft\Windows\SoftwareProtectionPlatform\ SvcRestartTaskLogon Disabled

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+	<npcs>
+		<npc>31126</npc>
+	</npcs>
+
+	<!-- A-grade 100% weapon recipes sold for Ancient Adena (5575). -->
+	<item id="1"><ingredient id="5575" count="8000000"/><production id="5471" count="1"/></item>
+	<item id="2"><ingredient id="5575" count="6000000"/><production id="5459" count="1"/></item>
+	<item id="3"><ingredient id="5575" count="6000000"/><production id="5469" count="1"/></item>
+	<item id="4"><ingredient id="5575" count="8000000"/><production id="5467" count="1"/></item>
+	<item id="5"><ingredient id="5575" count="8000000"/><production id="5441" count="1"/></item>
+	<item id="6"><ingredient id="5575" count="8000000"/><production id="5461" count="1"/></item>
+	<item id="7"><ingredient id="5575" count="8000000"/><production id="5463" count="1"/></item>
+	<item id="8"><ingredient id="5575" count="8000000"/><production id="5447" count="1"/></item>
+	<item id="9"><ingredient id="5575" count="8000000"/><production id="5449" count="1"/></item>
+	<item id="10"><ingredient id="5575" count="8000000"/><production id="5453" count="1"/></item>
+	<item id="11"><ingredient id="5575" count="8000000"/><production id="5451" count="1"/></item>
+	<item id="12"><ingredient id="5575" count="10000000"/><production id="5445" count="1"/></item>
+	<item id="13"><ingredient id="5575" count="10000000"/><production id="5443" count="1"/></item>
+	<item id="14"><ingredient id="5575" count="10000000"/><production id="5435" count="1"/></item>
+	<item id="15"><ingredient id="5575" count="8000000"/><production id="5465" count="1"/></item>
+	<item id="16"><ingredient id="5575" count="8000000"/><production id="5439" count="1"/></item>
+</list>

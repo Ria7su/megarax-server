@@ -1,0 +1,576 @@
+<Window x:Class="MegaraxLauncher.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:models="clr-namespace:MegaraxLauncher.Models"
+        Title="Megarax Launcher"
+        Width="1100"
+        Height="690"
+        ResizeMode="NoResize"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        WindowStartupLocation="CenterScreen"
+        FontFamily="Segoe UI">
+  <Window.Resources>
+    <SolidColorBrush x:Key="PanelBrush" Color="#E60D0A09" />
+    <SolidColorBrush x:Key="PanelSoftBrush" Color="#C9161110" />
+    <SolidColorBrush x:Key="LineBrush" Color="#4F382B" />
+    <SolidColorBrush x:Key="GoldBrush" Color="#D9B66A" />
+    <SolidColorBrush x:Key="SoftTextBrush" Color="#CAB897" />
+    <SolidColorBrush x:Key="MutedTextBrush" Color="#84776B" />
+    <SolidColorBrush x:Key="LavaBrush" Color="#D74A2B" />
+
+    <DropShadowEffect x:Key="WindowShadow" BlurRadius="38" ShadowDepth="0" Color="#000000" Opacity="0.72" />
+    <DropShadowEffect x:Key="LogoShadow" BlurRadius="18" ShadowDepth="2" Color="#000000" Opacity="0.92" />
+    <DropShadowEffect x:Key="WarmGlow" BlurRadius="22" ShadowDepth="0" Color="#B9411F" Opacity="0.65" />
+
+    <Style x:Key="ChromeButtonStyle" TargetType="Button">
+      <Setter Property="Width" Value="24" />
+      <Setter Property="Height" Value="24" />
+      <Setter Property="Background" Value="#BA15100E" />
+      <Setter Property="BorderBrush" Value="#6B513E" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="Foreground" Value="#D7C6A6" />
+      <Setter Property="FontSize" Value="11" />
+      <Setter Property="FontWeight" Value="Bold" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="Root"
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="3">
+              <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="Root" Property="Background" Value="#CC2D1912" />
+                <Setter TargetName="Root" Property="BorderBrush" Value="#D5A34E" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <Style x:Key="LanguageComboBoxStyle" TargetType="ComboBox">
+      <Setter Property="Width" Value="136" />
+      <Setter Property="Height" Value="28" />
+      <Setter Property="Padding" Value="8,2" />
+      <Setter Property="Background" Value="#E015100E" />
+      <Setter Property="Foreground" Value="#E8D0A0" />
+      <Setter Property="BorderBrush" Value="#6B513E" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="FontSize" Value="11" />
+      <Setter Property="FontWeight" Value="SemiBold" />
+    </Style>
+
+    <Style x:Key="NavButtonStyle" TargetType="Button">
+      <Setter Property="Height" Value="32" />
+      <Setter Property="MinWidth" Value="104" />
+      <Setter Property="Padding" Value="10,0" />
+      <Setter Property="Background" Value="#C0171210" />
+      <Setter Property="BorderBrush" Value="#534034" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="Foreground" Value="#D7C4A0" />
+      <Setter Property="FontSize" Value="11" />
+      <Setter Property="FontWeight" Value="Bold" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="Root"
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="3">
+              <Grid>
+                <Grid.ColumnDefinitions>
+                  <ColumnDefinition Width="24" />
+                  <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Border Width="16"
+                        Height="16"
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        CornerRadius="8"
+                        Background="#33241C"
+                        BorderBrush="#906B39"
+                        BorderThickness="1">
+                  <TextBlock Text="{TemplateBinding Tag}"
+                             Foreground="#E5BE68"
+                             FontSize="8"
+                             FontWeight="Black"
+                             HorizontalAlignment="Center"
+                             VerticalAlignment="Center" />
+                </Border>
+                <ContentPresenter Grid.Column="1"
+                                  HorizontalAlignment="Center"
+                                  VerticalAlignment="Center" />
+              </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="Root" Property="Background" Value="#DA291914" />
+                <Setter TargetName="Root" Property="BorderBrush" Value="#C9964D" />
+                <Setter Property="Foreground" Value="#FFE8B7" />
+              </Trigger>
+              <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.5" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <Style x:Key="ActionButtonStyle" TargetType="Button" BasedOn="{StaticResource NavButtonStyle}">
+      <Setter Property="Height" Value="36" />
+      <Setter Property="MinWidth" Value="126" />
+      <Setter Property="FontSize" Value="12" />
+    </Style>
+
+    <Style x:Key="StartButtonStyle" TargetType="Button">
+      <Setter Property="Width" Value="140" />
+      <Setter Property="Height" Value="54" />
+      <Setter Property="Background" Value="#7A2C1E" />
+      <Setter Property="BorderBrush" Value="#D1A45C" />
+      <Setter Property="BorderThickness" Value="1" />
+      <Setter Property="Foreground" Value="#F9E4B5" />
+      <Setter Property="FontSize" Value="18" />
+      <Setter Property="FontWeight" Value="Black" />
+      <Setter Property="Cursor" Value="Hand" />
+      <Setter Property="Effect" Value="{StaticResource WarmGlow}" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="Button">
+            <Border x:Name="Root"
+                    Background="{TemplateBinding Background}"
+                    BorderBrush="{TemplateBinding BorderBrush}"
+                    BorderThickness="{TemplateBinding BorderThickness}"
+                    CornerRadius="7">
+              <Grid>
+                <Border CornerRadius="7" Opacity="0.32">
+                  <Border.Background>
+                    <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                      <GradientStop Color="#FFFFD27A" Offset="0" />
+                      <GradientStop Color="#00FFFFFF" Offset="0.5" />
+                    </LinearGradientBrush>
+                  </Border.Background>
+                </Border>
+                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center" />
+              </Grid>
+            </Border>
+            <ControlTemplate.Triggers>
+              <Trigger Property="IsMouseOver" Value="True">
+                <Setter TargetName="Root" Property="Background" Value="#963720" />
+                <Setter TargetName="Root" Property="BorderBrush" Value="#FFD87A" />
+              </Trigger>
+              <Trigger Property="IsPressed" Value="True">
+                <Setter Property="Opacity" Value="0.84" />
+              </Trigger>
+              <Trigger Property="IsEnabled" Value="False">
+                <Setter Property="Opacity" Value="0.52" />
+              </Trigger>
+            </ControlTemplate.Triggers>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <Style x:Key="ProgressStyle" TargetType="ProgressBar">
+      <Setter Property="Height" Value="9" />
+      <Setter Property="Background" Value="#8E060403" />
+      <Setter Property="Template">
+        <Setter.Value>
+          <ControlTemplate TargetType="ProgressBar">
+            <Grid>
+              <Border Background="{TemplateBinding Background}"
+                      BorderBrush="#34261F"
+                      BorderThickness="1"
+                      CornerRadius="5" />
+              <Border x:Name="PART_Indicator"
+                      Margin="1"
+                      HorizontalAlignment="Left"
+                      CornerRadius="4">
+                <Border.Background>
+                  <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#9E2C1C" Offset="0" />
+                    <GradientStop Color="#D95A28" Offset="0.45" />
+                    <GradientStop Color="#EAC565" Offset="1" />
+                  </LinearGradientBrush>
+                </Border.Background>
+              </Border>
+            </Grid>
+          </ControlTemplate>
+        </Setter.Value>
+      </Setter>
+    </Style>
+
+    <DataTemplate x:Key="NewsListTemplate" DataType="{x:Type models:NewsItem}">
+      <Border Margin="0,0,0,10"
+              Padding="12"
+              CornerRadius="6"
+              BorderBrush="#3E3029"
+              BorderThickness="1"
+              Background="#AF120E0D">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4" />
+            <ColumnDefinition Width="10" />
+            <ColumnDefinition Width="*" />
+          </Grid.ColumnDefinitions>
+          <Border Background="{Binding AccentColor}" CornerRadius="2" />
+          <StackPanel Grid.Column="2">
+            <StackPanel Orientation="Horizontal">
+              <Border Background="{Binding AccentColor}"
+                      Padding="7,2"
+                      CornerRadius="2"
+                      VerticalAlignment="Center">
+                <TextBlock Text="{Binding Tag}"
+                           Foreground="{Binding AccentTextColor}"
+                           FontSize="9"
+                           FontWeight="Black" />
+              </Border>
+              <TextBlock Text="{Binding Date}"
+                         Foreground="{StaticResource MutedTextBrush}"
+                         FontSize="10"
+                         FontWeight="SemiBold"
+                         Margin="8,1,0,0" />
+            </StackPanel>
+            <TextBlock Text="{Binding Title}"
+                       Foreground="#F1DFBA"
+                       FontSize="14"
+                       FontWeight="Bold"
+                       Margin="0,7,0,3"
+                       TextWrapping="Wrap" />
+            <TextBlock Text="{Binding Summary}"
+                       Foreground="{StaticResource SoftTextBrush}"
+                       FontSize="11"
+                       LineHeight="16"
+                       TextWrapping="Wrap" />
+          </StackPanel>
+        </Grid>
+      </Border>
+    </DataTemplate>
+  </Window.Resources>
+
+  <Border CornerRadius="10"
+          Background="#080605"
+          BorderBrush="#5A4031"
+          BorderThickness="1"
+          Effect="{StaticResource WindowShadow}"
+          MouseLeftButtonDown="Launcher_MouseLeftButtonDown">
+    <Border.Clip>
+      <RectangleGeometry Rect="0,0,1100,690" RadiusX="10" RadiusY="10" />
+    </Border.Clip>
+
+    <Grid>
+      <Grid.RowDefinitions>
+        <RowDefinition Height="58" />
+        <RowDefinition Height="270" />
+        <RowDefinition Height="*" />
+        <RowDefinition Height="126" />
+      </Grid.RowDefinitions>
+
+      <Border Grid.Row="0"
+              Background="#F00D0908"
+              BorderBrush="#332720"
+              BorderThickness="0,0,0,1">
+        <Grid Margin="18,0">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+          </Grid.ColumnDefinitions>
+
+          <Image Source="Assets/megarax-logo.png"
+                 Width="154"
+                 Height="54"
+                 Stretch="Uniform"
+                 Effect="{StaticResource LogoShadow}" />
+
+          <StackPanel Grid.Column="1"
+                      Orientation="Horizontal"
+                      HorizontalAlignment="Center"
+                      VerticalAlignment="Center">
+            <Button Content="WEBSITE" Tag="W" Command="{Binding WebsiteCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,8,0" />
+            <Button Content="DISCORD" Tag="D" Command="{Binding DiscordCommand}" Style="{StaticResource NavButtonStyle}" Margin="0,0,8,0" />
+            <Button Content="REGISTER" Tag="R" Command="{Binding RegisterCommand}" Style="{StaticResource NavButtonStyle}" />
+          </StackPanel>
+
+          <StackPanel Grid.Column="2"
+                      Orientation="Horizontal"
+                      VerticalAlignment="Center">
+            <TextBlock Text="LANGUAGE"
+                       Foreground="{StaticResource MutedTextBrush}"
+                       FontSize="9"
+                       FontWeight="Bold"
+                       VerticalAlignment="Center"
+                       Margin="0,0,7,0" />
+            <ComboBox ItemsSource="{Binding Languages}"
+                      SelectedItem="{Binding SelectedLanguage, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                      DisplayMemberPath="DisplayName"
+                      Style="{StaticResource LanguageComboBoxStyle}"
+                      Margin="0,0,12,0" />
+            <Button Content="-" Click="MinimizeButton_Click" Style="{StaticResource ChromeButtonStyle}" Margin="0,0,8,0" />
+            <Button Content="X" Click="CloseButton_Click" Style="{StaticResource ChromeButtonStyle}" />
+          </StackPanel>
+        </Grid>
+      </Border>
+
+      <Grid Grid.Row="1">
+        <Image Source="Assets/megarax-hero-banner.png"
+               Stretch="UniformToFill" />
+        <Rectangle>
+          <Rectangle.Fill>
+            <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+              <GradientStop Color="#11000000" Offset="0" />
+              <GradientStop Color="#22000000" Offset="0.5" />
+              <GradientStop Color="#E0080605" Offset="1" />
+            </LinearGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle>
+          <Rectangle.Fill>
+            <RadialGradientBrush Center="0.5,0.48" GradientOrigin="0.5,0.48" RadiusX="0.48" RadiusY="0.7">
+              <GradientStop Color="#22000000" Offset="0" />
+              <GradientStop Color="#66000000" Offset="0.72" />
+              <GradientStop Color="#A5000000" Offset="1" />
+            </RadialGradientBrush>
+          </Rectangle.Fill>
+        </Rectangle>
+
+        <StackPanel HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Margin="0,2,0,0">
+          <Image Source="Assets/megarax-logo.png"
+                 Width="315"
+                 Height="160"
+                 Stretch="Uniform"
+                 Effect="{StaticResource LogoShadow}" />
+          <TextBlock Text="INTERLUDE REFORGED"
+                     Foreground="#E8D0A0"
+                     FontFamily="Georgia"
+                     FontSize="24"
+                     FontWeight="Bold"
+                     HorizontalAlignment="Center"
+                     Margin="0,-20,0,0" />
+          <TextBlock Text="Fight, Farm, Conquer"
+                     Foreground="#C59D5E"
+                     FontSize="13"
+                     FontWeight="SemiBold"
+                     HorizontalAlignment="Center"
+                     Margin="0,4,0,0" />
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Bottom"
+                    Margin="0,0,0,16">
+          <Border Padding="12,6" CornerRadius="4" Background="#C4100C0A" BorderBrush="#5A4131" BorderThickness="1" Margin="0,0,8,0">
+            <TextBlock Text="2026 SERVER" Foreground="#E2C47D" FontSize="11" FontWeight="Black" />
+          </Border>
+          <Border Padding="12,6" CornerRadius="4" Background="#C4100C0A" BorderBrush="#5A4131" BorderThickness="1" Margin="0,0,8,0">
+            <TextBlock Text="EXP/SP x10" Foreground="#D9C39A" FontSize="11" FontWeight="Bold" />
+          </Border>
+          <Border Padding="12,6" CornerRadius="4" Background="#C4100C0A" BorderBrush="#5A4131" BorderThickness="1" Margin="0,0,8,0">
+            <TextBlock Text="ADENA x10" Foreground="#D9C39A" FontSize="11" FontWeight="Bold" />
+          </Border>
+          <Border Padding="12,6" CornerRadius="4" Background="#C4100C0A" BorderBrush="#5A4131" BorderThickness="1" Margin="0,0,8,0">
+            <TextBlock Text="DROP x10" Foreground="#D9C39A" FontSize="11" FontWeight="Bold" />
+          </Border>
+          <Border Padding="12,6" CornerRadius="4" Background="#C4100C0A" BorderBrush="#5A4131" BorderThickness="1">
+            <TextBlock Text="SPOIL x10" Foreground="#D9C39A" FontSize="11" FontWeight="Bold" />
+          </Border>
+        </StackPanel>
+      </Grid>
+
+      <Grid Grid.Row="2" Margin="24,20,24,14">
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition Width="1.08*" />
+          <ColumnDefinition Width="18" />
+          <ColumnDefinition Width="0.92*" />
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.Column="0"
+                Padding="18"
+                CornerRadius="8"
+                Background="{StaticResource PanelBrush}"
+                BorderBrush="{StaticResource LineBrush}"
+                BorderThickness="1">
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid>
+              <TextBlock Text="FEATURED UPDATE"
+                         Foreground="{StaticResource GoldBrush}"
+                         FontSize="13"
+                         FontWeight="Black" />
+              <Border Height="1"
+                      Background="#604431"
+                      Margin="132,8,0,0"
+                      VerticalAlignment="Top" />
+            </Grid>
+
+            <Grid Grid.Row="1" Margin="0,16,0,0">
+              <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="16" />
+                <ColumnDefinition Width="*" />
+              </Grid.ColumnDefinitions>
+              <Border CornerRadius="6"
+                      BorderBrush="#604431"
+                      BorderThickness="1"
+                      Background="#A9161110">
+                <Grid>
+                  <Image Source="Assets/megarax-playhard-frame.png"
+                         Stretch="UniformToFill"
+                         Opacity="0.72" />
+                  <Rectangle Fill="#88000000" />
+                  <TextBlock Text="{Binding FeaturedNews.Tag}"
+                             Foreground="{Binding FeaturedNews.AccentTextColor}"
+                             Background="{Binding FeaturedNews.AccentColor}"
+                             Padding="9,4"
+                             FontSize="10"
+                             FontWeight="Black"
+                             HorizontalAlignment="Left"
+                             VerticalAlignment="Top"
+                             Margin="10" />
+                </Grid>
+              </Border>
+
+              <StackPanel Grid.Column="2">
+                <TextBlock Text="{Binding FeaturedNews.Title}"
+                           Foreground="#F2DFC0"
+                           FontSize="24"
+                           FontWeight="Black"
+                           TextWrapping="Wrap" />
+                <TextBlock Text="{Binding FeaturedNews.Summary}"
+                           Foreground="{StaticResource SoftTextBrush}"
+                           FontSize="13"
+                           LineHeight="19"
+                           TextWrapping="Wrap"
+                           Margin="0,12,0,0" />
+                <WrapPanel Margin="0,16,0,0">
+                  <Border Background="#35251B" BorderBrush="#6C4E32" BorderThickness="1" Padding="10,5" CornerRadius="3" Margin="0,0,8,8">
+                    <TextBlock Text="SEASON" Foreground="#E6BF70" FontSize="10" FontWeight="Black" />
+                  </Border>
+                  <Border Background="#35251B" BorderBrush="#6C4E32" BorderThickness="1" Padding="10,5" CornerRadius="3" Margin="0,0,8,8">
+                    <TextBlock Text="PVP" Foreground="#E6BF70" FontSize="10" FontWeight="Black" />
+                  </Border>
+                  <Border Background="#35251B" BorderBrush="#6C4E32" BorderThickness="1" Padding="10,5" CornerRadius="3" Margin="0,0,8,8">
+                    <TextBlock Text="CUSTOM" Foreground="#E6BF70" FontSize="10" FontWeight="Black" />
+                  </Border>
+                  <Border Background="#35251B" BorderBrush="#6C4E32" BorderThickness="1" Padding="10,5" CornerRadius="3" Margin="0,0,8,8">
+                    <TextBlock Text="REWARDS" Foreground="#E6BF70" FontSize="10" FontWeight="Black" />
+                  </Border>
+                </WrapPanel>
+                <TextBlock Text="{Binding FeaturedNews.Date}"
+                           Foreground="{StaticResource MutedTextBrush}"
+                           FontSize="11"
+                           FontWeight="SemiBold"
+                           Margin="0,4,0,0" />
+              </StackPanel>
+            </Grid>
+          </Grid>
+        </Border>
+
+        <Border Grid.Column="2"
+                Padding="16"
+                CornerRadius="8"
+                Background="{StaticResource PanelBrush}"
+                BorderBrush="{StaticResource LineBrush}"
+                BorderThickness="1">
+          <Grid>
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid>
+              <TextBlock Text="NEWS &amp; PATCH NOTES"
+                         Foreground="{StaticResource GoldBrush}"
+                         FontSize="13"
+                         FontWeight="Black" />
+              <Border Height="1"
+                      Background="#604431"
+                      Margin="158,8,0,0"
+                      VerticalAlignment="Top" />
+            </Grid>
+
+            <ScrollViewer Grid.Row="1"
+                          Margin="0,14,0,0"
+                          VerticalScrollBarVisibility="Hidden"
+                          HorizontalScrollBarVisibility="Disabled">
+              <ItemsControl ItemsSource="{Binding SecondaryNews}"
+                            ItemTemplate="{StaticResource NewsListTemplate}" />
+            </ScrollViewer>
+          </Grid>
+        </Border>
+      </Grid>
+
+      <Border Grid.Row="3"
+              Background="#F00B0807"
+              BorderBrush="#332720"
+              BorderThickness="0,1,0,0"
+              Padding="22,16,22,16">
+        <Grid>
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="146" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="160" />
+            <ColumnDefinition Width="150" />
+          </Grid.ColumnDefinitions>
+
+          <StackPanel VerticalAlignment="Center">
+            <TextBlock Text="{Binding ServerStatusText}"
+                       Foreground="{StaticResource SoftTextBrush}"
+                       FontSize="11"
+                       FontWeight="Bold" />
+            <TextBlock Text="{Binding PlayersOnlineText}"
+                       Foreground="{StaticResource MutedTextBrush}"
+                       FontSize="11"
+                       Margin="0,5,0,0" />
+          </StackPanel>
+
+          <Grid Grid.Column="1" Margin="8,0,24,0">
+            <Grid.RowDefinitions>
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+              <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Grid>
+              <TextBlock Text="File Progress" Foreground="{StaticResource SoftTextBrush}" FontSize="11" FontWeight="Bold" />
+              <TextBlock Text="{Binding CurrentFile}" Foreground="{StaticResource MutedTextBrush}" HorizontalAlignment="Right" FontSize="10" MaxWidth="320" TextTrimming="CharacterEllipsis" />
+            </Grid>
+            <ProgressBar Grid.Row="1" Style="{StaticResource ProgressStyle}" Minimum="0" Maximum="100" Value="{Binding FileProgress, Mode=OneWay}" Margin="0,5,0,9" />
+            <Grid Grid.Row="2">
+              <TextBlock Text="Total Progress" Foreground="{StaticResource SoftTextBrush}" FontSize="11" FontWeight="Bold" />
+              <TextBlock Text="{Binding VersionText}" Foreground="{StaticResource MutedTextBrush}" HorizontalAlignment="Right" FontSize="10" />
+            </Grid>
+            <ProgressBar Grid.Row="3" Style="{StaticResource ProgressStyle}" Minimum="0" Maximum="100" Value="{Binding TotalProgress, Mode=OneWay}" Margin="0,5,0,8" />
+            <TextBlock Grid.Row="4" Text="{Binding StatusText}" Foreground="{StaticResource MutedTextBrush}" FontSize="11" TextTrimming="CharacterEllipsis" />
+          </Grid>
+
+          <StackPanel Grid.Column="2" VerticalAlignment="Center">
+            <Button Content="CHECK FILES" Tag="C" Command="{Binding UpdateCommand}" Style="{StaticResource ActionButtonStyle}" Margin="0,0,0,8" />
+            <Button Content="REPAIR" Tag="R" Command="{Binding RepairCommand}" Style="{StaticResource ActionButtonStyle}" />
+          </StackPanel>
+
+          <Button Grid.Column="3"
+                  Content="START"
+                  Command="{Binding PlayCommand}"
+                  Style="{StaticResource StartButtonStyle}"
+                  HorizontalAlignment="Right"
+                  VerticalAlignment="Center" />
+        </Grid>
+      </Border>
+    </Grid>
+  </Border>
+</Window>

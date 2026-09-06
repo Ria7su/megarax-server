@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list enabled="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn name="23_24">
+		<npc id="30971" x="129812" y="219005" z="-3583" heading="24952" respawnDelay="60" /> <!-- Orpheus -->
+		<npc id="31148" x="106354" y="197181" z="-4200" heading="48000" respawnDelay="60" /> <!-- Pirate's Chest -->
+		<npc id="9901" x="111380" y="219429" z="-3572" heading="48284" respawnDelay="60" /> <!-- GATEKEEPER - MEGARAX -->
+		<npc id="9900" x="111575" y="219313" z="-3572" heading="32767" respawnDelay="60" /> <!-- GMSHOP - MEGARAX -->
+		<npc id="9903" x="111183" y="219315" z="-3572" heading="521" respawnDelay="60" /> <!-- BUFFER - MEGARAX -->
+	</spawn>
+</list>

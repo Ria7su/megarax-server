@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/npcs.xsd">
+	<!--
+		School of Dark Arts ritual monks.
+		These are custom clones with Monastery visuals, used only by the School spawn file.
+		Dungeon Coin is intentionally limited to these IDs so retail Monastery mobs do not gain new drops elsewhere.
+	-->
+	<npc id="1004101" displayId="22124" level="82" type="Monster" name="Ritual Solina Brother" title="SCHOOL RITUAL" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="112" />
+			<skill name="PhysicalSpecial" id="4032" level="9" /> <!-- NPC Strike -->
+			<skill name="SelfRangePhysicalSpecial" id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill name="DeBuff" id="4589" level="10" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8212" />
+		<acquire exp="52000" sp="5600" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="22000" hpRegen="10" mp="2200" mpRegen="4" />
+			<attack physical="1250" magical="760" random="40" critical="2" accuracy="5" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="470" magical="350" evasion="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="165" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4032" level="1" /> <!-- NPC Strike -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill id="4589" level="1" /> <!-- Decrease Speed -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="850" clanHelpRange="450">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9000" max="14000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="20">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="1004102" displayId="22125" level="82" type="Monster" name="Ritual Solina Lay Brother" title="SCHOOL RITUAL" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="112" />
+			<skill name="W_LongRangeDDMagic" id="4563" level="9" /> <!-- NPC Solar Flare - Magic -->
+			<skill name="W_ShortRangeDDMagic" id="4160" level="9" /> <!-- NPC Aura Burn - Magic -->
+			<skill name="MagicHeal" id="4613" level="9" /> <!-- NPC Clan Heal -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8212" />
+		<acquire exp="50000" sp="5400" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="21500" hpRegen="10" mp="2600" mpRegen="5" />
+			<attack physical="1050" magical="940" random="40" critical="2" accuracy="5" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="450" magical="390" evasion="4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="165" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4160" level="9" /> <!-- NPC Aura Burn - Magic -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4563" level="9" /> <!-- NPC Solar Flare - Magic -->
+			<skill id="4613" level="1" /> <!-- NPC Clan Heal -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="900" clanHelpRange="500">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9000" max="14000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="20">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="1004103" displayId="22126" level="82" type="Monster" name="Ritual Silent Seeker" title="SCHOOL RITUAL" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="113" />
+			<skill name="PhysicalSpecial" id="4032" level="9" /> <!-- NPC Strike -->
+			<skill name="SelfRangePhysicalSpecial" id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill name="DeBuff" id="4589" level="10" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8213" />
+		<acquire exp="53000" sp="5700" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="23000" hpRegen="11" mp="2300" mpRegen="4" />
+			<attack physical="1320" magical="800" random="40" critical="3" accuracy="6" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="490" magical="365" evasion="4" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4032" level="1" /> <!-- NPC Strike -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill id="4589" level="1" /> <!-- Decrease Speed -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="900" clanHelpRange="450">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9500" max="15000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="22">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="1004104" displayId="22127" level="82" type="Monster" name="Ritual Silent Brother" title="SCHOOL RITUAL" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="113" />
+			<skill name="PhysicalSpecial" id="4032" level="9" /> <!-- NPC Strike -->
+			<skill name="SelfRangePhysicalSpecial" id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill name="DeBuff" id="4589" level="10" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8213" />
+		<acquire exp="53000" sp="5700" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="23500" hpRegen="11" mp="2300" mpRegen="4" />
+			<attack physical="1360" magical="820" random="40" critical="3" accuracy="6" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="505" magical="375" evasion="4" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4032" level="1" /> <!-- NPC Strike -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill id="4589" level="1" /> <!-- Decrease Speed -->
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="900" clanHelpRange="450">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="9500" max="15000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="22">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.4" />
+		</collision>
+	</npc>
+	<npc id="1004105" displayId="22129" level="83" type="Monster" name="Ritual Warrior Monk" title="SCHOOL RITUAL" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="114" />
+			<skill name="PhysicalSpecial" id="4032" level="10" /> <!-- NPC Strike -->
+			<skill name="SelfRangePhysicalSpecial" id="4574" level="10" /> <!-- NPC Sonic Storm -->
+			<skill name="DeBuff" id="4589" level="10" /> <!-- Decrease Speed -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8214" />
+		<acquire exp="60000" sp="6400" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="25500" hpRegen="12" mp="2500" mpRegen="4" />
+			<attack physical="1520" magical="900" random="40" critical="4" accuracy="6" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="545" magical="410" evasion="5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="155" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4032" level="1" /> <!-- NPC Strike -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4574" level="9" /> <!-- NPC Sonic Storm -->
+			<skill id="4589" level="1" /> <!-- Decrease Speed -->
+		</skillList>
+		<shots shotChance="20" spiritChance="10" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="950" clanHelpRange="500">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="11000" max="17000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="25">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.4" />
+		</collision>
+	</npc>
+	<npc id="1004106" displayId="22134" level="83" type="Monster" name="Ritual Guardian of the Holy Land" title="SCHOOL RITUAL" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="114" />
+			<skill name="W_LongRangeDDMagic" id="4563" level="9" /> <!-- NPC Solar Flare - Magic -->
+			<skill name="W_ShortRangeDDMagic" id="4160" level="9" /> <!-- NPC Aura Burn - Magic -->
+			<skill name="MagicHeal" id="4613" level="9" /> <!-- NPC Clan Heal -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8214" />
+		<acquire exp="62000" sp="6600" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="24500" hpRegen="12" mp="3000" mpRegen="6" />
+			<attack physical="1200" magical="1180" random="30" critical="3" accuracy="5" attackSpeed="253" type="BLUNT" range="80" distance="80" width="120" />
+			<defence physical="520" magical="455" evasion="5" />
+			<speed>
+				<walk ground="40" />
+				<run ground="145" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4160" level="9" /> <!-- NPC Aura Burn - Magic -->
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="12" /> <!-- HP Increase (4x) -->
+			<skill id="4411" level="16" /> <!-- Very Strong M. Atk. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4563" level="9" /> <!-- NPC Solar Flare - Magic -->
+			<skill id="4613" level="1" /> <!-- NPC Clan Heal -->
+		</skillList>
+		<shots shotChance="10" spiritChance="20" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="950" clanHelpRange="500">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="12000" max="18000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="25">
+					<item id="9143" min="1" max="1" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="34.5" />
+		</collision>
+	</npc>
+	<npc id="1004107" displayId="22135" level="84" type="Monster" name="Ritual Beholder of Light" title="SCHOOL ELITE" usingServerSideName="true" usingServerSideTitle="true">
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="122" />
+			<skill name="PhysicalSpecial" id="4574" level="10" /> <!-- NPC Sonic Storm -->
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<equipment rhand="8221" />
+		<acquire exp="85000" sp="9000" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="10">
+			<vitals hp="42000" hpRegen="15" mp="3600" mpRegen="6" />
+			<attack physical="1800" magical="1250" random="30" critical="5" accuracy="7" attackSpeed="253" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="650" magical="500" evasion="6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+			<hitTime>430</hitTime>
+		</stats>
+		<status attackable="true" canBeSown="false" />
+		<skillList>
+			<skill id="4336" level="2" /> <!-- Dark Attack Weak Point -->
+			<skill id="4408" level="14" /> <!-- HP Increase (6x) -->
+			<skill id="4410" level="16" /> <!-- Very Strong P. Atk. -->
+			<skill id="4413" level="17" /> <!-- Very Strong M. Def. -->
+			<skill id="4416" level="8" /> <!-- Angels -->
+			<skill id="4423" level="3" /> <!-- Sacred Attacks -->
+			<skill id="4574" level="1" /> <!-- NPC Sonic Storm -->
+		</skillList>
+		<shots shotChance="25" spiritChance="10" />
+		<exCrtEffect>false</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="1000" clanHelpRange="550">
+			<clanList>
+				<clan>MEGARAX_SCHOOL_MONKS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="18000" max="28000" chance="100" /> <!-- Adena -->
+				</group>
+				<group chance="30">
+					<item id="9143" min="1" max="2" chance="100" /> <!-- Dungeon Coin -->
+				</group>
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="47" />
+		</collision>
+	</npc>
+</list>

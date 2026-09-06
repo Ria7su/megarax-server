@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../xsd/skills.xsd">
+	<skill id="49901" levels="1" name="Exp/SP x2">
+		<!-- Increases EXP and SP gain by x2 for 3 hours. -->
+		<set name="icon" val="icon.etc_sp_scroll1_i00" />
+		<set name="operateType" val="A2" />
+		<set name="targetType" val="SELF" />
+		<set name="abnormalLevel" val="1" />
+		<set name="abnormalTime" val="10800" />
+		<set name="abnormalType" val="BR_EVENT_BUF10" />
+		<set name="hitTime" val="500" />
+		<set name="isMagic" val="2" />
+		<set name="itemConsumeCount" val="1" />
+		<set name="itemConsumeId" val="5593" />
+		<set name="magicLevel" val="1" />
+		<set name="reuseDelay" val="3000" />
+		<effects>
+			<effect name="Buff">
+				<add stat="bonusExp" val="100" />
+				<add stat="bonusSp" val="100" />
+			</effect>
+		</effects>
+	</skill>
+</list>
