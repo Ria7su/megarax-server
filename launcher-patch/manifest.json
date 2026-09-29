@@ -1,0 +1,12 @@
+{
+  "version": "2026.09.28.1",
+  "files": [
+    {
+      "localPath": "system/l2.exe",
+      "url": "https://raw.githubusercontent.com/Ria7su/megarax-server/main/launcher-patch/system/l2.exe",
+      "sha256": "001414e69ed8f53a01fc7c79d3f6c854c86a4581bf9992aaefa3ec78e426544c",
+      "size": 495636,
+      "critical": true
+    }
+  ]
+}
